@@ -100,20 +100,29 @@
 
 ### IMMEDIATE WAIVER CLAIMS (by priority):
 
-1. **James Conner (RB, ARI)** - If available
-   - Reports of season-ending injury may be false
-   - Worth speculative add given your RB depth
-   - Drop: Cam Skattebo
+1. **James Conner (RB, ARI)** - CONFIRMED AVAILABLE
+   - Currently free agent, ranked #24 RB
+   - Reports suggest injury concerns but worth the gamble
+   - Drop: Cam Skattebo or Matthew Golden
 
-2. **Joe Burrow (QB, CIN)** - Backup QB
-   - Better than streaming options
-   - Potential Love insurance
-   - Drop: Matthew Golden
-
-3. **Jerry Jeudy (WR, CLE)** - 11.3 proj
+2. **Jerry Jeudy (WR, CLE)** - CONFIRMED AVAILABLE  
+   - 11.3 projected points, ranked WR61
    - Buy-low after tough stretch
-   - Better than Golden long-term
+   - Better than Matthew Golden long-term
    - Drop: Matthew Golden
+
+3. **Joe Burrow (QB, CIN)** - CONFIRMED AVAILABLE
+   - Currently free agent, ranked QB36
+   - Better backup than streaming options
+   - Love insurance for potential injury
+   - Drop: Consider if roster spot available
+
+### OTHER AVAILABLE FREE AGENTS:
+- **Tyrone Tracy Jr. (RB, NYG)** - Ranked #40, handcuff value
+- **Jayden Reed (WR, GB)** - Ranked #85, boom/bust WR3
+- **Austin Ekeler (RB, WSH)** - Ranked #53, PPR specialist
+- **Brandon Aiyuk (WR, SF)** - Watch list if dropped elsewhere
+- **Harrison Butker (K, KC)** - Elite kicker if you want upgrade
 
 ### DROP CANDIDATES:
 1. **Matthew Golden** - Lowest upside on roster
@@ -135,16 +144,17 @@
    - Name value exceeds production
    - Package deal candidate
 
-### BUY LOW TARGETS:
-1. **Tetairoa McMillan** (if not owned)
-   - 34% target share is elite
-   - TD regression coming
+### BUY LOW TARGETS (via trade from other teams):
+1. **Chris Olave (WR, NO)**
+   - Huge upside, currently depressed value
+   - Target owner who needs RB help
    
-2. **Chris Olave**
-   - Huge upside, depressed value
-   
-3. **Ashton Jeanty**
+2. **Ashton Jeanty (RB, BSU)**
    - Breakout imminent, great schedule
+   - Could be acquired before value spikes
+
+### ALREADY OWNED - HOLD:
+- **Tetairoa McMillan** - You already own him! 34% target share is elite, TD regression coming. Consider starting him over Hollywood Brown in future weeks
 
 ### SUGGESTED TRADE PACKAGE:
 - **GIVE:** Keenan Allen + Hollywood Brown

@@ -297,51 +297,278 @@ These players are top Week 5 adds nationally - check if available in YOUR league
 
 ## 💰 Trade Strategy for Week 5
 
-### YOUR TRADE ASSETS (Sell High)
-
-**1. Keenan Allen (WR, LAC)**
-- Age 33, peak trade value NOW after strong start
-- Name recognition exceeds long-term value
-- Target: Package for younger WR1
-- **Offer Example:** Allen + Hollywood Brown for elite WR (Davante Adams, Mike Evans type)
-
-**2. Hollywood Brown (WR, KC)**
-- Limited role in KC offense (behind Kelce, Worthy, Rice when returns)
-- Name value exceeds production
-- **Use:** Package deal filler for WR upgrade
-
-**3. Cam Skattebo (RB, NYG)**
-- After strong Week 5, value may spike
-- Rookie with unclear long-term role
-- **Consider:** Sell high if Week 5 performance is elite (20+ points)
+### RECENT ROSTER MOVES COMPLETED
+✅ **ADDED:** Tua Tagovailoa (QB stream for Love's bye week)
+✅ **DROPPED:** Matthew Golden (GB WR, cleared bench space)
+⏳ **PENDING:** Add Seahawks D/ST, drop Texans D/ST
 
 ---
 
-### BUY-LOW TARGETS (via trade from other teams)
+## 🎯 LEAGUE-WIDE INJURY LANDSCAPE
 
-**Players YOU Already Own - HOLD, Don't Trade For:**
-- **Tetairoa McMillan** - Already on your roster! 34% target share is elite
-- **Marvin Harrison Jr.** - Already on your roster! Prime buy-low moment passed
+**Understanding what other teams need is critical for trade success.**
 
-**External Trade Targets:**
-1. **Chris Olave (WR, NO)** - Huge upside, currently depressed value
-2. **Chase Brown (RB, CIN)** - Value cratered, buy for depth
-3. **Terry McLaurin (WR, WAS)** - Target share jumping
-4. **A.J. Brown (WR, PHI)** - Elite talent at potential discount
+### Major Season-Ending Injuries (Week 4)
+- **Malik Nabers (NYG WR)** - ACL tear → Teams with Nabers need WR help
+- **Tyreek Hill (MIA WR)** - Knee injury → Teams with Hill need WR help
+- **James Conner (ARI RB)** - Season-ending → Teams with Conner need RB help
 
-**Trade Package Suggestion:**
-- **GIVE:** Keenan Allen + Hollywood Brown
-- **GET:** Chris Olave OR A.J. Brown (single elite WR1)
-- **Rationale:** Consolidate aging assets for 25-year-old upside
+### Teams Likely Desperate for Help
+Based on standings and activity:
+- **Torta Pounders (0-4)** - Recently dropped Najee Harris, needs RB help
+- **Auto DraftKings (1-3)** - Active on waivers, inconsistent roster
+- **Ryan's Rowdy Team (1-3)** - Below .500, may panic trade
 
 ---
 
-### PLAYERS TO TARGET FROM WAIVERS (Not Trades)
+## 🔥 TARGETED TRADE PROPOSALS
 
-Remember: Only add players from YOUR free agents list or verify availability first!
-- Seahawks D/ST (confirmed available)
-- Tua Tagovailoa (confirmed available)
-- Joe Burrow (confirmed available)
+### Strategy: Leverage YOUR WR Depth for RB/WR1 Upgrades
+
+**YOUR TRADE ASSETS:**
+- ✅ **7 WRs on roster** (JSN, McMillan, Allen, Mooney, MHJ, Hollywood, Rice suspended)
+- ✅ **Expendable pieces:** Keenan Allen (33 years old), Hollywood Brown (limited role)
+- ✅ **Buy-low holds:** Marvin Harrison Jr (trade value down, talent high)
+
+**YOUR ROSTER NEEDS:**
+- 🎯 **Elite RB1** to pair with Irving (when healthy)
+- 🎯 **Consolidate 2-for-1** to upgrade starting lineup quality
+- 🎯 **Younger WR1** before Allen hits age cliff
+
+---
+
+### SPECIFIC TRADE TARGETS BY TEAM
+
+#### Target #1: Teams That Lost Top WRs (Nabers/Hill owners)
+
+**If a team in your league lost Nabers or Hill, propose:**
+
+**YOUR OFFER:**
+- **GIVE:** Keenan Allen (14.6 proj) + Hollywood Brown (12.2 proj)
+- **GET:** Elite RB1 (Breece Hall, Kyren Williams, Kenneth Walker)
+
+**Rationale:**
+- They lost a WR1 and need immediate replacement
+- Allen is a proven veteran (age 33 but producing)
+- Hollywood has KC pedigree (name value > production)
+- You get RB upgrade, consolidate depth
+
+**Success Probability:** 70% - Teams desperate for WR help overpay
+
+---
+
+#### Target #2: Teams Weak at RB (Torta Pounders, Others)
+
+**Torta Pounders just dropped Najee Harris - they're DESPERATE at RB**
+
+**YOUR OFFER:**
+- **GIVE:** J.K. Dobbins (RB, 12.2 proj) + Keenan Allen (WR, 14.6 proj)
+- **GET:** Elite WR1 (Davante Adams, Mike Evans, A.J. Brown type)
+
+**Rationale:**
+- They get immediate RB1 starter (Dobbins)
+- Allen provides WR depth
+- You upgrade at WR while keeping Irving as RB1
+
+**Alternative if they have elite TE:**
+- **GIVE:** Dobbins + Evan Engram
+- **GET:** Top-5 TE (Kelce, Kittle, McBride) + WR2
+
+---
+
+#### Target #3: Teams Strong at RB, Weak at WR
+
+**Look for teams with 3+ startable RBs but thin at WR**
+
+**YOUR OFFER (2-for-1 WR Package):**
+- **GIVE:** Keenan Allen + Tetairoa McMillan
+- **GET:** Elite RB (Saquon Barkley, Jahmyr Gibbs, Kenneth Walker)
+
+**Rationale:**
+- McMillan has 34% target share (elite volume)
+- Allen is veteran with name value
+- They get 2 immediate WR starters
+- You consolidate for RB1 to pair with Irving
+
+**⚠️ Risk Assessment:**
+- Giving up McMillan hurts (elite target share)
+- Only do if you get TOP-10 RB in return
+- Keeps JSN + Rice (Week 7) as your WR1/WR2
+
+---
+
+#### Target #4: Teams with QB Issues
+
+**Teams that might need QB stability:**
+- Check standings for teams with inconsistent QB scoring
+- Teams streaming multiple QBs weekly
+
+**YOUR OFFER (Controversial but high-value):**
+- **GIVE:** Jordan Love (QB1, on bye this week)
+- **GET:** Elite WR1 (Amon-Ra St. Brown, CeeDee Lamb type) + Streaming QB
+
+**Rationale:**
+- You can stream QBs (just proved it with Tua)
+- Love has elite value (14.9 ppg)
+- Elite WR1 more scarce than QB1
+- Rice returns Week 7, creating WR logjam → good problem
+
+**⚠️ Only do if:**
+- You get ELITE WR1 (top-5 overall)
+- Streaming options remain (Tua, Burrow available)
+- You're comfortable with QB volatility
+
+---
+
+## 📊 TRADE VALUE CHART (Your Roster)
+
+### High Trade Value (Sell High Candidates)
+1. **Keenan Allen** - Age 33, name value peak, production may decline
+2. **Hollywood Brown** - KC offense has value, but limited role
+3. **J.K. Dobbins** - Solid RB2, could fetch WR1 in right deal
+
+### Hold/Buy Low (Don't Trade Unless Overpay)
+1. **Jaxon Smith-Njigba** - WR7 overall, bonafide WR1
+2. **Tetairoa McMillan** - 34% target share, elite volume
+3. **Marvin Harrison Jr.** - Buy-low window, elite talent
+4. **Rashee Rice** - Returns Week 7, immediate WR2 value
+5. **Bucky Irving** - Week-to-week injury, don't sell at low point
+
+### Untouchable (Core Pieces)
+1. **Jordan Love** - Elite QB1 (unless you get massive overpay)
+2. **Cam Skattebo** - RB1 volume, keep for floor
+3. **Jaxon Smith-Njigba** - Your WR1, don't trade
+
+---
+
+## 🎯 RECOMMENDED TRADE ACTION PLAN
+
+### This Week (Before Sunday)
+1. **Identify teams hit by Nabers/Hill injuries** (check league rosters)
+2. **Reach out with Allen + Brown package** for their RB1/WR1
+3. **Target desperate teams** (0-4 Torta Pounders, 1-3 teams)
+
+### Week 6 (After Week 5 Performance)
+1. **If Allen has big week** (18+ points) → Trade immediately at peak value
+2. **If Skattebo explodes** (20+ points) → Consider selling high
+3. **Reassess MHJ value** after another week of data
+
+### Week 7+ (Rice Returns)
+1. **Rice eligible Week 7** → WR corps becomes: JSN, Rice, McMillan, MHJ
+2. **Trade Allen before Week 8** (age cliff risk increases)
+3. **Consolidate depth into studs** for playoff push
+
+---
+
+## 💡 SAMPLE TRADE MESSAGES TO SEND
+
+### Message Template #1: WR Injury Replacement
+```
+Hey [Team Name],
+
+Saw you lost [Malik Nabers/Tyreek Hill] to injury. Tough break.
+
+I've got WR depth and want to help - how about:
+
+MY: Keenan Allen + Hollywood Brown
+YOUR: [Their RB1 like Breece Hall]
+
+Allen is a proven WR2/Flex and Hollywood has upside in KC offense.
+You get immediate WR help, I consolidate for RB upgrade.
+
+Thoughts?
+```
+
+### Message Template #2: 2-for-1 Consolidation
+```
+Hey [Team Name],
+
+Looking to consolidate depth for a stud. Interested in your [Elite Player].
+
+MY: Keenan Allen (14.6 proj) + J.K. Dobbins (12.2 proj)
+YOUR: [Elite WR1/RB1]
+
+Both are weekly starters - you upgrade your depth, I upgrade my top-end.
+
+Open to tweaking - let me know!
+```
+
+### Message Template #3: Position Swap
+```
+Hey [Team Name],
+
+You're stacked at RB but could use WR help. I'm the opposite.
+
+MY: Tetairoa McMillan (34% target share, WR1 in CAR)
+YOUR: [Their RB2 like James Cook, Rachaad White]
+
+Straight position swap - helps us both.
+
+Interested?
+```
+
+---
+
+## ⚠️ TRADE MISTAKES TO AVOID
+
+❌ **DON'T trade Rashee Rice** - Suspended through Week 6, returns Week 7 as immediate WR2
+❌ **DON'T sell Bucky Irving low** - Foot injury is week-to-week, not long-term
+❌ **DON'T trade JSN** - He's your WR1, elite weekly floor
+❌ **DON'T accept 1-for-2** - You have depth, demand 2-for-1 or better
+❌ **DON'T trade before Week 5 games** - Allen/MHJ could spike value with big weeks
+
+✅ **DO trade Allen before Week 8** - Age 33, regression risk
+✅ **DO package Hollywood** - Name value exceeds production
+✅ **DO target RB-heavy teams** - Leverage your 7 WRs
+✅ **DO be patient** - Rashee Rice returns Week 7, WR corps gets elite
+
+---
+
+## 🔍 HOW TO FIND TRADE PARTNERS
+
+### Step 1: Check League Rosters
+```bash
+# You can manually check rosters on ESPN app or website
+# Look for teams with:
+- 4+ RBs but only 3-4 WRs → Offer your WRs
+- Recently dropped injured players → They're desperate
+- 0-2 or 1-3 records → More willing to trade
+```
+
+### Step 2: Identify Specific Needs
+- **Lost Nabers/Hill?** → Need WR immediately (offer Allen + Hollywood)
+- **Lost Conner?** → Need RB immediately (offer Dobbins)
+- **Bye week problems?** → Offer players not on bye
+- **Streaming QB?** → Could offer Love (risky but high value)
+
+### Step 3: Make Specific Offers
+- Don't ask "What do you want?" → Make concrete offers
+- Use projections to justify (e.g., "Allen projects 14.6 this week")
+- Offer 2-for-1 to teams needing depth
+- Target their best player, not their depth
+
+---
+
+## 📈 TRADE SUCCESS TIMELINE
+
+**Week 5 (Now):**
+- Send offers to teams hurt by injuries
+- Target Allen + Brown package for RB1/WR1
+
+**Week 6:**
+- Follow up on Week 5 offers
+- Adjust based on Week 5 performances
+- Last chance to trade before Rice returns
+
+**Week 7:**
+- Rice returns → WR corps elite
+- Trade Allen at last possible moment
+- Focus on RB upgrades only
+
+**Week 8+:**
+- Playoff push mode
+- Only trade depth for ceiling plays
+- Hold core: Love, Irving, Dobbins, JSN, Rice, McMillan
 
 ---
 

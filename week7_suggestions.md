@@ -1,17 +1,88 @@
 # Week 7 2025 Fantasy Football Lineup Suggestions
-*Generated: October 14, 2025 (Tuesday - Updated with Trade Analyzer & Projection Synthesizer)*
+*Generated: October 16, 2025*
+*Data Source: Real-time ESPN API + League Roster Scan*
 
-**NEW FEATURES THIS WEEK:**
-- Trade opportunities analyzed via automated league roster scanning
-- Multi-source projection capability (ESPN + FantasyPros scraping)
-- Enhanced trade targeting based on team weaknesses
+---
+
+## 🚨 URGENT: TRADE PROPOSAL ANALYSIS
+
+### Trade Offer Received from Torta Pounders Football Club (1-5, #12)
+
+**THEY OFFER:**
+- Christian Kirk (WR, HOU) - 9.4 projected points
+- Darren Waller (TE, MIA) - 8.9 projected points
+- **Total Value:** 18.3 projected points/week
+
+**THEY WANT:**
+- Cam Skattebo (RB, NYG) - 14.0 projected points
+- **Total Value:** 14.0 projected points/week
+
+---
+
+### ❌ RECOMMENDATION: **DECLINE IMMEDIATELY**
+
+**Why This Trade Destroys Your Team:**
+
+1. **RB Depth Crisis**
+   - Current RB2: Cam Skattebo (14.0 proj)
+   - After trade RB2: Hassan Haskins (4.7 proj)
+   - **NET LOSS: -9.3 points per week at RB2 position**
+
+2. **Christian Kirk Adds ZERO Lineup Value**
+   - Your WR depth chart: JSN (20.0), Rice (13.7), Allen (13.5), McMillan (12.6), MHJ (12.3), Mooney (10.2)
+   - Kirk (9.4) would be WR7 on your roster = **permanent bench**
+   - **NET GAIN: +0 points** (never starts)
+
+3. **Darren Waller Adds ZERO Lineup Value**
+   - Your TEs: Cade Otton (9.9), Evan Engram (9.3)
+   - Waller (8.9) would be TE3 = **permanent bench**
+   - **NET GAIN: +0 points** (never starts)
+
+4. **Total Weekly Impact: -9.3 points per week** (lose 9.3 at RB, gain 0.0 at WR/TE)
+
+5. **Context They're Not Telling You:**
+   - Skattebo just exploded for **25.0 fantasy points in Week 6** (3 TDs, 98 rushing yards)
+   - Averaging **16.6 PPG** (RB11 on the season through 6 weeks)
+   - Giants found their offensive identity through him
+   - Rookie RB1 ROS potential
+
+6. **Why They're Desperate:**
+   - Torta Pounders: **1-5 record, last place**
+   - Elite WRs (CeeDee Lamb 19.6, Davante Adams 19.3, Nico Collins 17.7) but weak RB depth
+   - After Breece Hall (16.2), they have Charbonnet (9.7), Harvey (8.0), Hampton (injured)
+   - They need RB2 badly, you're their target
+
+---
+
+### 💡 COUNTER OFFER OPTIONS (If You Want to Negotiate)
+
+**Counter #1: "The Fair Upgrade"** (RECOMMENDED)
+- **YOU GIVE:** Keenan Allen (13.5) + Tetairoa McMillan (12.6) = 26.1 pts
+- **YOU GET:** CeeDee Lamb (19.6) OR Davante Adams (19.3)
+- **Rationale:** Trade two WR2s for elite WR1, consolidate depth
+- **Your Benefit:** JSN (20.0) + Lamb (19.6) = elite WR duo
+- **Their Benefit:** Get two startable WRs for depth behind big 3
+
+**Counter #2: "The RB Upgrade"**
+- **YOU GIVE:** Keenan Allen (13.5) + Marvin Harrison Jr. (12.3) = 25.8 pts
+- **YOU GET:** Breece Hall (16.2)
+- **Rationale:** Upgrade to elite RB1 by trading WR surplus
+- **Your Benefit:** Dobbins (12.8) + Hall (16.2) = elite RB duo
+- **Their Benefit:** Fill WR depth behind their big 3
+
+**Counter #3: "Skattebo Trade That Actually Works"**
+- **YOU GIVE:** Cam Skattebo (14.0) + Hollywood Brown (6.7) = 20.7 pts
+- **YOU GET:** Breece Hall (16.2) + Christian Kirk (9.4) = 25.6 pts
+- **Rationale:** Upgrade Skattebo → Hall (RB1 tier), throw in bench pieces
+- **Your Benefit:** +2.2 PPW at RB, +2.7 at WR (Kirk > Brown)
+- **Their Benefit:** Get Skattebo RB2 + KC WR depth
 
 ---
 
 ## Quick Status
 **Record:** 3-3 (5th place of 12)
 **Opponent:** Moms rules (3-3, 4th place)
-**Projection:** 114.5 vs 92.9 (FAVORED by 21.6 points)
+**Projection:** 114.6 vs 106.4 (FAVORED by 8.2 points)
 **Status:** MUST-WIN to stay in playoff hunt
 
 ---
@@ -19,17 +90,17 @@
 ## Critical Week 7 Alerts
 
 ### Key Developments
-- **RASHEE RICE RETURNS** - Eligible after 6-game suspension, debuts Sunday vs Raiders
-- **Bucky Irving OUT** - Week 7 ruled out (foot/shoulder), expected back after Week 9 bye
-- **Marvin Harrison Jr. QUESTIONABLE** - Concussion protocol, uncertain for Week 7 vs Packers
-- **Defense Upgrade Available** - Rams D/ST (6.7 proj) and Seahawks D/ST (5.9 proj) superior to Titans
+- **RASHEE RICE ACTIVE** - Returns from 6-game suspension, debuts Sunday vs Raiders (13.7 proj)
+- **BUCKY IRVING OUT** - Still injured (foot/shoulder), targeting Week 10 return
+- **MARVIN HARRISON JR. QUESTIONABLE** - Concussion protocol, monitor practice reports
+- **RAMS D/ST SECURED** - Successfully added, facing Jaguars in London (6.7 proj)
+- **GEORGE KITTLE OUT** - Opponent's TE1 injured, gives you advantage
 - **Bye Weeks:** Ravens, Bills (no roster impact)
-- **WR Injury Landscape:** League-wide carnage (Puka Nacua, Garrett Wilson, Emeka Egbuka, Calvin Ridley)
 
 ### Week 7 Schedule Note
-- **Thursday Night:** Steelers @ Bengals (no roster players)
-- **Sunday Games:** Main slate including Chiefs-Raiders, Rams-Jaguars (London)
-- **Monday Night:** Buccaneers @ Lions, Texans @ Seahawks
+- **Sunday Morning:** Rams @ Jaguars (London game, 9:30 AM ET)
+- **Sunday Games:** Main slate including Chiefs-Raiders, Seahawks-Texans
+- **Monday Night:** None this week
 
 ---
 
@@ -37,287 +108,315 @@
 
 | Pos | Player | Team | Opp | Proj | Notes |
 |-----|--------|------|-----|------|-------|
-| **QB** | Jordan Love | GB | @ LV | **17.4** | Coming off Week 6 bye, well-rested |
-| **RB1** | J.K. Dobbins | DEN | @ NO | **12.8** | Lead back, solid workload |
-| **RB2** | Cam Skattebo | NYG | vs PHI | **14.0** | Volume play, 25pts Week 6 explosion |
-| **WR1** | Jaxon Smith-Njigba | SEA | vs ATL | **20.0** | WR1, elite target volume |
-| **WR2** | **Rashee Rice** | KC | @ LV | **13.7** | **START - Returns from suspension!** |
-| **TE** | Evan Engram | DEN | @ NO | **9.3** | Consistent target share |
+| **QB** | Jordan Love | GB | @ ARI | **17.4** | Tough matchup vs #1 defense |
+| **RB1** | Cam Skattebo | NYG | vs DEN | **14.0** | Volume play, coming off 25-pt Week 6 |
+| **RB2** | J.K. Dobbins | DEN | @ NYG | **12.8** | Lead back, solid workload |
+| **WR1** | Jaxon Smith-Njigba | SEA | vs HOU | **20.0** | WR1, elite target volume |
+| **WR2** | Rashee Rice | KC | @ LV | **13.7** | **Returns from suspension!** |
+| **TE** | Evan Engram | DEN | @ NYG | **9.3** | Consistent target share |
 | **FLEX** | Tetairoa McMillan | CAR | @ WSH | **12.6** | 34% target share, elite opportunity |
 | **K** | Jake Elliott | PHI | @ NYG | **8.0** | High-scoring offense |
-| **D/ST** | **UPGRADE NEEDED** | - | - | **6.7** | **ADD Rams or Seahawks** |
+| **D/ST** | Rams D/ST | LAR | @ JAX | **6.7** | London game vs weak Jaguars offense |
 
-**Total Projected:** 114.5 points (with Rams D/ST)
+**Total Projected:** 114.6 points
 
 ---
 
 ## Full Bench Breakdown
 
-| Position | Player | Team | Status | Notes |
-|----------|--------|------|--------|-------|
-| **RB** | Bucky Irving | TB | **OUT** | Foot/shoulder injuries, out until Week 10+ |
-| **RB** | Hassan Haskins | LAC | BENCH | Limited role in committee, low upside |
-| **WR** | Keenan Allen | LAC | BENCH | Age 33, declining role, trade bait |
-| **WR** | Hollywood Brown | KC | BENCH | Limited snaps behind Rice/Worthy, trade asset |
-| **WR** | Marvin Harrison Jr. | ARI | **QUESTIONABLE** | Concussion protocol, uncertain Week 7 availability |
-| **WR** | Darnell Mooney | ATL | BENCH | WR2 in ATL, solid depth piece |
-| **TE** | Cade Otton | TB | BENCH | Backup TE, droppable if needed |
+| Position | Player | Team | Status | Proj | Notes |
+|----------|--------|------|--------|------|-------|
+| **WR** | Keenan Allen | LAC | BENCH | 13.5 | Age 33, declining role, **PRIME TRADE ASSET** |
+| **WR** | Marvin Harrison Jr. | ARI | QUESTIONABLE | 12.3 | Concussion protocol, monitor practice |
+| **WR** | Darnell Mooney | ATL | BENCH | 10.2 | WR2 in ATL, solid depth piece |
+| **WR** | Hollywood Brown | KC | BENCH | 6.7 | Limited snaps, **TRADE PACKAGE FILLER** |
+| **RB** | Hassan Haskins | LAC | BENCH | 4.7 | Committee back, low upside |
+| **RB** | Bucky Irving | TB | OUT | 0.0 | Foot/shoulder, out until Week 10+ |
+| **TE** | Cade Otton | TB | BENCH | 9.9 | Backup TE, droppable if needed |
 
 **Injury Monitor:**
 - **Bucky Irving** - OUT Week 7 (confirmed), targeting Week 10 return post-bye
-- **Marvin Harrison Jr.** - In concussion protocol, 2nd concussion in NFL career, status TBD
-- **Darnell Mooney** - Listed as questionable but expected to play
+- **Marvin Harrison Jr.** - In concussion protocol, status TBD (check Friday practice report)
+- **George Kittle (OPP)** - Moms rules TE1 injured, helps your matchup
+
+---
+
+## Opponent Analysis: Moms rules (3-3, #4)
+
+### Their Projected Lineup (106.4 points)
+
+**Top Threats:**
+- **Jalen Hurts (QB, PHI)** - 19.8 proj (their best player)
+- **Kyren Williams (RB, LAR)** - 16.5 proj (volume-based RB1)
+- **Jaylen Warren (RB, PIT)** - 16.5 proj (high projection this week)
+- **George Kittle (TE, SF)** - 13.7 proj but **INJURED** (questionable)
+- **Jameson Williams (WR, DET)** - 13.2 proj
+
+**Their Weaknesses:**
+- **George Kittle injury** - If out, they start Hunter Henry (9.3) or Chig Okonkwo (8.3)
+- **WR depth mediocre** - Jameson Williams (13.2), Cooper Kupp (10.7), Sterling Shepard (9.2)
+- **RB3 weak** - David Montgomery only 11.8 proj
+
+**Your Path to Victory:**
+1. Jaxon Smith-Njigba outperforms Jameson Williams at WR
+2. Your RB duo (26.8 combined) beats their RBs despite high projections
+3. Kittle sits or plays hurt (monitor injury report)
+4. Rashee Rice delivers in return game (12+ pts)
+5. Rams D/ST gets 6+ points vs weak Jaguars
+
+**How You Could Lose:**
+- Hurts has massive rushing game (30+ pts)
+- Both their RBs hit ceiling projections (35+ combined)
+- Your Love struggles vs Arizona #1 defense (under 12 pts)
+- Rice has snap count limited in return (under 6 pts)
+
+**Win Probability:** 60% (slight favorite, beatable opponent)
 
 ---
 
 ## Free Agent Priority Adds
 
-### MUST ADD (Before Sunday)
+### Top Available Players (Verified via ESPN API)
 
-**1. Rams D/ST (LAR) - HIGHEST PRIORITY**
-- **Projection:** 6.7 points
-- **Matchup:** vs Jaguars (London game, Sunday 9:30 AM ET)
-- **Why Elite:** Jaguars allow 3rd-most fantasy points to D/ST, last 4 defenses scored double digits
-- **Rams Stats:** 4th in turnover rate, 6th in pressure rate, 6th in EPA/play allowed
-- **Drop:** Titans D/ST immediately
-- **Action:** Add Wednesday/Thursday for Sunday morning London game
-
-**2. Seahawks D/ST (SEA) - PRIORITY #2**
-- **Projection:** 5.9 points
-- **Matchup:** vs Texans (Monday Night Football)
-- **Why Strong:** 7 sacks last week, Texans OL allows 2+ sacks every game
-- **Stats:** Top-5 in pressure rate and pass rush win rate
-- **Drop:** Titans D/ST if Rams claimed
-- **Action:** Backup option, plays Monday night
-
-**3. Jerry Jeudy (WR, CLE) - DEPTH CONSIDERATION**
-- **Projection:** 12.2 points
-- **Why:** MHJ injury creates WR depth need, solid WR3/4 option
+**1. Jerry Jeudy (WR, CLE) - 12.2 projected**
+- **Why Add:** MHJ injury creates WR depth need
 - **Issue:** Already have 7 WRs, only add if MHJ ruled OUT
-- **Action:** Monitor Wednesday/Thursday, add if needed
+- **Drop Candidate:** Cade Otton (redundant TE)
+- **Action:** Monitor MHJ status Friday, add if needed
 
-### DO NOT ADD
-- **Joe Burrow (QB)** - Available but you have Jordan Love (no QB depth needed)
-- **Harrison Butker (K)** - Jake Elliott sufficient, not worth roster spot
+**2. Tre Tucker (WR, LV) - 10.9 projected**
+- **Why Add:** Deep league WR3/4 option
+- **Issue:** Lower priority than Jeudy
+- **Action:** Only add if multiple WR injuries occur
+
+**3. Browns D/ST (CLE) - 5.5 projected**
+- **Why NOT Add:** You have Rams D/ST (6.7 proj), no need for second defense
+- **Action:** Skip
+
+**DO NOT ADD:**
+- **Joe Burrow (QB)** - You have Jordan Love, no QB depth needed
+- **Joe Mixon (RB)** - On NFI-Reserve, may not return this season (serious injury)
+- **Trey Benson (RB)** - Bye week (0.0 proj)
+- **Malik Nabers (WR)** - ACL tear, out for season
 
 ---
 
-## Trade Strategy: Leveraging New Trade Analyzer
+## Trade Strategy: Data-Driven Opportunities
 
-### Trade Analyzer Results
+### Trade Analyzer Results (Scanned All 12 Team Rosters)
 
-**Your Roster Composition (Per Automated Analysis):**
-- **Strengths:** WR depth (7 total, 2 surplus)
-- **Weaknesses:** QB depth (MEDIUM need), RB depth (HIGH need), D/ST (HIGH need)
-- **Injured Players:** Bucky Irving, MHJ, Darnell Mooney, Titans D/ST
+**Your Roster Composition:**
+- **Strengths:** WR depth (7 total, 2 surplus: Mooney + Brown)
+- **Weaknesses:** QB depth (MEDIUM need), RB depth (HIGH need post-Irving injury)
+- **Trade Assets:** Keenan Allen (13.5), Marvin Harrison Jr. (12.3), Mooney (10.2), Brown (6.7)
 
-**League Landscape (Automated Scan):**
-- **Desperate Teams (2-4 or worse):** Ryan's Rowdy Team (2-4), Auto DraftKings (2-4), Torta Pounders (1-5)
-- **Injury-Riddled Teams:** Meat Pistols (5 injured), The Warsaw Pact (5 injured), Wookie of the Year (5 injured)
+**League Landscape:**
+- **Desperate Teams:** Torta Pounders (1-5), Auto DraftKings (2-4), Ryan's Rowdy Team (2-4)
+- **Most Injured Teams:** The Warsaw Pact (6 injured), Meat Pistols (5 injured), Torta Pounders (5 injured)
 
-**Trade Analyzer Conclusion:**
-"No clear trade opportunities identified at this time" due to 0.0 projections early in week.
+---
 
-### Manual Trade Recommendations
+### TOP 5 TRADE OPPORTUNITIES (From Automated Analysis)
 
-Despite automated analyzer limitations (early-week data), here are strategic trade targets:
+**OPPORTUNITY #1: Smooth Roosters (3-3, #6) - 85% Acceptance**
+- **Injuries:** Josh Jacobs, Garrett Wilson, Jauan Jennings, Josh Downs, Colts D/ST
+- **YOU GIVE:** Darnell Mooney (10.2) + Hollywood Brown (6.7) = 16.9 pts
+- **YOU GET:** Bijan Robinson (22.7) + Rachaad White (18.1) = 40.8 pts
+- **Projection Differential:** +23.9 pts/week (EXCELLENT VALUE)
+- **Rationale:** They have elite RB depth (Bijan + White), you need RB upgrade desperately
+- **VERDICT:** **TOP TARGET** - This solves your RB2 problem post-Irving injury
 
-**TRADE PACKAGE #1: Consolidate WR Depth for RB Upgrade**
+**OPPORTUNITY #2: Auto DraftKings (2-4, #11) - 85% Acceptance**
+- **Injuries:** David Njoku, Jakobi Meyers, Emeka Egbuka, Patriots D/ST
+- **YOU GIVE:** Darnell Mooney (10.2) + Hollywood Brown (6.7) = 16.9 pts
+- **YOU GET:** Jonathan Taylor (24.4) + Kenneth Gainwell (13.0) = 37.4 pts
+- **Projection Differential:** +20.5 pts/week (EXCELLENT VALUE)
+- **Rationale:** Taylor is THE prize RB, 2-4 team may be desperate
+- **VERDICT:** **ELITE TARGET** - If they accept, you win league
 
-**Target:** Teams with RB surplus and WR injuries (Meat Pistols, Warsaw Pact, Wookie of the Year)
+**OPPORTUNITY #3: Ryan's Rowdy Team (2-4, #10) - 85% Acceptance**
+- **Injuries:** Chris Olave, Lions D/ST, Bills D/ST, Brenton Strange
+- **YOU GIVE:** Darnell Mooney (10.2) + Hollywood Brown (6.7) = 16.9 pts
+- **YOU GET:** Javonte Williams (17.6) + Ashton Jeanty (16.4) = 34.0 pts
+- **Projection Differential:** +17.1 pts/week (EXCELLENT VALUE)
+- **Rationale:** They have 3 elite RBs (Williams, Jeanty, Swift), can spare two
+- **VERDICT:** **STRONG TARGET** - Depth for depth, upgrades your RBs significantly
 
-**GIVE:** Keenan Allen + Hollywood Brown (or Darnell Mooney)
-**GET:** Mid-tier RB1 (targeting: Breece Hall, Kenneth Walker, James Conner tier)
-**Rationale:**
-- You have 7 WRs, they need WR help badly
-- Allen has name value despite age 33
-- Hollywood has KC pedigree
-- Consolidate 2 bench pieces for 1 starter
+**OPPORTUNITY #4: Chupi and the End Zone Bandits (3-3, #9) - 85% Acceptance**
+- **Injuries:** Chuba Hubbard, Aaron Jones Sr., Jalen Coker, Texans/Seahawks D/ST
+- **YOU GIVE:** Darnell Mooney (10.2) + Hollywood Brown (6.7) = 16.9 pts
+- **YOU GET:** Jayden Daniels (24.1) + Sam Darnold (14.9) = 39.0 pts
+- **Projection Differential:** +22.2 pts/week (EXCELLENT VALUE)
+- **Rationale:** Upgrade QB depth, Daniels is top-5 QB
+- **VERDICT:** **STRONG TARGET** - Solves QB depth issue, Daniels > Love ROS
 
-**TRADE PACKAGE #2: Sell Cam Skattebo High**
+**OPPORTUNITY #5: Torta Pounders (1-5, #12) - 85% Acceptance**
+- **NOTE:** This is the team that offered Kirk + Waller for Skattebo (DECLINED)
+- **Counter Offer:** Use Counter #1 or #2 from trade analysis above
+- **VERDICT:** Only engage if they accept fair counter (Lamb/Adams/Hall for Allen+MHJ package)
 
-**Target:** Teams desperate for RB help (Torta Pounders, Auto DraftKings, Ryan's Rowdy Team)
+---
 
-**GIVE:** Cam Skattebo + Keenan Allen
-**GET:** Elite WR1 (targeting: Amon-Ra St. Brown, CeeDee Lamb, Davante Adams tier)
-**Rationale:**
-- Skattebo just had 25-point explosion (Week 6)
-- Sell-high window is NOW before regression
-- Upgrade WR corps with proven stud
+### Trade Execution Strategy
 
-**TRADE PACKAGE #3: Target Specific Team Weaknesses**
+**THIS WEEK ACTION ITEMS:**
 
-**Option A - Target: Ryan's Rowdy Team (2-4, #10)**
-- **Their Roster Strength:** ELITE RB depth (Javonte Williams 17.6, Ashton Jeanty 16.4, D'Andre Swift 15.7)
-- **Their Need:** WR depth (only have Chris Olave, Ladd McConkey as solid WRs)
-- **Your Offer:** Tetairoa McMillan (12.6) + Darnell Mooney (10.2)
-- **Your Target:** Javonte Williams (DAL, 17.6 proj) OR Ashton Jeanty (LV, 16.4 proj)
-- **Rationale:** They have THREE RB1s and can afford to trade one for two WRs
-- **Desperation Factor:** High (2-4 record, need wins now)
-- **Value:** Even trade (McMillan 12.6 + Mooney 10.2 = 22.8 for Williams 17.6 = slight overpay but worth RB1)
+1. **Prioritize Smooth Roosters Trade (Bijan + White)**
+   - Message owner Wednesday/Thursday
+   - Emphasize their injury crisis (4 injured players)
+   - Offer Mooney + Brown for Bijan + White
+   - Negotiate if needed (can swap Brown for another bench piece)
 
-**Option B - Target: Torta Pounders Football Club (1-5, #12)**
-- **Their Roster Strength:** ELITE WR corps (CeeDee Lamb 19.6, Davante Adams 19.3, Nico Collins 17.7)
-- **Their Need:** RB depth (only Breece Hall good, rest under 10 pts)
-- **Your Offer:** Cam Skattebo (14.0) + Keenan Allen (13.5)
-- **Your Target:** Breece Hall (NYJ, 16.2 proj) OR one of their elite WRs (CeeDee/Davante)
-- **Rationale:** 1-5 record = DESPERATE, they need RB help, you consolidate for elite player
-- **Desperation Factor:** EXTREME (1-5 record, will overpay to avoid 1-17 season)
-- **Value:** Good trade (Skattebo 14.0 + Allen 13.5 = 27.5 for Breece 16.2 = you overpay but get RB1)
+2. **Backup: Auto DraftKings (Jonathan Taylor)**
+   - Message if Smooth Roosters declines
+   - Emphasize 2-4 record, need to make moves
+   - Offer same package (Mooney + Brown)
+   - Taylor is elite RB1, worth slight overpay
 
-**Option C - Target: Auto DraftKings (2-4, #11)**
-- **Their Roster Strength:** Jonathan Taylor (24.4 proj RB!), Justin Jefferson (18.3 WR)
-- **Their Need:** RB2 depth (Kenneth Gainwell 13.0, Michael Carter 9.4 are weak)
-- **Your Offer:** Cam Skattebo (14.0) + Tetairoa McMillan (12.6)
-- **Your Target:** Jonathan Taylor (IND, 24.4 proj) - ELITE RB1
-- **Rationale:** Taylor is THE prize, worth big package if they bite
-- **Desperation Factor:** Medium (2-4 record but solid roster)
-- **Value:** Fair (Skattebo 14.0 + McMillan 12.6 = 26.6 for Taylor 24.4 = slight overpay but RB1!)
+3. **Alternative: Trade Keenan Allen Package**
+   - If both above fail, pivot to Allen trades
+   - Target: Torta Pounders (Counter #2: Allen + MHJ for Breece Hall)
+   - This consolidates aging Allen into elite RB1
 
-### Trade Execution Tips
-
-1. **Timing:** Message Wednesday/Thursday after projections update (non-zero values)
-2. **Messaging:** Emphasize how trade fills THEIR positional weakness
-3. **Starting Point:** Lead with fair offer, don't lowball desperate teams
-4. **Leverage:** Use "7 WRs, need to consolidate" as negotiation angle
+**AVOID:**
+- Trading Skattebo unless getting elite RB1+ in return
+- Trading JSN (your WR1, untouchable)
+- Trading Rice (just returned from suspension, let him prove value)
+- Trading for QBs unless getting Daniels/Mahomes tier
 
 ---
 
 ## Key Lineup Decisions
 
-### Decision #1: Rashee Rice Immediate Start
+### Decision #1: Rashee Rice Immediate Start (WR2)
 
-**Context:** Returns from 6-game suspension, hasn't played since Week 4 of 2024 (knee injury)
+**Context:** Returns from 6-game suspension, hasn't played since Week 4 of 2024
 
 **START Rashee Rice over Keenan Allen:**
-- Andy Reid and Mahomes publicly excited about return
-- Chiefs offense needs WR1 (3-3 record, struggling)
-- Rice was WR1 before suspension/injury
-- Allen declining at age 33, limited targets
+- Andy Reid publicly excited about return
+- Chiefs offense needs WR1 (struggling at 3-3)
+- Rice was WR1 before suspension/injury last year
+- Allen declining at age 33, limited upside
 
 **Risk Factors:**
 - Rust from year-long absence
-- Snap count potentially limited Week 7
-- Unknown chemistry with Mahomes after long layoff
+- Snap count potentially limited Week 7 (60-70%?)
+- Unknown chemistry after long layoff
 
-**Confidence Level:** MEDIUM-HIGH (start, but temper expectations to 8-12 pts)
+**Confidence Level:** MEDIUM-HIGH (start, but expect 8-12 pts, not 20+)
 
-### Decision #2: Defense Streaming - Rams vs Seahawks
+### Decision #2: FLEX - Tetairoa McMillan vs Keenan Allen
 
-**Rams D/ST (6.7 proj) - RECOMMENDED**
-- **Pros:** Jaguars are elite matchup (3rd-worst vs D/ST), London game (earlier start)
-- **Cons:** None significant
-- **Verdict:** TOP PRIORITY ADD
-
-**Seahawks D/ST (5.9 proj) - BACKUP**
-- **Pros:** 7 sacks last week, Texans OL porous
-- **Cons:** Monday night (late confirmation), defensive injuries
-- **Verdict:** SOLID BACKUP if Rams claimed
-
-**Drop:** Titans D/ST (no question, immediate drop)
-
-### Decision #3: FLEX - Tetairoa McMillan Locked In
-
-**START McMillan over:**
-- Keenan Allen (declining role)
-- Darnell Mooney (WR2 in ATL, lower ceiling)
-- Hassan Haskins (committee back)
+**START McMillan (12.6 proj) over Allen (13.5 proj):**
 
 **Why McMillan:**
 - 34% target share (elite opportunity)
-- CAR offense funnels targets to him
-- Consistent 8-12 point floor in PPR
+- CAR funnels all targets to him
+- Younger, higher upside
+- PPR floor of 8-12 points weekly
 
-### Decision #4: RB2 - Cam Skattebo Over Hassan Haskins
+**Why NOT Allen:**
+- Age 33 = injury risk + decline risk
+- Better as trade asset than lineup piece
+- Lower ceiling, lower floor than projections suggest
 
-**Cam Skattebo:**
-- 25 points Week 6 (career game)
-- Elite volume (20+ touches)
-- PHI run defense beatable
+**Verdict:** START McMillan in FLEX, bench Allen as trade bait
 
-**Hassan Haskins:**
-- Limited role in LAC committee
-- 4-6 point ceiling
-- Blocked by J.K. Dobbins/Gus Edwards
+### Decision #3: TE - Evan Engram vs Cade Otton
 
-**Verdict:** START Skattebo, sell high in trade if possible
+**START Evan Engram (9.3 proj) over Otton (9.9 proj):**
 
----
+**Why Engram:**
+- More consistent target share (5-7 targets/game)
+- Denver's TE1, no competition
+- Better offense than Tampa Bay
+- Higher floor in PPR
 
-## Matchup Analysis: vs Moms rules
+**Why NOT Otton:**
+- TB offense struggling
+- Less consistent usage
+- Droppable for waiver adds
 
-**Projected Score:** Valued Customers 114.5, Moms rules 92.9
+**Verdict:** START Engram, consider dropping Otton for Jerry Jeudy if MHJ out
 
-**Their Likely Weaknesses (Need to Verify):**
-- Puka Nacua injury (if on their roster)
-- WR depth issues (league-wide carnage)
-- Check their roster Wednesday for specific vulnerabilities
+### Decision #4: RB2 - Cam Skattebo vs Hassan Haskins
 
-**Your Path to Victory:**
-1. Rashee Rice delivers 12+ points in return game
-2. Dobbins + Skattebo combine for 25-30 points
-3. Defense streams 7+ points (Rams/Seahawks)
-4. Jordan Love bounces back post-bye (20+ pts)
+**START Cam Skattebo (14.0 proj):**
 
-**How You Lose:**
-- Rice struggles with rust/snap count (under 6 pts)
-- Opponent's top players boom unexpectedly
-- Defense streams bust (under 3 pts)
-- MHJ ruled OUT, losing WR depth flexibility
+**Not even close:**
+- Skattebo: 25 points Week 6, RB11 on season (16.6 PPG)
+- Haskins: 4.7 proj, committee back, low upside
+- Giants found identity through Skattebo
+- 20+ touches per game vs 8-12 for Haskins
 
-**Win Probability:** 70% (strong favorite, should win barring injuries)
+**Verdict:** START Skattebo without hesitation (and DON'T trade him for Kirk+Waller!)
 
 ---
 
-## Blocking Strategy: NOT RECOMMENDED
+## Matchup Breakdown: Positional Advantages
 
-**Opponent Situation:** Moms rules (3-3, 4th place)
+### Where You Win:
+- **WR1:** JSN (20.0) >> Jameson Williams (13.2) = **+6.8 advantage**
+- **WR2:** Rice (13.7) > Cooper Kupp (10.7) = **+3.0 advantage**
+- **FLEX:** McMillan (12.6) > Sterling Shepard (9.2) = **+3.4 advantage**
+- **D/ST:** Rams (6.7) < Chiefs (7.7) = **-1.0 disadvantage**
+- **Total WR Advantage: +13.2 points**
 
-**Why No Blocking This Week:**
-1. **No Clear Desperation:** They're 3-3, tied with you
-2. **Top FAs Not Significant:** Rams D/ST (6.7) vs Seahawks D/ST (5.9) only 0.8 point gap
-3. **Your Needs Priority:** Upgrading YOUR defense more important than blocking theirs
-4. **Droppable Players:** Cade Otton borderline, but you need TE depth with Engram only starter
+### Where You're Competitive:
+- **QB:** Love (17.4) < Hurts (19.8) = **-2.4 disadvantage**
+- **RB1:** Skattebo (14.0) < Kyren Williams (16.5) = **-2.5 disadvantage**
+- **RB2:** Dobbins (12.8) < Jaylen Warren (16.5) = **-3.7 disadvantage**
+- **TE:** Engram (9.3) < Kittle (13.7) = **-4.4 disadvantage IF Kittle plays**
+- **TE:** Engram (9.3) > Henry (9.3) = **Even IF Kittle out**
 
-**Blocking Checklist Failed:**
-- [ ] ~~Opponent has injury/bye at position~~ (unknown, need to check)
-- [ ] ~~Top FA is 5+ points better than #2 option~~ (Rams only 0.8 > Seahawks)
-- [ ] ~~You have droppable player~~ (Otton borderline but needed)
-- [ ] ~~This is current week opponent~~ (YES, but other conditions fail)
-
-**Verdict:** Focus on strengthening YOUR roster, not weakening theirs
+### Net Matchup Analysis:
+- **If Kittle plays:** You need WRs to outperform projections
+- **If Kittle out:** You're favored by 4+ points
+- **Key Factor:** Monitor Kittle injury Friday practice report
 
 ---
 
 ## Action Items Before Sunday
 
-### WEDNESDAY (Oct 15)
-- [ ] Add Rams D/ST (or Seahawks if Rams claimed), drop Titans D/ST
-- [ ] Check Moms rules roster via matchup tool (identify their weaknesses)
-- [ ] Verify MHJ practice participation (concussion protocol updates)
-- [ ] Message 2-3 struggling teams about trades (Torta Pounders, Ryan's Rowdy, Auto DraftKings)
+### WEDNESDAY (Oct 16)
+- [x] Rams D/ST added (COMPLETED)
+- [ ] **DECLINE Torta Pounders trade offer** (Kirk + Waller for Skattebo)
+- [ ] Message Smooth Roosters about Bijan + White trade (Opportunity #1)
+- [ ] Message Auto DraftKings about Jonathan Taylor trade (Opportunity #2)
+- [ ] Check Marvin Harrison Jr. practice report (concussion protocol)
+- [ ] Check George Kittle injury status (opponent's TE1)
 
-### THURSDAY (Oct 16)
-- [ ] Verify Rashee Rice active and no snap count limit reported
-- [ ] Confirm MHJ status (if OUT, add Jerry Jeudy)
-- [ ] Watch Steelers-Bengals (no roster impact, but enjoy TNF)
+### THURSDAY (Oct 17)
+- [ ] Verify Rashee Rice active, no snap count limit reported
+- [ ] Confirm MHJ status (if OUT, add Jerry Jeudy, drop Cade Otton)
+- [ ] Follow up on trade messages sent Wednesday
+- [ ] Check Kittle practice status (limited/DNP/full)
 - [ ] Finalize lineup after ESPN projections update
 
-### SATURDAY (Oct 17)
-- [ ] Set Rams D/ST if added (London game Sunday 9:30 AM ET early!)
-- [ ] Confirm no late injury news for Love, Dobbins, Rice, JSN
-- [ ] Lock in lineup: Rice at WR2, McMillan at FLEX
+### FRIDAY (Oct 18)
+- [ ] **FINAL injury report check** (MHJ, Kittle, Rice, all starters)
+- [ ] Set Rams D/ST (London game Sunday 9:30 AM ET - early start!)
+- [ ] Make waiver moves if MHJ ruled OUT (add Jeudy)
+- [ ] Review trade negotiations, push for acceptance
 
-### SUNDAY (Oct 19) - Before 1 PM ET
+### SATURDAY (Oct 19)
+- [ ] Confirm no late injury news for Love, Dobbins, Rice, JSN, Skattebo
+- [ ] Lock in lineup: Rice at WR2, McMillan at FLEX, Allen benched
+- [ ] Double-check Rams D/ST set (9:30 AM London game!)
+- [ ] Verify Kittle status for matchup advantage calculation
+
+### SUNDAY (Oct 20) - Before 1 PM ET
+- [ ] **EARLY:** Rams D/ST plays 9:30 AM ET (London) - set by 9:15 AM!
 - [ ] Final lineup check (no late scratches)
-- [ ] Set all starters except Monday night players
-- [ ] Monitor Rams D/ST in London game (9:30 AM ET)
+- [ ] Set all Sunday 1 PM starters
+- [ ] Monitor Rams D/ST performance in London game
+- [ ] Track score throughout day
 
 ---
 
 ## Season Outlook (3-3 Record)
 
-**Current Standing:** 5th of 12 teams (middle of playoff hunt)
+**Current Standing:** 5th of 12 teams (middle of playoff race)
 
 **Week 7 Win Impact:**
 - **If Win (4-3):** ~65-70% playoff probability, momentum builder
@@ -326,16 +425,28 @@ Despite automated analyzer limitations (early-week data), here are strategic tra
 **Playoff Math:**
 - Need 6-7 wins total (currently 3-3)
 - Must go 3-4 or better in final 7 weeks
-- Week 7 is MUST-WIN vs .500 opponent
+- Week 7 is WINNABLE vs .500 opponent (60% win probability)
 
 **Roster Trajectory:**
-- **Elite WR Corps:** JSN, Rice (returning), McMillan, MHJ (when healthy)
-- **RB Concerns:** Bucky Irving out long-term, need RB2 upgrade via trade
-- **Trade Assets:** Keenan Allen, Hollywood Brown (sell in next 2 weeks)
-- **Key Move:** Consolidate WR depth for RB1 before trade deadline
+
+**Strengths:**
+- Elite WR corps: JSN (20.0), Rice (13.7 returning), McMillan (12.6), MHJ (when healthy)
+- Solid RB duo: Skattebo (14.0 breakout), Dobbins (12.8 consistency)
+- Defense streaming working: Rams D/ST solid option
+
+**Weaknesses:**
+- RB depth crisis: Irving out, Haskins (4.7) is RB3
+- QB ceiling limited: Love (17.4) is QB12-15 range, not elite
+- TE mediocre: Engram/Otton both 9-10 point weekly
+
+**Critical Moves Needed:**
+1. **Trade WR depth for RB2 upgrade** (Mooney + Brown → Bijan/Taylor/Jeanty)
+2. **Consolidate Allen while value high** (age 33 cliff coming)
+3. **Monitor Bucky Irving return** (Week 10 target)
+4. **DO NOT trade Skattebo** unless getting elite RB1+ (he IS your RB1 now)
 
 **Next 3 Weeks (Weeks 7-9):**
-- Week 7: vs Moms rules (3-3) - MUST WIN
+- Week 7: vs Moms rules (3-3) - **MUST WIN** (60% win probability)
 - Week 8: TBD opponent
 - Week 9: TBD opponent + Bucky Irving potential return
 
@@ -346,31 +457,59 @@ Despite automated analyzer limitations (early-week data), here are strategic tra
 ## Summary: Week 7 Game Plan
 
 ### Must-Do Actions
-1. **Add Rams D/ST** (or Seahawks) - immediate upgrade
-2. **Start Rashee Rice** - WR2 slot, accept 8-12 point range
-3. **Bench Keenan Allen** - trade him, don't start him
-4. **Monitor MHJ** - concussion protocol, add Jeudy if OUT
+1. **DECLINE Torta Pounders trade** (Kirk + Waller for Skattebo) - terrible deal
+2. **PURSUE Smooth Roosters trade** (Mooney + Brown for Bijan + White) - solves RB depth
+3. **START Rashee Rice at WR2** - accept 8-12 point range in return game
+4. **BENCH Keenan Allen** - trade him, don't start him
+5. **MONITOR Kittle injury** - if out, your win probability jumps to 70%
+6. **SET Rams D/ST early** - London game 9:30 AM ET Sunday!
 
-### Trade Strategy
-- Message 3 desperate teams (1-5, 2-4 records)
-- Offer WR depth for RB upgrade
-- Sell Cam Skattebo high (post-25pt game)
-- Consolidate before trade deadline
+### Trade Strategy Priority Order
+1. Smooth Roosters (Bijan + White) = **TOP PRIORITY**
+2. Auto DraftKings (Jonathan Taylor) = **BACKUP PLAN**
+3. Ryan's Rowdy Team (Williams + Jeanty) = **ALTERNATIVE**
+4. Counter Torta Pounders (Allen + MHJ for Hall) = **IF THEY COUNTER**
 
 ### Win Condition
-- Rashee Rice delivers in return (13+ pts, meet projection)
-- Defense streams 6+ points (Rams preferred)
-- RBs combine for 27+ (Dobbins 12.8 + Skattebo 14.0)
-- Jordan Love bounces back post-bye (17+ pts, meet projection)
-- Total: 114+ points beats Moms rules projection (92.9)
+- Love delivers post-bye (17+ pts)
+- Skattebo continues Week 6 form (14+ pts, hit projection)
+- Dobbins hits projection (12+ pts)
+- Rashee Rice meets expectations in return (10+ pts, close to 13.7 proj)
+- JSN stays elite (18+ pts)
+- McMillan hits floor (10+ pts in FLEX)
+- Rams D/ST gets 6+ points vs weak Jaguars
+- **BONUS:** Kittle sits for opponent = +4 point swing
+- **Total:** 114+ points beats Moms rules projection (106.4)
+
+### How You Could Lose
+- Love struggles vs #1 Arizona defense (under 12 pts)
+- Rice snap count limited (under 6 pts)
+- Opponent's Hurts goes nuclear (30+ pts with rushing TDs)
+- Both opponent RBs hit ceiling (35+ combined)
+- Rams D/ST bust (under 3 pts)
+- Kittle plays and booms (15+ pts)
+
+**Confidence Level:** 60% win probability (FAVORED, but not locked in)
 
 ---
 
-**FINAL REMINDER:** This is a MUST-WIN game at 3-3. Playoff hopes depend on winning vs .500 opponent. Rashee Rice return is wild card - start him with confidence but temper expectations. Defense streaming is free points - don't overthink it, add Rams/Seahawks NOW.
+## FINAL REMINDERS
+
+**TRADE PROPOSAL:**
+- ❌ **DECLINE** Kirk + Waller for Skattebo (destroys your RB depth)
+- ✅ **COUNTER** with Allen + MHJ for Breece Hall if you want to negotiate
+- ✅ **IGNORE** and pursue Smooth Roosters/Auto DraftKings trades instead
+
+**EARLY GAME ALERT:**
+- 🚨 **Rams D/ST plays 9:30 AM ET Sunday (London game)**
+- 🚨 **Must set lineup by 9:15 AM ET for Rams**
+- 🚨 **Don't sleep in and miss London game start!**
+
+**THIS IS A MUST-WIN GAME AT 3-3**
+Playoff hopes depend on beating .500 opponent. Rashee Rice return is wild card - start him with confidence but temper expectations to 10-12 pts. Defense streaming is working - Rams vs Jaguars is solid matchup. DON'T trade Skattebo for scraps - he's your RB1 now that he's broken out.
 
 ---
 
-*Next Update: Wednesday, October 15 (after practice reports and projection updates)*
-*Trade Analyzer Note: Re-run `python3 main.py trades` Wednesday for updated analysis with live projections*
+*Next Update: Friday, October 18 (after final injury reports and trade negotiations)*
 
-**#GoCaffl #ValuedCustomers #RasheeRiceReturns #Week7MustWin**
+**#GoCaffl #ValuedCustomers #DeclineBadTrades #Week7MustWin**

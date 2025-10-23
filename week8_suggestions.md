@@ -31,19 +31,28 @@
 
 ## Recommended Starting Lineup
 
-| Position | Player | Team | Opponent | Proj | Decision |
-|----------|--------|------|----------|------|----------|
-| **QB** | Jordan Love | GB | @ PIT | 17.2 | ✅ START |
-| **RB** | Cam Skattebo | NYG | vs PHI | 14.3 | ✅ START |
-| **RB** | J.K. Dobbins | DEN | vs DAL | 13.4 | ✅ START |
-| **WR** | Rashee Rice | KC | vs WSH | 17.2 | ✅ START |
-| **WR** | Keenan Allen | LAC | @ MIN | 16.0 | ✅ START |
-| **TE** | Evan Engram | DEN | vs DAL | 9.9 | ✅ START |
-| **FLEX** | Tetairoa McMillan | CAR | @ BUF | 13.4 | ✅ START |
-| **K** | Jake Elliott | PHI | @ NYG | 8.4 | ✅ START |
-| **D/ST** | Falcons D/ST | ATL | vs MIA | 6.7 | ✅ START |
+| Position | Player | Team | Opponent | Game Time | Proj | Decision |
+|----------|--------|------|----------|-----------|------|----------|
+| **QB** | Jordan Love | GB | @ PIT | Sun 8:20 PM | 17.2 | ✅ START |
+| **RB** | Cam Skattebo | NYG | vs PHI | Sun 1:00 PM | 14.3 | ✅ START |
+| **RB** | J.K. Dobbins | DEN | vs DAL | Sun 4:25 PM | 13.4 | ✅ START |
+| **WR** | Tetairoa McMillan | CAR | @ BUF | Sun 1:00 PM | 13.4 | ✅ START |
+| **WR** | Keenan Allen | LAC | @ MIN | Sun 4:05 PM | 16.0 | ✅ START |
+| **TE** | Evan Engram | DEN | vs DAL | Sun 4:25 PM | 9.9 | ✅ START |
+| **FLEX** | Rashee Rice | KC | vs WSH | **Mon 8:15 PM** | 17.2 | ✅ START |
+| **K** | Jake Elliott | PHI | @ NYG | Sun 1:00 PM | 8.4 | ✅ START |
+| **D/ST** | Falcons D/ST | ATL | vs MIA | Sun 1:00 PM | 6.7 | ✅ START |
 
 **Total Projected:** 116.6 points
+
+**⚠️ IMPORTANT - Flex Positioning Strategy:**
+
+**Rashee Rice is in the FLEX** because he plays Monday night (8:15 PM ET) - the LATEST game of the week. This is CRITICAL for roster flexibility:
+
+- ✅ **If early player injured:** McMillan (Sun 1 PM) or Allen (Sun 4 PM) gets injured → Can swap Tyjae Spears, Darnell Mooney, or any RB/WR/TE into flex
+- ❌ **If Rice in WR slot:** Rice gets injured Monday → Locked into finding another WR only (no RB flex option)
+
+**Rule:** Always put your latest-playing game in FLEX to preserve maximum flexibility. League locks positions individually at game time.
 
 ---
 
@@ -393,8 +402,9 @@ All available RIGHT NOW on waivers:
 
 **IMMEDIATE (Before Sunday):**
 1. ✅ **Set Starting Lineup:**
-   - QB: Love | RB: Skattebo, Dobbins | WR: Rice, Allen | TE: Engram
-   - FLEX: McMillan | K: Elliott | D/ST: Falcons
+   - QB: Love | RB: Skattebo, Dobbins | WR: McMillan, Allen | TE: Engram
+   - FLEX: **Rashee Rice (Monday 8:15 PM)** ← LATEST game | K: Elliott | D/ST: Falcons
+   - **CRITICAL:** Rice in FLEX (not WR) for roster flexibility
 
 2. ⚠️ **Monitor Darnell Mooney** - Check Friday injury report (benched anyway)
 

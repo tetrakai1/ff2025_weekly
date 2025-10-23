@@ -57,7 +57,7 @@
 | **RB** | Tyjae Spears | TEN | BENCH | 8.9 | Tough matchup vs IND (#6 run defense) |
 | **RB** | Bucky Irving | TB | **OUT** | 0.0 | Shoulder/foot injury, continues to miss time |
 | **TE** | Cade Otton | TB | BENCH | 9.9 | Identical projection to Engram, coin flip |
-| **QB** | Justin Fields | NYJ | BENCH | 0.9 | Week 10 bye coverage for Love |
+| **QB** | Justin Fields | NYJ | **DROPPABLE** | 0.9 | Benched Week 7, zero fantasy value |
 
 ---
 
@@ -182,29 +182,88 @@
 
 ---
 
-### Priority 2: Consider Dropping Justin Fields
+### Priority 2: DROP Justin Fields Immediately - Comprehensive Analysis
 
-**Case FOR Keeping Fields:**
-- Week 10 bye coverage for Jordan Love (NON-NEGOTIABLE need)
-- Playoff insurance (Weeks 16-17 if Love injured)
+**CRITICAL CORRECTION:** Jordan Love's bye was **Week 5 (already passed)**, not Week 10. You don't need QB insurance.
 
-**Case AGAINST Keeping Fields:**
-- 0.9 projection this week (extremely low)
-- Garrett Wilson OUT multiple weeks (hyperextended knee) - diminishes upside
-- Extremely volatile: 5 games ranging from 4.2 to 26.8 points
-- Expert consensus: "Nearly impossible to trade" in 1-QB leagues
-- 10+ QBs typically available on waivers for streaming
+**What Happened to Justin Fields - Week 7 Disaster:**
 
-**Alternative Week 10 Options (if you drop Fields):**
-- Joe Burrow (available) - 0.0 proj Week 8 (likely on bye or injured, check status)
-- Michael Penix Jr. (available via weekly report)
-- Tua Tagovailoa (available)
-- **Risk:** These may be rostered by Week 10
+**The Benching:**
+- Jets **benched Fields at halftime** vs Panthers in Week 7 loss (13-6)
+- Replaced by backup Tyrod Taylor after ineffective first half
+- Fields: 6-of-12 passing, 46 yards, 0 TDs before being pulled
+- Coach Aaron Glenn: "We needed a spark"
 
-**RECOMMENDATION: HOLD Justin Fields for now**
-**Rationale:** Week 10 is only 2 weeks away. Don't risk being unable to stream a QB. Dropping Fields for Allgeier adds minimal value this week (you already have a solid starting lineup). Revisit after Week 10 bye.
+**The Crisis:**
+- Jets are **0-7** - NFL's only winless team
+- **Haven't scored a TD in 2 weeks** (Week 6 vs DEN, Week 7 vs CAR)
+- Week 6: Fields had **negative 10 net passing yards** vs Broncos
+- Owner Woody Johnson **publicly threw Fields under the bus** at league meetings Oct 21
 
-**Alternative Drop Candidate:** None ideal - your bench is tight with bye weeks.
+**Fields' Reaction:**
+- "I was a little bit [surprised]. But at the same time, I can't be mad at the decision."
+- Acknowledged the team needed a change
+
+**QB Battle for Week 8:**
+- Coach Glenn **won't commit** to Fields or Taylor as starter
+- Tyrod Taylor (backup) now day-to-day with knee injury
+- Fields may start Week 8 out of desperation, not merit
+- **Risk of mid-game benching** if he struggles again
+
+**Trade Rumors:**
+- Ravens, Raiders, and Colts mentioned as potential trade destinations
+- Jets signed Fields to 2-year, $40M contract ($30M guaranteed) - expensive mistake
+- Trade deadline Nov 5 - Jets may cut losses
+
+**Fantasy Expert Consensus - UNANIMOUS DROP:**
+
+**1QB Leagues:**
+- "You can move on from him. In 1QB leagues, drop Fields." - FantasyPros
+- "No longer a starting QB, can't justify rostering him" - Pro Football Network
+- "Fields is droppable" - Fantasy Six Pack (Week 8 Cut List)
+
+**2QB/Superflex Leagues:**
+- "Depends on your depth, but he's dragging lineups down" - FanDuel
+- "Upside stash only if you have deep bench" - Roto Street Journal
+
+**Why Fields Has ZERO Value in 1QB Leagues:**
+
+1. **Not Starting:** Benched, may not play Week 8 or beyond
+2. **Mid-Game Benching Risk:** If he does start, could be pulled again
+3. **Talent Concerns:** 845 yards, 4 TDs through 6 starts (terrible)
+4. **Rushing Upside Gone:** Zero red zone rushing attempts since Week 6
+5. **Love's Bye Already Passed:** Week 5 (not Week 10) - don't need backup
+6. **Streaming Options Available:** 15+ startable QBs on waivers (see below)
+
+**Available QB Streaming Options (if Love gets injured):**
+
+All available RIGHT NOW on waivers:
+- **Tyrod Taylor (NYJ):** 17.9 proj - replaced Fields, may start Week 8
+- **Marcus Mariota (WSH):** 16.9 proj
+- **Carson Wentz (MIN):** 16.7 proj
+- **Michael Penix Jr. (ATL):** 16.3 proj
+- **Andy Dalton (CAR):** 15.8 proj
+- **Spencer Rattler (NO):** 15.7 proj
+
+**All project higher than Fields' 0.9 this week.**
+
+**FINAL VERDICT: DROP JUSTIN FIELDS FOR TYLER ALLGEIER**
+
+**Why This Move Makes Sense:**
+
+✅ **Love's bye already passed** - No QB insurance needed
+✅ **Fields has zero value** - Benched, not starting, possibly traded soon
+✅ **RB depth critical** - Bucky Irving OUT, only 2 healthy starters
+✅ **Allgeier elite matchup** - Miami allows 2nd-most fantasy points to RBs
+✅ **15+ QB streamers available** - Can grab one if Love gets injured later
+✅ **Trade deadline approaching** - Need RB depth to evaluate trades
+
+**Execution:**
+1. **Drop:** Justin Fields (0.9 proj, benched, no starting role)
+2. **Add:** Tyler Allgeier (7.3 proj, RB3/flex this week, RB depth)
+3. **If Love gets injured later:** Stream Tyrod Taylor, Penix Jr., or Wentz
+
+**The Fields Era is Over - Don't Hold Dead Weight**
 
 ---
 
@@ -244,7 +303,7 @@
 **Your Roster Strengths:**
 - **WR Depth:** 6 WRs rostered (Rice, Allen, McMillan, JSN, Harrison, Mooney)
 - **TE Depth:** Engram and Otton both startable
-- **QB Stability:** Love + Fields backup
+- **QB Stability:** Jordan Love (bye already passed Week 5)
 
 **Your Roster Weaknesses:**
 - **RB Depth:** Only 3 healthy (Skattebo, Dobbins, Spears) + Irving injured
@@ -339,9 +398,10 @@
 
 2. ⚠️ **Monitor Darnell Mooney** - Check Friday injury report (benched anyway)
 
-3. 🔍 **Consider Tyler Allgeier waiver claim** - Only if you want RB depth for future weeks
-   - **Trade-off:** Would need to drop someone (Fields risky to drop before Week 10)
-   - **Recommendation:** Wait until after Week 10 bye
+3. ✅ **DROP Justin Fields, ADD Tyler Allgeier** - PRIORITY WAIVER MOVE
+   - Fields benched, zero value (Love's bye already passed Week 5)
+   - Allgeier provides RB depth (elite matchup vs MIA this week)
+   - See comprehensive Fields analysis in Waiver Wire section
 
 **WEEK 9 PREP:**
 - JSN and MHJ return from bye
@@ -389,7 +449,7 @@
 - Rashee Rice is BACK and elite (WR1 upside)
 - Falcons D/ST has #3 matchup of the week
 - Tetairoa McMillan upgraded to WR1 by experts
-- Justin Fields secured for Week 10 bye coverage
+- Jordan Love's bye already passed (Week 5) - no QB concerns
 
 **Challenges:**
 - 2 WRs on bye (JSN, MHJ)
@@ -405,12 +465,12 @@
 
 **Looking Ahead:**
 - Week 9: Full WR corps returns (JSN, MHJ)
-- Week 10: Justin Fields must start (Love bye)
-- Weeks 11-12: Identify trade partners for RB upgrade
+- Add Tyler Allgeier for RB depth insurance
+- Weeks 9-12: Identify trade partners for RB upgrade before deadline
 
 ---
 
 **Expected Week 8 Result:** Competitive game, 50/50 chance
 **Confidence Level:** MEDIUM (underdog, but lineup has upside)
 
-**Next Week Preview:** Week 9 - JSN/MHJ return, reassess RB situation, continue trade exploration
+**Next Week Preview:** Week 9 - JSN/MHJ return from bye, Tyler Allgeier adds RB depth, continue scouting trade partners

@@ -186,6 +186,12 @@ They have 3 QBs and are desperate to convert QB depth into positional help.
 
 ---
 
+## 🚨 CRITICAL: BYE WEEK ALERT
+
+**Jake Elliott (K, PHI) is on BYE Week 9** - You MUST stream a kicker this week!
+
+---
+
 ## Recommended Starting Lineup
 
 | Position | Player | Team | Opponent | Proj | Decision |
@@ -197,10 +203,10 @@ They have 3 QBs and are desperate to convert QB depth into positional help.
 | **WR** | Rashee Rice | KC | @ TB | 18.4 | ✅ START |
 | **TE** | Evan Engram | DEN | @ BAL | 7.8 | ✅ START |
 | **FLEX** | **Keenan Allen** | LAC | @ CLE | 13.9 | ✅ START ← **KEEP HIM!** |
-| **K** | Jake Elliott | PHI | vs JAX | 0.0 | ✅ START |
+| **K** | **STREAM KICKER** | - | - | 8.6 | ⚠️ **JAKE ELLIOTT ON BYE** |
 | **D/ST** | Falcons D/ST | ATL | @ NO | 4.7 | ⚠️ UPGRADE AVAILABLE |
 
-**Total Projected:** 108.5 points
+**Total Projected:** 117.1 points (with streaming kicker)
 
 ---
 
@@ -220,6 +226,34 @@ They have 3 QBs and are desperate to convert QB depth into positional help.
 ---
 
 ## URGENT Waiver Wire Actions
+
+### Priority 0: 🚨 STREAM KICKER - Jake Elliott on BYE
+
+**CRITICAL ERROR CORRECTION:**
+- **Jake Elliott (PHI) is on BYE Week 9** - Cannot start!
+- You MUST add a streaming kicker for this week
+
+**Best Available Kickers:**
+
+1. **Cairo Santos (CHI) - 8.6 projection** ← **TOP CHOICE**
+   - Plays vs Cardinals (good kicking matchup)
+   - Consistent scorer
+   - Bears offense moves ball but struggles in red zone = more FG attempts
+
+2. **Jason Myers (SEA) - 8.5 projection**
+   - Plays vs Rams (home game)
+   - Seahawks offense high-powered
+
+3. **Andy Borregales (NE) - 8.5 projection**
+   - Plays vs Titans
+   - Patriots offense struggles = FG heavy
+
+**Recommendation:** Add **Cairo Santos** (8.6 proj)
+**Drop Option:** Jake Elliott (on bye, pick him back up Week 10)
+
+**Alternative Strategy:** Keep Elliott on roster, drop Isaiah Davis instead (0.0 value)
+
+---
 
 ### Priority 1: Add Tyrone Tracy Jr. (RB, NYG) - ELITE WAIVER PICKUP
 
@@ -409,11 +443,12 @@ They have 3 QBs and are desperate to convert QB depth into positional help.
 ## Week 9 Action Items
 
 **IMMEDIATE (Before Sunday):**
-1. ✅ **REJECT Stafford for Allen trade** - politely decline, explain Love's bye already passed
-2. ✅ **Add Tyrone Tracy Jr.** - Drop Isaiah Davis (massive RB upgrade)
-3. ✅ **Add Rams D/ST** - Drop Falcons D/ST (+2.8 point upgrade)
-4. ✅ **Set optimal lineup** - JSN, Rice, Allen in starting spots
-5. ✅ **Monitor Lamar Jackson injury** - impacts opponent's chances
+1. 🚨 **ADD CAIRO SANTOS (K)** - Jake Elliott on BYE, must stream kicker (DROP: Elliott or Isaiah Davis)
+2. ✅ **REJECT Stafford for Allen trade** - politely decline, explain Love's bye already passed
+3. ✅ **Add Tyrone Tracy Jr.** - Drop Isaiah Davis (massive RB upgrade)
+4. ✅ **Add Rams D/ST** - Drop Falcons D/ST (+2.8 point upgrade)
+5. ✅ **Set optimal lineup** - JSN, Rice, Allen in starting spots, SANTOS at K
+6. ✅ **Monitor Lamar Jackson injury** - impacts opponent's chances
 
 **MONITOR:**
 - Bucky Irving injury status (expected back Week 10-11)
@@ -537,4 +572,7 @@ In a full PPR league with division total points format, every starting position 
 
 ---
 
-**FINAL RECOMMENDATION: REJECT THE STAFFORD TRADE. ADD TRACY JR. AND RAMS D/ST INSTEAD.**
+**FINAL RECOMMENDATION:
+1. 🚨 STREAM KICKER (Cairo Santos) - Jake Elliott on BYE
+2. REJECT THE STAFFORD TRADE
+3. ADD TRACY JR. AND RAMS D/ST**

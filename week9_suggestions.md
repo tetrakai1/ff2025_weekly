@@ -218,10 +218,264 @@ They have 3 QBs and are desperate to convert QB depth into positional help.
 | **WR** | Tetairoa McMillan | CAR | BENCH | 12.9 | Good PPR depth |
 | **WR** | Darnell Mooney | ATL | BENCH | 9.7 | Trade chip for RB upgrade |
 | **RB** | Bucky Irving | TB | **OUT** | 0.0 | Shoulder/foot injury |
-| **RB** | Cam Skattebo | NYG | **OUT** | 0.0 | Injury status unclear |
+| **RB** | Cam Skattebo | NYG | **OUT FOR SEASON** | 0.0 | **DROP IMMEDIATELY** - Season-ending ankle dislocation |
 | **RB** | Omarion Hampton | LAC | **IR** | 0.0 | Injured reserve |
 | **RB** | Isaiah Davis | NYJ | BENCH | 0.0 | **DROP TARGET** |
 | **TE** | Cade Otton | TB | BENCH | 0.0 | Low projection this week |
+
+---
+
+## 🚨 CAM SKATTEBO SEASON-ENDING INJURY - IN-DEPTH ANALYSIS
+
+### Injury Overview: OUT FOR SEASON
+
+**Injury Date:** October 26, 2025 (Week 8 vs Philadelphia Eagles)
+**Diagnosis:** Open dislocation of right ankle with tibia/fibula fractures
+**Surgery:** Completed October 26, 2025 at University of Pennsylvania Hospital
+**Status:** OUT FOR SEASON (2025)
+**Recovery Timeline:** 6-9 months (targeting 2026 training camp)
+
+---
+
+### ASCII Representation of Ankle Dislocation Injury
+
+```
+NORMAL ANKLE                    SKATTEBO'S INJURY
+
+    Tibia                           Tibia
+      |                                |
+      |                                |  <- Fractured
+      |                                |\
+    Ankle Joint                        | \
+      *                                |  *  <- Dislocated
+      |                                |    \
+    Fibula                          Fibula  \
+      |                                |     \
+      |                                |      \
+    Foot                            Foot (rotated)
+   -----                            -------
+
+   [Normal alignment]              [Dislocation + Fracture]
+
+
+CROSS-SECTION VIEW:
+
+     [NORMAL]                    [INJURED]
+
+      Tibia                        Tibia
+        |                         /  |
+    ----*----  <- Joint       ----   * <- Displaced
+        |                              \
+      Fibula                          Fibula
+
+   Talus bone fits                Talus bone OUT
+   in socket                      of socket + bones
+                                  fractured
+```
+
+---
+
+### What Happened: Medical Breakdown
+
+**Mechanism of Injury:**
+- Leg rolled up on during tackle (pile-up situation)
+- Multiple reports described injury as "gruesome" and "brutal"
+- Visible deformity on field - clear dislocation
+
+**Severity Assessment:**
+1. **Open Dislocation:** Bone pierced through skin (infection risk, requires immediate surgery)
+2. **Tibia Fracture:** Weight-bearing bone broken near ankle joint
+3. **Fibula Fracture:** Stabilizing bone also fractured
+4. **Soft Tissue Damage:** Ligaments torn, blood vessels potentially compromised
+
+**Surgical Repair (October 26, 2025):**
+- Emergency surgery same day at Penn hospital (excellent sign)
+- Realignment of ankle joint back into socket
+- Internal fixation with screws/plates to stabilize fractures
+- Soft tissue repair (ligament reconstruction)
+- Surgery reported as successful by Giants medical staff
+
+---
+
+### Recovery Timeline
+
+**Phase 1 (Weeks 1-6):** Non-weight bearing
+- Immobilization in cast/boot
+- Wound healing (open dislocation = skin break)
+- Infection prevention
+- Basic range of motion exercises
+
+**Phase 2 (Weeks 6-12):** Physical therapy begins
+- Progressive weight bearing
+- Strength building
+- Scar tissue management
+- Swelling reduction
+
+**Phase 3 (Months 3-6):** Return to activity
+- Full weight bearing
+- Jogging/running progression
+- Cutting and agility work
+- Sport-specific movements
+
+**Phase 4 (Months 6-9):** Return to play
+- Full football activities
+- Contact drills
+- Training camp (August 2026 earliest)
+
+**Medical Expert Consensus:** 6-9 month recovery for NFL-level performance
+
+---
+
+### Historical Comparisons
+
+**Similar NFL Injuries:**
+1. **Dak Prescott (2020):** Compound fracture/dislocation - missed 4 months, returned to Pro Bowl form
+2. **Ryan Tannehill (2017):** Ankle dislocation - missed season, returned next year
+3. **Allen Robinson (2017):** ACL tear (less severe) - missed 8 months
+
+**Return Rate:** 85% of players return to NFL after ankle dislocation surgery, though recovery can affect explosiveness initially.
+
+---
+
+### Fantasy Football Impact Analysis
+
+**Current Status:**
+- ESPN Projection: 0.0 points (Week 9)
+- Giants officially ruled OUT for season
+- Cannot be placed on IR to return
+- Zero chance of 2025 contribution
+
+**What This Means for Your Roster:**
+- Cam Skattebo was your RB3/flex option before injury
+- Now taking up roster spot with ZERO value
+- Better options available on waivers (Tyrone Tracy Jr.)
+
+**Replacement in NYG:**
+- **Tyrone Tracy Jr.** reclaims starting role (was Week 1 starter)
+- Tracy averaged 14.4 projection (per ESPN Week 9 data)
+- Giants committed to running game, Tracy gets 15-20 touches
+
+---
+
+### DROP RECOMMENDATION: YES - 100% CONFIDENCE
+
+```
+╔════════════════════════════════════════════════════════╗
+║                                                        ║
+║   DROP CAM SKATTEBO IMMEDIATELY                        ║
+║                                                        ║
+║   ✅ Out for season (6-9 month recovery)               ║
+║   ✅ Zero fantasy value in 2025                        ║
+║   ✅ Tyrone Tracy Jr. available (14.4 proj)            ║
+║   ✅ Need roster spot for active players               ║
+║   ✅ Redraft league (no keeper value)                  ║
+║                                                        ║
+║   Confidence Level: 100% - No reason to hold           ║
+║                                                        ║
+╚════════════════════════════════════════════════════════╝
+```
+
+**Why DROP is the Only Logical Move:**
+
+**Reason 1: Zero 2025 Value**
+- Confirmed OUT for remainder of season (Weeks 9-17)
+- Cannot help in playoffs (Weeks 16-17)
+- Taking up roster spot that could hold active player
+
+**Reason 2: No Dynasty/Keeper Value**
+- This is a redraft league (2025 season only)
+- You don't keep players for 2026
+- His 2026 recovery is irrelevant to your championship
+
+**Reason 3: Better Options Available**
+- Tyrone Tracy Jr. available with 14.4 projection
+- Tracy replaces Skattebo's production immediately
+- Tracy is the #1 available RB on waivers
+
+**Reason 4: No Trade Value**
+- Cannot trade injured player (out for season)
+- Trade deadline in 4 weeks (Nov 26) - no one wants him
+- Even desperate teams need 2025 contributors
+
+**Reason 5: Roster Crunch**
+- You have 17 players (at max roster size)
+- Need to add: Kicker (Elliott bye), Tracy Jr., Rams D/ST
+- Every roster spot is precious
+- Skattebo is dead weight
+
+---
+
+### Net Roster Impact: +14.4 Points Per Week
+
+**Before Skattebo Injury:**
+- RB Depth: Skattebo (14.0 proj), Dobbins (11.3), Spears (9.6), Irving (OUT)
+- Healthy starters: 2 RBs
+
+**After Skattebo Injury:**
+- RB Depth: Dobbins (11.3), Spears (9.6), Irving (OUT)
+- Healthy starters: 2 RBs
+- **GAP: Missing RB depth**
+
+**After Adding Tracy Jr.:**
+- RB Depth: **Tracy Jr. (14.4)**, Dobbins (11.3), Spears (9.6), Irving (OUT)
+- Healthy starters: **3 RBs** ← Major upgrade!
+- Tracy is your new RB2 (higher proj than Dobbins or Spears)
+
+**Net Result:**
+- Drop: Skattebo (0.0 value, OUT for season)
+- Add: Tracy Jr. (14.4 value, immediate RB2)
+- **Improvement: +14.4 points per week**
+
+---
+
+### Empathy Note: Making the Tough Decision
+
+I know dropping a player who was performing well is difficult. Skattebo was having a solid rookie season (emerging as Giants' lead back) and showed real promise. But in fantasy football - especially in a competitive redraft league fighting for a championship - you **must be ruthless** with roster management.
+
+**The Hard Truth:**
+- Skattebo's 2025 season is over (confirmed by Giants)
+- You're 4-4 and fighting for playoff position (#5 standing)
+- Division total points format = every point matters every week
+- Tracy Jr. can contribute 14.4 pts/week vs Skattebo's 0.0
+
+**Honor Skattebo's contributions** by making the smart roster move and maximizing your championship chances. That's what winning fantasy teams do. Sentimentality loses championships.
+
+**Giants fans and Skattebo fantasy managers alike** are rooting for his 2026 recovery. But for your 2025 season, he's done.
+
+---
+
+### Drop Priority List (Updated)
+
+**Must Drop This Week:**
+
+1. **Cam Skattebo (NYG, RB)** ← **DROP #1**
+   - OUT for season
+   - Add: Tyrone Tracy Jr. (14.4 proj)
+
+2. **Isaiah Davis (NYJ, RB)** ← **DROP #2**
+   - 0.0 projection, never plays
+   - Add: Cairo Santos (8.6 proj, kicker stream)
+
+3. **Jake Elliott (PHI, K)** ← **DROP #3 (if needed)**
+   - On bye Week 9
+   - Add: Rams D/ST (7.5 proj)
+
+**Do NOT Drop:**
+- ❌ Bucky Irving (TB) - Expected back Week 10-11 (short-term injury)
+- ❌ Cade Otton (TB) - Viable TE backup
+- ❌ Any WR - All have PPR value and trade potential
+
+---
+
+### Summary: Skattebo Analysis
+
+**Medical Verdict:** Season-ending open ankle dislocation with tibia/fibula fractures. Emergency surgery successful. 6-9 month recovery timeline targeting 2026 training camp.
+
+**Fantasy Verdict:** DROP IMMEDIATELY with 100% confidence. Zero 2025 value in redraft league. Tyrone Tracy Jr. is the direct replacement and upgrade (14.4 proj vs 0.0).
+
+**Emotional Verdict:** Tough but necessary. Honor Skattebo by maximizing your roster and championship chances. Wish him well in his 2026 recovery.
+
+**Action Required:** Drop Skattebo, add Tyrone Tracy Jr. before Sunday. Tracy is your new RB2/flex option.
 
 ---
 

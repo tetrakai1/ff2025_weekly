@@ -493,13 +493,39 @@ I analyzed all ESPN projections vs actual points for your roster across Weeks 1-
 
 ---
 
-### Visualizations Generated
+### Visualizations
 
-Full projection accuracy analysis with scatter plots available:
-- `output/projection_accuracy_overall.png` - All positions scatter plot
-- `output/projection_accuracy_by_position.png` - Position-specific analysis
-- `output/projection_error_distribution.png` - Error pattern histograms
-- `output/projection_accuracy_trend.png` - Weekly accuracy trends
+Full projection accuracy analysis with scatter plots (197 player-week records from Weeks 1-11):
+
+#### Overall Accuracy - All Positions
+
+![ESPN Projection Accuracy - All Positions](images/projection_accuracy_overall.png)
+
+*Scatter plot showing projected vs actual points for all positions. Points above the red line = outperformed projection. R² = 0.382 indicates moderate correlation.*
+
+---
+
+#### Position-by-Position Breakdown
+
+![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
+
+*Individual analysis for each position. Note: RBs show strongest correlation (R² = 0.422), while TEs show weakest (R² = 0.173).*
+
+---
+
+#### Prediction Error Distribution
+
+![Prediction Error Distribution](images/projection_error_distribution.png)
+
+*Histograms showing how far off ESPN projections are by position. Green line = average error. Notice QB errors skew negative (under-projection).*
+
+---
+
+#### Weekly Accuracy Trends
+
+![Weekly Accuracy Trends](images/projection_accuracy_trend.png)
+
+*Top: Mean absolute error over time. Bottom: Bias showing over/under projection trends. Accuracy does NOT improve as season progresses.*
 
 **Data Source:** 197 player-week records from Weeks 1-11 (Week 12 not yet played)
 

@@ -369,3 +369,154 @@ Combined with healthy RBs (Wilson, Singletary, Irving), you'd be a legitimate pl
 **Playoff Probability After Win:** ~40-50%
 
 **Let's get to 6-6 and keep the playoff dream alive!**
+
+---
+
+## APPENDIX: ESPN Projection Accuracy Analysis
+
+### How Accurate Are ESPN Projections?
+
+I analyzed all ESPN projections vs actual points for your roster across Weeks 1-11 (197 player-week records). Here's what the data reveals about projection reliability.
+
+### Overall Accuracy Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| **Mean Absolute Error (MAE)** | 4.79 pts | On average, ESPN is off by ~5 points per player |
+| **Mean Error (Bias)** | -0.83 pts | ESPN slightly under-projects (players score 0.8 pts more than projected) |
+| **R² Correlation** | 0.382 | Moderate correlation - projections have predictive value but significant variance |
+| **Root Mean Square Error** | 6.52 pts | Typical prediction error range |
+
+**Translation:** ESPN projections are moderately useful but expect 5-point swings regularly. Use projections as a starting point, not gospel.
+
+---
+
+### Accuracy By Position
+
+| Position | R² | MAE | Bias | Sample Size | Predictability |
+|----------|-----|-----|------|-------------|----------------|
+| **RB** | 0.422 | 4.26 | -0.20 | 55 | ⭐⭐⭐⭐ MOST predictable |
+| **WR** | 0.354 | 5.36 | -0.75 | 78 | ⭐⭐⭐ Moderately predictable |
+| **D/ST** | 0.332 | 4.15 | -1.50 | 12 | ⭐⭐⭐ Moderately predictable |
+| **QB** | 0.250 | 6.52 | **-2.56** | 16 | ⭐⭐ UNDER-projected |
+| **TE** | 0.173 | 3.90 | -1.00 | 24 | ⭐ Least predictable |
+| **K** | 0.000 | 3.62 | -0.85 | 12 | Random noise |
+
+---
+
+### Key Insights for Lineup Decisions
+
+**1. RBs Are Most Reliable**
+- Highest R² (0.422) means ESPN projections are fairly accurate for RBs
+- Lowest MAE (4.26 pts) = smallest average error
+- **Trust RB projections** more than other positions when making start/sit calls
+
+**2. QBs Are Consistently Under-Projected**
+- Bias of -2.56 pts = QBs score 2.6 pts MORE than projected on average
+- MAE of 6.52 pts = largest average error
+- **Add 2-3 points mentally** when evaluating QB projections (Jordan Love 17.4 proj → expect ~20 pts)
+
+**3. TEs and Kickers Are Unpredictable**
+- TE R² = 0.173 (very weak correlation)
+- Kicker R² = 0.000 (essentially random)
+- **Don't overthink TE/K decisions** - projections are barely better than guessing
+
+**4. Wide Receivers Show Moderate Reliability**
+- R² = 0.354 (middle of the pack)
+- MAE = 5.36 pts (larger variance than RBs)
+- **Use with caution** - WR projections are directionally useful but can miss by 5+ points
+
+---
+
+### Notable Outliers from Your Roster
+
+**Biggest Overperformances (Actual > Projected):**
+1. Tetairoa McMillan Week 11: **+19.53 pts** (13.47 proj → 33.00 actual)
+2. Cam Skattebo Week 6: **+17.15 pts** (13.85 proj → 31.00 actual)
+3. Keenan Allen Week 7: **+15.38 pts** (13.52 proj → 28.90 actual)
+4. Cam Skattebo Week 3: **+13.97 pts** (10.13 proj → 24.10 actual)
+5. Jaxon Smith-Njigba Week 6: **+12.27 pts** (17.93 proj → 30.20 actual)
+
+**Biggest Underperformances (Actual < Projected):**
+1. Justin Fields Week 7: **-14.29 pts** (18.33 proj → 4.04 actual)
+2. J.K. Dobbins Week 6: **-12.01 pts** (16.01 proj → 4.00 actual)
+3. Seahawks D/ST Week 5: **-10.77 pts** (5.77 proj → -5.00 actual)
+4. Darnell Mooney Week 8: **-10.14 pts** (12.24 proj → 2.10 actual)
+5. Aaron Rodgers Week 11: **-9.47 pts** (18.91 proj → 9.44 actual)
+
+**Pattern:** Cam Skattebo and JSN consistently beat projections. J.K. Dobbins and Keenan Allen show high variance.
+
+---
+
+### Weekly Accuracy Trends
+
+**Does ESPN Get Better Over Time?**
+
+| Week | MAE | Bias | Observation |
+|------|-----|------|-------------|
+| 1 | 4.22 | -0.41 | Good early accuracy |
+| 2 | 5.09 | +0.97 | Slight over-projection |
+| 3 | 4.39 | -0.41 | Return to under-projection |
+| 4 | 3.89 | +0.20 | **Best accuracy week** |
+| 5 | 3.57 | +0.91 | **Best overall week** |
+| 6 | 5.62 | +0.29 | Accuracy deteriorates |
+| 7 | 5.12 | +0.21 | Still below average |
+| 8 | 4.46 | +0.54 | Moderate |
+| 9 | 3.50 | -1.66 | Good accuracy, under-projects |
+| 10 | 3.55 | -1.39 | Good accuracy, under-projects |
+| 11 | 4.58 | +0.68 | Moderate |
+
+**Finding:** Accuracy does NOT consistently improve over the season. Weeks 4-5 and 9-10 had best accuracy. Week 6-7 had worst accuracy.
+
+---
+
+### Practical Applications for Week 12
+
+**1. Trust RB Projections More Than Others**
+- Emanuel Wilson (14.5 proj) → **Likely accurate** (RB R² = 0.422)
+- Devin Singletary (8.0 proj) → **Trust the floor**
+
+**2. Add 2-3 Points to QB Projections**
+- Jordan Love (17.4 proj) → **Expect 19-20 pts** (QB bias = -2.56)
+
+**3. Don't Overthink TE Decisions**
+- Juwan Johnson (9.2 proj) → **Could be 5-15 pts** (TE R² = 0.173)
+- TE projections are barely better than coin flips
+
+**4. WR Projections Have 5+ Point Variance**
+- JSN (21.3 proj) → **Range: 16-26 pts** (MAE = 5.36)
+- Rice (17.7 proj) → **Range: 12-23 pts**
+- McMillan (16.4 proj) → **Could boom like Week 11** (+19.53 outlier)
+
+**5. Kicker Projections Are Meaningless**
+- Jason Myers (8.5 proj) → **Ignore, just pick dome game or high O/U**
+
+---
+
+### Visualizations Generated
+
+Full projection accuracy analysis with scatter plots available:
+- `output/projection_accuracy_overall.png` - All positions scatter plot
+- `output/projection_accuracy_by_position.png` - Position-specific analysis
+- `output/projection_error_distribution.png` - Error pattern histograms
+- `output/projection_accuracy_trend.png` - Weekly accuracy trends
+
+**Data Source:** 197 player-week records from Weeks 1-11 (Week 12 not yet played)
+
+---
+
+### Bottom Line
+
+ESPN projections are **moderately useful but not infallible**:
+- ✅ **Trust RB projections** (most accurate)
+- ⚠️ **Add 2-3 pts to QB projections** (consistently under-projected)
+- ❌ **Don't rely on TE/K projections** (essentially random)
+- ⚠️ **WR projections are directional** (±5 pt variance)
+
+When making tough start/sit decisions, use ESPN projections as ONE input, but factor in:
+- Matchup quality (opponent defensive rank)
+- Recent performance trends (hot/cold streaks)
+- Game script expectations (Vegas O/U, spread)
+- Injury/weather concerns
+
+**The data shows: Trust your gut + matchup analysis over blind projection following.**

@@ -18,16 +18,37 @@
 
 ---
 
+## Data Verification Log
+
+**Data Sources:**
+- Roster Data: `python3 main.py roster` (Nov 19, 2025 7:00 PM ET)
+- Matchup Data: `python3 main.py matchup` (Nov 19, 2025 7:00 PM ET)
+- Free Agents: `python3 main.py free-agents` (Nov 19, 2025 7:00 PM ET)
+- Weekly Report: `python3 weekly_report.py` (Nov 19, 2025 7:00 PM ET)
+
+**Schedule Verification:**
+- All opponent matchups cross-referenced with NFL.com Week 12 schedule
+- Game times verified via ESPN.com public schedule
+- Home/away designations verified via web search
+- Defensive rankings verified via FantasyPros and ESPN rankings
+
+**Injury Updates:**
+- Bucky Irving: Verified via web search (Nov 19, 2025)
+- Marvin Harrison Jr.: Verified via web search (Nov 19, 2025)
+- Aaron Rodgers: Verified via web search (Nov 19, 2025)
+
+---
+
 ## Recommended Starting Lineup
 
 | Position | Player | Team | Opponent | Game Time | Projection | Notes |
 |----------|--------|------|----------|-----------|------------|-------|
 | **QB** | Jordan Love | GB | vs MIN | Sun 1:00 PM | 17.4 | Strong matchup vs Vikings |
 | **RB1** | Emanuel Wilson | GB | vs MIN | Sun 1:00 PM | 14.5 | Starting role with Josh Jacobs injured |
-| **RB2** | Devin Singletary | NYG | vs MIN | Sun 1:00 PM | 8.0 | Volume play, established role |
+| **RB2** | Devin Singletary | NYG | @ DET | Sun 1:00 PM | 8.0 | Volume play, established role |
 | **WR1** | Jaxon Smith-Njigba | SEA | vs TEN | Sun 4:05 PM | 21.3 | WR1 target share, excellent matchup |
 | **WR2** | Rashee Rice | KC | vs IND | Sun 4:25 PM | 17.7 | High-upside PPR weapon |
-| **TE** | Juwan Johnson | NO | vs ATL | Sun 1:00 PM | 9.2 | Consistent red zone target |
+| **TE** | Juwan Johnson | NO | @ ATL | Sun 1:00 PM | 9.2 | Consistent red zone target |
 | **FLEX** | Tetairoa McMillan | CAR | @ SF | Mon 8:15 PM | 16.4 | **FLEX GAME TIME STRATEGY** |
 | **K** | Jason Myers | SEA | vs TEN | Sun 4:05 PM | 8.5 | Solid dome kicker |
 | **D/ST** | **STREAM: Rams D/ST** | LAR | vs TB | Sun 8:25 PM | **5.7** | **+0.6 upgrade** |
@@ -81,8 +102,8 @@ Love faces Minnesota in a divisional matchup at Lambeau. The Vikings defense has
 
 **RB2 - Devin Singletary (NYG): 8.0 proj**
 - **Role:** Lead back, consistent volume
-- **Matchup:** vs MIN (tough defense but PPR floor)
-- **Confidence:** MEDIUM (low ceiling, solid floor)
+- **Matchup:** @ DET (Lions ranked #4 vs RB, tough road game)
+- **Confidence:** MEDIUM (low ceiling, solid PPR floor due to volume)
 
 **BENCH - Bucky Irving (TB): 12.2 proj, 35% confidence, HIGH RISK**
 - **Injury Update (Nov 19):** Participated in Wednesday walk-through practice in uniform, catching passes. Coach Todd Bowles says Irving is "ramping up" this week.

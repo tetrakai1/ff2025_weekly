@@ -45,7 +45,7 @@
 
 ### Overall Accuracy
 
-![ESPN Projection Accuracy Overall](../output/projection_accuracy_overall.png)
+![ESPN Projection Accuracy Overall](images/projection_accuracy_overall.png)
 
 **Key Finding:** ESPN projections show **WEAK overall correlation** with actual points:
 - **R² = 0.373** (explains only 37.3% of variance in actual points)
@@ -54,7 +54,7 @@
 
 ### Position-Specific Reliability
 
-![ESPN Projection Accuracy by Position](../output/projection_accuracy_by_position.png)
+![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
 
 **Reliability Rankings (Weeks 1-11, 197 records):**
 
@@ -96,25 +96,25 @@ This is a **scientific data collection effort** across multiple seasons (2025 �
 
 ## Recommended Starting Lineup
 
-| Position | Player | Team | Opponent | Game Time | Projection | Notes |
-|----------|--------|------|----------|-----------|------------|-------|
-| **QB** | Jordan Love | GB | vs MIN | Sun 1:00 PM | 17.4 | Strong matchup vs Vikings |
-| **RB1** | Emanuel Wilson | GB | vs MIN | Sun 1:00 PM | 14.5 | Starting role with Josh Jacobs injured |
-| **RB2** | Devin Singletary | NYG | @ DET | Sun 1:00 PM | 8.0 | Volume play, established role |
-| **WR1** | Jaxon Smith-Njigba | SEA | vs TEN | Sun 4:05 PM | 21.3 | WR1 target share, excellent matchup |
-| **WR2** | Rashee Rice | KC | vs IND | Sun 4:25 PM | 17.7 | High-upside PPR weapon |
-| **TE** | Juwan Johnson | NO | @ ATL | Sun 1:00 PM | 9.2 | Consistent red zone target |
-| **FLEX** | Tetairoa McMillan | CAR | @ SF | Mon 8:15 PM | 16.4 | **FLEX GAME TIME STRATEGY** |
-| **K** | Jason Myers | SEA | vs TEN | Sun 4:05 PM | 8.5 | Solid dome kicker |
-| **D/ST** | **STREAM: Rams D/ST** | LAR | vs TB | Sun 8:25 PM | **5.7** | **+0.6 upgrade** |
+| Position | Player | Team | Opponent | Game Time | ESPN Proj | LLM Proj | Conf | Notes |
+|----------|--------|------|----------|-----------|-----------|----------|------|-------|
+| **QB** | Jacoby Brissett | ARI | vs JAX | Sun 4:05 PM | 16.7 | 20.5 | MED-HIGH | Indoor dome, JAX allows 20+ to QBs 5 wks |
+| **RB1** | Emanuel Wilson | GB | vs MIN | Sun 1:00 PM | 14.5 | 15.5 | MED-HIGH | MIN weak vs RB (24th), run-heavy script |
+| **RB2** | Devin Singletary | NYG | @ DET | Sun 1:00 PM | 9.9 | 10.5 | MED | PPR floor, volume play |
+| **WR1** | Jaxon Smith-Njigba | SEA | vs TEN | Sun 4:05 PM | 21.3 | 20.5 | MED | WR1 target share, SEA implied 27 pts |
+| **WR2** | Rashee Rice | KC | vs IND | Sun 4:25 PM | 17.7 | 18.0 | MED | High-upside PPR, KC implied 26.5 pts |
+| **TE** | Juwan Johnson | NO | @ ATL | Sun 1:00 PM | 9.2 | 9.5 | LOW | Red zone target, TE weak ESPN R² |
+| **FLEX** | Tetairoa McMillan | CAR | @ SF | Mon 8:15 PM | 16.3 | 15.0 | MED | **Monday night flexibility** |
+| **K** | Jason Myers | SEA | vs TEN | Sun 4:05 PM | 8.5 | 8.0 | LOW | K projections random (R²=0.0) |
+| **D/ST** | **Rams D/ST** | LAR | vs TB | Sun 8:25 PM | 5.7 | 6.0 | LOW | Stream vs struggling TB offense |
 
-**TOTAL PROJECTED: 118.3 points**
+**TOTAL PROJECTED: 123.5 points** (LLM projections)
 
 ### Critical FLEX Game Time Strategy
 
 **Tetairoa McMillan MUST be in the FLEX position** as he plays Monday Night Football (8:15 PM ET). This provides maximum lineup flexibility:
 
-- **Sunday 1:00 PM games:** Monitor injury news for Love, Wilson, Singletary, Juwan Johnson
+- **Sunday 1:00 PM games:** Monitor injury news for Brissett, Wilson, Singletary, Juwan Johnson
 - **Sunday 4:05-4:25 PM games:** JSN, Rice provide afternoon injury insurance
 - **Monday Night:** McMillan as final option allows you to pivot if Sunday players are ruled out
 
@@ -127,59 +127,71 @@ This is a **scientific data collection effort** across multiple seasons (2025 �
 
 ## Full Bench Listing
 
-| Position | Player | Team | Status | Projection | Notes |
-|----------|--------|------|--------|------------|-------|
-| QB | Aaron Rodgers | PIT | QUESTIONABLE | 0.0 | Game-time decision, backup only |
-| RB | Bucky Irving | TB | **INJURY CONCERN** | 12.2 | Practicing (Wed), ramping up, 35% confidence |
-| RB | Tyjae Spears | TEN | HEALTHY | 9.6 | Flex-worthy if needed |
-| RB | Tyler Allgeier | ATL | HEALTHY | 6.8 | Handcuff/bye fill-in |
-| WR | Jameson Williams | DET | HEALTHY | 12.9 | Boom/bust option |
-| WR | Marvin Harrison Jr. | ARI | **OUT** | 0.0 | Appendectomy, Week 13-14 return |
-| IR | Omarion Hampton | LAC | **IR** | 0.0 | Ankle injury, Week 13+ return |
+| Position | Player | Team | Status | ESPN Proj | LLM Proj | Conf | Notes |
+|----------|--------|------|--------|-----------|----------|------|-------|
+| QB | Jordan Love | GB | BENCH | 17.4 | 18.0 | MED | Low Vegas total (41.5), wind gusts, shoulder injury |
+| QB | Aaron Rodgers | PIT | QUESTIONABLE | 0.0 | 0.0 | N/A | Game-time decision, backup only |
+| RB | Bucky Irving | TB | **INJURY CONCERN** | 12.2 | 9.0 | LOW | Foot/shoulder injuries, 35% confidence |
+| RB | Tyjae Spears | TEN | HEALTHY | 9.6 | 9.0 | LOW | Backup role, flex-worthy if needed |
+| RB | Tyler Allgeier | ATL | HEALTHY | 6.8 | 7.0 | LOW | Handcuff/bye fill-in |
+| WR | Jameson Williams | DET | HEALTHY | 12.9 | 14.5 | MED | Boom/bust, DET implies 29.75 pts |
+| WR | Marvin Harrison Jr. | ARI | **OUT** | 0.0 | 0.0 | N/A | Appendectomy, Week 13-14 return |
+| IR | Omarion Hampton | LAC | **IR** | 0.0 | 0.0 | N/A | Ankle injury, Week 13+ return |
 
 ---
 
 ## Position-by-Position Analysis
 
-### Quarterback: Jordan Love (GB) vs Jacoby Brissett (ARI)
-
-#### Jordan Love (GB vs MIN, HOME, Sun 1:00 PM)
-- **ESPN Projection (IBM watsonx):** 17.42 pts
-- **LLM Projection (Claude Sonnet 4.5):** 18.5 pts (MEDIUM confidence)
-- **Recommendation:** START LOVE - Trust LLM projection (~18-19 pts expected)
-
-**LLM Reasoning:**
-- Vikings rank **24th vs QB** (weak defense, allows 19+ pts/game to QBs)
-- **Home game at Lambeau Field** (outdoor stadium, home field advantage)
-- **Vegas:** GB implied total 23.75 pts (Total 41.5, GB -6) - **LOW-scoring game** (concerning)
-- **Weather:** 45°F, Wind 6-11 mph with gusts up to 23 mph (moderate conditions, could slightly impact passing)
-- **Historical bias:** ESPN under-projects QBs by **-3.61 pts** (R²=0.109 - essentially random)
-- **Adjusted expectation:** ESPN 17.42 + QB bias 3.61 = **~21 pts**, but low Vegas total (41.5) caps ceiling at 18-19 pts
-- Divisional matchup, MIN weak vs QB, but weather + low game total create moderate uncertainty
-
-**Data Sources Used:** vegas, weather, defense, bias_analysis
+### Quarterback: Jacoby Brissett (ARI) vs Jordan Love (GB)
 
 #### Jacoby Brissett (ARI vs JAX, HOME, Sun 4:05 PM)
 - **ESPN Projection (IBM watsonx):** 16.72 pts
-- **LLM Projection (Claude Sonnet 4.5):** 16.5 pts (LOW confidence)
-- **Recommendation:** BENCH - Lower ceiling than Love, backup QB uncertainty
+- **LLM Projection (Claude Sonnet 4.5):** 20.5 pts (MEDIUM-HIGH confidence)
+- **Recommendation:** ✅ START BRISSETT - Trust LLM projection (~20-23 pts expected)
 
 **LLM Reasoning:**
-- **Backup QB** filling in for injured starter (limited track record)
-- **Indoor dome game** at State Farm Stadium (favorable passing conditions)
-- **Vegas:** ARI implied total 22.5 pts (Total 47.5, JAX -2.5) - medium-scoring game
-- JAX defense ranks **~15th vs QB** (middle of pack, tougher than MIN)
-- Limited offensive weapons in ARI offense caps upside
-- ESPN projection 16.72 seems reasonable for backup QB with unknown ceiling
+- **Vegas:** ARI implied total 22.5 pts (Total 47.5, JAX -2.5) - **HIGH-scoring game expected** (47.5 is MUCH higher than GB's 41.5)
+- **Indoor dome** at State Farm Stadium (PERFECT passing conditions, zero weather concerns)
+- **Defensive matchup:** JAX allows **20+ fantasy points to QBs in 5 STRAIGHT WEEKS**, ranks 26th vs pass
+- JAX ranks **1st vs run** (allows only 42 rush yds/game) → Forces ARI to throw = volume-based production
+- **Recent form:** QB4 in fantasy since Week 6 (21.9 PPG), top 12 QB **EVERY SINGLE START** (5 games)
+- **Week 11 performance:** 47 completions (**NFL RECORD**), 452 yards, 2 TDs vs SF
+- **Volume:** Averaging 36+ pass attempts per start, close spread (-2.5) = throwing all game
+- **Expert consensus:** FantasyPros QB1, SI "Start with confidence," PFF "Multiple TDs feel safe"
+- **Health:** 100% healthy, confirmed starter for 4th straight game
+- **Historical bias:** ESPN under-projects QBs by -3.61 pts → 16.72 + 3.61 = ~20.3 pts baseline
+- **Correction:** Original document had LOW confidence for Brissett - INCORRECT. Elite recent form + perfect matchup = MED-HIGH confidence
 
-**Data Sources Used:** vegas, defense
+**Data Sources Used:** vegas, weather, recent_performance, experts, defense, bias_analysis, volume
 
-**DECISION:** **START Jordan Love over Jacoby Brissett**
-- LLM projects Love for **+2.0 more points** (18.5 vs 16.5)
-- Love has **better defensive matchup** (MIN 24th vs JAX 15th)
-- Love has **home field advantage** at Lambeau
-- Despite low Vegas total (41.5), Love's matchup + ESPN QB bias favors him
-- Brissett is backup QB with unknown ceiling and limited weapons
+#### Jordan Love (GB vs MIN, HOME, Sun 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 17.42 pts
+- **LLM Projection (Claude Sonnet 4.5):** 18.0 pts (MEDIUM confidence)
+- **Recommendation:** ❌ BENCH - Higher risk, lower ceiling than Brissett
+
+**LLM Reasoning:**
+- **Vegas:** GB implied total 23.75 pts (Total 41.5, GB -6) - **LOW-scoring game** (market trending down from 42.5)
+- **Weather:** 45°F, Wind 6-11 mph with **gusts up to 23 mph** (impacts passing accuracy)
+- **Injury concern:** Playing through **sore left shoulder** from Week 11 (outdoor + wind + injury = risk)
+- **Defensive matchup:** MIN ranks **10th in points allowed** (20.8 PPG), **2nd in turnovers forced** (2.4/game)
+  - Vikings pass defense is weak (234 yds/game allowed), BUT high turnover rate creates risk
+  - **CORRECTION:** Original document stated "MIN 24th vs QB" - **INCORRECT DATA**. Vikings rank 10th, not 24th.
+- **Recent form:** Inconsistent (struggled Weeks 9-10, bounce-back Week 11 vs NYG)
+- **Expert consensus:** FantasyPros mid-low QB2 ranking, concern over low Vegas total (41.5)
+- **Vegas total trending DOWN:** Opened 42.5 → now 41.5 (market expects fewer points)
+- **Historical bias:** ESPN 17.42 + QB bias 3.61 = ~21 pts, BUT low game total caps ceiling at 18-19 pts
+
+**Data Sources Used:** vegas, weather, injury, defense, bias_analysis
+
+**DECISION:** **START Jacoby Brissett over Jordan Love**
+- Brissett has **+2.5 point advantage** (20.5 vs 18.0 LLM projection)
+- **Vegas game environment:** 47.5 (ARI) vs 41.5 (GB) = **6-point difference** favors Brissett
+- **Weather:** Indoor dome vs outdoor 23 mph gusts = **SIGNIFICANT advantage**
+- **Health:** Brissett 100% healthy vs Love sore shoulder = lower injury risk
+- **Defensive matchup:** JAX allows 20+ pts to QBs 5 straight weeks vs MIN forces turnovers (2nd in NFL)
+- **Recent form:** Brissett QB4 (21.9 PPG) since Week 6 vs Love inconsistent = higher floor
+- **Expert consensus:** Brissett QB1 vs Love QB2 = universal agreement
+- **Risk/reward:** Brissett has higher floor (20 pts) AND higher ceiling (23+ pts)
 
 **Note on Aaron Rodgers:** Showing 0.0 projection (injury-related). Monitor but do not start.
 
@@ -678,7 +690,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Overall Accuracy - All Positions
 
-![ESPN Projection Accuracy - All Positions](../output/projection_accuracy_overall.png)
+![ESPN Projection Accuracy - All Positions](images/projection_accuracy_overall.png)
 
 *Scatter plot showing projected vs actual points for all positions. Points above the red line = outperformed projection. R² = 0.382 indicates moderate correlation.*
 
@@ -686,7 +698,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Position-by-Position Breakdown
 
-![ESPN Projection Accuracy by Position](../output/projection_accuracy_by_position.png)
+![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
 
 *Individual analysis for each position. Note: RBs show strongest correlation (R² = 0.422), while TEs show weakest (R² = 0.173).*
 
@@ -694,7 +706,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Prediction Error Distribution
 
-![Prediction Error Distribution](../output/projection_error_distribution.png)
+![Prediction Error Distribution](images/projection_error_distribution.png)
 
 *Histograms showing how far off ESPN projections are by position. Green line = average error. Notice QB errors skew negative (under-projection).*
 
@@ -702,7 +714,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Weekly Accuracy Trends
 
-![Weekly Accuracy Trends](../output/projection_accuracy_trend.png)
+![Weekly Accuracy Trends](images/projection_accuracy_trend.png)
 
 *Top: Mean absolute error over time. Bottom: Bias showing over/under projection trends. Accuracy does NOT improve as season progresses.*
 

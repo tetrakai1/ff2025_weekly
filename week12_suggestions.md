@@ -1,921 +1,565 @@
-# Week 12 Fantasy Football Suggestions
-**Valued Customers** vs **Wookie of the Year**
-
----
-
-## Executive Summary
-
-**Current Record:** 5-6 (Rank #7 of 12)
-**Playoff Status:** OUTSIDE PLAYOFFS (Top 6 make playoffs)
-**Opponent:** Wookie of the Year (6-5, Rank #5)
-**Location:** AWAY
-**Projected Score:** YOU 118.3 vs OPP 101.1
-**Win Probability:** FAVORABLE (+17.2 point margin)
-
-**Critical Context:** This is a MUST-WIN game. At 5-6 with 3 games remaining, we need 2-3 wins to make playoffs. We're currently one spot out (#7, need top 6). The good news: we're projected to win decisively. The opponent has an elite QB (Drake Maye, 25.1 proj) but a weaker supporting cast.
-
-**Trade Deadline Alert:** November 26, 2025 @ 11:00 AM CST (7 days away!)
+# Week 12 Lineup Suggestions - Valued Customers
+**Generated:** November 21, 2025 11:52 PM CST
+**Matchup:** vs Wookie of the Year (AWAY)
+**Current Record:** 5-6 (#7 of 12)
+**Playoff Status:** On the bubble - must win
 
 ---
 
 ## Data Verification Log
 
 **Data Sources:**
-- Roster Data: `python3 main.py roster` (Nov 19, 2025 7:00 PM ET)
-- Matchup Data: `python3 main.py matchup` (Nov 19, 2025 7:00 PM ET)
-- Free Agents: `python3 main.py free-agents` (Nov 19, 2025 7:00 PM ET)
-- Weekly Report: `python3 weekly_report.py` (Nov 19, 2025 7:00 PM ET)
+- Roster Data: `python3 main.py roster` (Nov 21, 2025 23:52 CST)
+- Matchup Data: `python3 main.py matchup` (Nov 21, 2025 23:52 CST)
+- Weekly Report: `python3 weekly_report.py` (Nov 21, 2025 23:52 CST)
+- Free Agents: `python3 main.py free-agents` (Nov 21, 2025 23:52 CST)
+- Trade Analyzer: `python3 main.py trades` (Nov 21, 2025 23:52 CST)
+- Projection Accuracy: `python3 analyze_projection_accuracy.py` (Nov 21, 2025 23:52 CST)
 
 **Schedule Verification:**
-- All opponent matchups cross-referenced with NFL.com Week 12 schedule
-- Game times verified via ESPN.com public schedule
-- Home/away designations verified via web search
-- Defensive rankings verified via FantasyPros and ESPN rankings
+All opponent matchups cross-referenced with NFL.com and ESPN.com Week 12 official schedule (Nov 21, 2025). **CRITICAL ERRORS FOUND in ESPN API data:**
+- ❌ Devin Singletary (NYG): ESPN shows "vs DET" - **CORRECTED to @ DET**
+- ❌ Jaxon Smith-Njigba (SEA): ESPN shows "vs TEN" - **CORRECTED to @ TEN**
+- ❌ Tetairoa McMillan (CAR): ESPN shows "vs SF" - **CORRECTED to @ SF**
 
-**Injury Updates:**
-- Bucky Irving: Verified via web search (Nov 19, 2025)
-- Marvin Harrison Jr.: Verified via web search (Nov 19, 2025)
-- Aaron Rodgers: Verified via web search (Nov 19, 2025)
+**Verified Matchups:**
+- Jordan Love (GB): vs MIN ✓ (Sunday 1:00 PM, Lambeau Field)
+- Jacoby Brissett (ARI): vs JAX ✓ (Sunday 2:05 PM, State Farm Stadium)
+- Emanuel Wilson (GB): vs MIN ✓ (Sunday 1:00 PM, Lambeau Field)
+- Devin Singletary (NYG): @ DET ✓ (Sunday 1:00 PM, Ford Field)
+- Jaxon Smith-Njigba (SEA): @ TEN ✓ (Sunday 1:00 PM, Nissan Stadium)
+- Rashee Rice (KC): vs IND ✓ (Sunday 1:00 PM, Arrowhead Stadium)
+- Tetairoa McMillan (CAR): @ SF ✓ (Monday 8:15 PM, Levi's Stadium)
+- Juwan Johnson (NO): vs ATL ✓ (Sunday 3:25 PM, Caesars Superdome)
+- Jason Myers (SEA): @ TEN ✓ (Sunday 1:00 PM, Nissan Stadium)
+- Falcons D/ST (ATL): @ NO ✓ (Sunday 3:25 PM, Caesars Superdome)
+
+**Weather Verification:**
+- Green Bay (Lambeau Field): 47°F, 6 mph winds, 2% rain - **Excellent conditions**
+- Kansas City (Arrowhead): 58°F, 5 mph winds, 0% rain - **Excellent conditions**
+- Nashville (Nissan Stadium): 60°F, 4 mph winds, 2% rain, possible fog - **Good conditions**
 
 ---
 
-## ESPN Projection Accuracy Analysis (Weeks 1-11)
+## Matchup Overview
 
-**CRITICAL CONTEXT:** ESPN Fantasy Football projections are powered by **IBM watsonx** (7-year partnership, updated Sept 2024). IBM watsonx is an enterprise AI platform focused on historical patterns, **NOT a frontier LLM** like Claude Sonnet 4.5. This analysis examines 11 weeks of historical data (197 player-week records) to determine which positions to trust.
+**Opponent:** Wookie of the Year (6-5, #5 in league)
+**Current Score:** 0.0 - 8.0 (LOSING by 8.0 points)
+**Your Projected Total:** 119.3
+**Opponent's Projected Total:** 123.0
+**Projected Outcome:** Loss by 3.7 points
 
-### Overall Accuracy
+**Opponent's Top Threats:**
+- Drake Maye (QB): 25.3 projected points
+- George Pickens (WR): 16.6 projected points
+- Chase Brown (RB): 15.9 projected points
 
-![ESPN Projection Accuracy Overall](images/projection_accuracy_overall.png)
+**Analysis:** This is a tight matchup with a narrow projected margin. Every lineup decision matters. The opponent has several injured players (Ja'Marr Chase, Kenneth Walker III, Mike Evans) which could work in your favor.
 
-**Key Finding:** ESPN projections show **WEAK overall correlation** with actual points:
-- **R² = 0.373** (explains only 37.3% of variance in actual points)
-- **MAE = 4.82 points** (average error magnitude)
-- **Bias = -0.86 points** (slight under-projection tendency)
+---
 
-### Position-Specific Reliability
+## CRITICAL INJURY ALERTS
 
-![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
-
-**Reliability Rankings (Weeks 1-11, 197 records):**
-
-| Position | Reliability | R² | MAE | Bias | Interpretation |
-|----------|-------------|-----|-----|------|----------------|
-| **QB** | VERY LOW | **0.109** | 7.56 | **-3.61** | ESPN explains only **11% of variance**. Massive under-projection of -3.61 pts. **ADD 2-4 pts or use LLM projections.** |
-| **K** | RANDOM | **0.000** | 3.62 | -0.85 | **Zero correlation**. Projections are literally random. **IGNORE COMPLETELY.** |
-| **TE** | VERY LOW | 0.173 | 3.90 | -1.00 | Weak predictive power (17.3% of variance). **Use expert consensus instead.** |
-| **D/ST** | MODERATE | 0.333 | 4.14 | -1.50 | Moderate reliability (33.3% of variance). Use with caution. |
-| **WR** | MODERATE | 0.354 | 5.36 | -0.75 | Moderate reliability (35.4% of variance). ±5 pt variance typical. |
-| **RB** | HIGH | **0.452** | 4.07 | -0.01 | **Most reliable position** (45.2% of variance). **Trust ESPN for established-role RBs.** |
-
-### Critical Insights
-
-**1. Quarterback Projections Are Essentially Random**
-- R² = 0.109 means ESPN QB projections explain only **11% of variance**
-- Systematic bias of **-3.61 points** (under-projection)
-- For Week 12 QB decisions, add 2-4 points to ESPN's projection OR rely on LLM analysis incorporating Vegas odds, weather, and recent trends
-
-**2. Kicker Projections Have Zero Correlation**
-- R² = 0.000 - no relationship between projected and actual points
-- Historical analysis shows kicker performance is unpredictable
-- **Ignore ESPN kicker projections entirely** - use Vegas game totals instead
-
-**3. Running Backs Are Most Reliable (But Still Only 45%)**
-- R² = 0.452 - best position, but still explains less than half the variance
-- Near-zero bias (-0.01 pts)
-- ESPN projections work best for established-role RBs (not committees)
-
-**Recommendation:** **Default to trusting LLM (Claude Sonnet 4.5) projections over ESPN (IBM watsonx)** for all positions EXCEPT established-role RBs where ESPN shows moderate reliability.
-
-### Why This Matters for Week 12
-
-This is a **scientific data collection effort** across multiple seasons (2025 → 2026 → 2027...). All Week 12 recommendations below show **BOTH ESPN and LLM projections** for transparency. After Week 12 completes, we'll run accuracy tracking to determine which model performed better.
-
-**IBM watsonx** focuses on historical statistical patterns. **Claude Sonnet 4.5** can synthesize real-time data (Vegas odds, weather, expert consensus, recent performance trends) that watsonx cannot access. When projections differ significantly, trust the more sophisticated model with current data.
+🔴 **OUT - Bucky Irving (TB):** Shoulder/foot subluxation injury. Week 13 return expected.
+🔴 **OUT - Marvin Harrison Jr. (ARI):** Appendicitis surgery (Nov 12). Week 13-14 return expected.
+⚠️ **SUSPENDED - Rashee Rice (KC):** 6-game suspension COMPLETED. Active and available for Week 12.
+⚠️ **INJURED RESERVE - Omarion Hampton (LAC):** Remains on IR, no return timeline.
 
 ---
 
 ## Recommended Starting Lineup
 
-| Position | Player | Team | Opponent | Game Time | ESPN Proj | LLM Proj | Conf | Notes |
-|----------|--------|------|----------|-----------|-----------|----------|------|-------|
-| **QB** | Jacoby Brissett | ARI | vs JAX | Sun 4:05 PM | 16.7 | 20.5 | MED-HIGH | Indoor dome, JAX allows 20+ to QBs 5 wks |
-| **RB1** | Emanuel Wilson | GB | vs MIN | Sun 1:00 PM | 14.5 | 15.5 | MED-HIGH | MIN weak vs RB (24th), run-heavy script |
-| **RB2** | Devin Singletary | NYG | @ DET | Sun 1:00 PM | 9.9 | 10.5 | MED | PPR floor, volume play |
-| **WR1** | Jaxon Smith-Njigba | SEA | vs TEN | Sun 4:05 PM | 21.3 | 20.5 | MED | WR1 target share, SEA implied 27 pts |
-| **WR2** | Rashee Rice | KC | vs IND | Sun 4:25 PM | 17.7 | 18.0 | MED | High-upside PPR, KC implied 26.5 pts |
-| **TE** | Juwan Johnson | NO | @ ATL | Sun 1:00 PM | 9.2 | 9.5 | LOW | Red zone target, TE weak ESPN R² |
-| **FLEX** | Tetairoa McMillan | CAR | @ SF | Mon 8:15 PM | 16.3 | 15.0 | MED | **Monday night flexibility** |
-| **K** | Jason Myers | SEA | vs TEN | Sun 4:05 PM | 8.5 | 8.0 | LOW | K projections random (R²=0.0) |
-| **D/ST** | **Rams D/ST** | LAR | vs TB | Sun 8:25 PM | 5.7 | 6.0 | LOW | Stream vs struggling TB offense |
+| Position | Player | Team | Opponent | Time | ESPN Proj | LLM Proj | Decision |
+|----------|--------|------|----------|------|-----------|----------|----------|
+| **QB** | Jacoby Brissett | ARI | vs JAX | Sun 2:05 PM | 16.7 | 20.5 | **START** |
+| **RB** | Emanuel Wilson | GB | vs MIN | Sun 1:00 PM | 14.5 | 16.0 | **START** |
+| **RB** | Devin Singletary | NYG | @ DET | Sun 1:00 PM | 9.9 | 8.5 | **START** |
+| **WR** | Jaxon Smith-Njigba | SEA | @ TEN | Sun 1:00 PM | 21.3 | 23.0 | **START** |
+| **WR** | Rashee Rice | KC | vs IND | Sun 1:00 PM | 17.7 | 18.5 | **START** |
+| **TE** | Juwan Johnson | NO | vs ATL | Sun 3:25 PM | 9.2 | 10.5 | **START** |
+| **FLEX** | Tetairoa McMillan | CAR | @ SF | Mon 8:15 PM | 16.3 | 18.0 | **START** |
+| **K** | Jason Myers | SEA | @ TEN | Sun 1:00 PM | 8.5 | 9.0 | **START** |
+| **D/ST** | Stream Option | - | - | - | - | - | **SEE BELOW** |
 
-**TOTAL PROJECTED: 123.5 points** (LLM projections)
-
-### Critical FLEX Game Time Strategy
-
-**Tetairoa McMillan MUST be in the FLEX position** as he plays Monday Night Football (8:15 PM ET). This provides maximum lineup flexibility:
-
-- **Sunday 1:00 PM games:** Monitor injury news for Brissett, Wilson, Singletary, Juwan Johnson
-- **Sunday 4:05-4:25 PM games:** JSN, Rice provide afternoon injury insurance
-- **Monday Night:** McMillan as final option allows you to pivot if Sunday players are ruled out
-
-**Alternative FLEX options if McMillan sits:**
-1. Jameson Williams (DET) - 12.9 proj, Sun 1:00 PM
-2. Bucky Irving (TB) - 12.2 proj, Sun 8:25 PM (HIGH RISK - see injury section)
-3. Tyjae Spears (TEN) - 9.6 proj, Sun 4:05 PM
+**Total Projected Points:** 131.5 (LLM projections) vs 119.3 (ESPN projections)
 
 ---
 
 ## Full Bench Listing
 
-| Position | Player | Team | Status | ESPN Proj | LLM Proj | Conf | Notes |
-|----------|--------|------|--------|-----------|----------|------|-------|
-| QB | Jordan Love | GB | BENCH | 17.4 | 18.0 | MED | Low Vegas total (41.5), wind gusts, shoulder injury |
-| QB | Aaron Rodgers | PIT | QUESTIONABLE | 0.0 | 0.0 | N/A | Game-time decision, backup only |
-| RB | Bucky Irving | TB | **INJURY CONCERN** | 12.2 | 9.0 | LOW | Foot/shoulder injuries, 35% confidence |
-| RB | Tyjae Spears | TEN | HEALTHY | 9.6 | 9.0 | LOW | Backup role, flex-worthy if needed |
-| RB | Tyler Allgeier | ATL | HEALTHY | 6.8 | 7.0 | LOW | Handcuff/bye fill-in |
-| WR | Jameson Williams | DET | HEALTHY | 12.9 | 14.5 | MED | Boom/bust, DET implies 29.75 pts |
-| WR | Marvin Harrison Jr. | ARI | **OUT** | 0.0 | 0.0 | N/A | Appendectomy, Week 13-14 return |
-| IR | Omarion Hampton | LAC | **IR** | 0.0 | 0.0 | N/A | Ankle injury, Week 13+ return |
+| Position | Player | Team | Status | ESPN Proj | Notes |
+|----------|--------|------|--------|-----------|-------|
+| QB | Jordan Love | GB | BENCH | 17.4 | Sitting for Brissett's superior matchup |
+| RB | Tyjae Spears | TEN | BENCH | 9.6 | Inferior to Singletary despite tough matchup |
+| RB | Tyler Allgeier | ATL | BENCH | 6.8 | Limited role behind Bijan Robinson |
+| RB | Bucky Irving | TB | OUT | 0.0 | Shoulder/foot injury - Week 13 return expected |
+| RB | Omarion Hampton | LAC | IR | 0.0 | On injured reserve |
+| WR | Jameson Williams | DET | BENCH | 12.9 | Boom/bust - starting safer options |
+| WR | Marvin Harrison Jr. | ARI | OUT | 0.0 | Appendicitis surgery - Week 13-14 return |
+| TE | Evan Engram | DEN | BENCH | 0.0 | Bye week - not available |
+| D/ST | Falcons D/ST | ATL | BENCH | 5.0 | Tough matchup @ NO - streaming instead |
 
 ---
 
 ## Position-by-Position Analysis
 
-### Quarterback: Jacoby Brissett (ARI) vs Jordan Love (GB)
+### QUARTERBACK: Jacoby Brissett vs Jordan Love
 
-#### Jacoby Brissett (ARI vs JAX, HOME, Sun 4:05 PM)
-- **ESPN Projection (IBM watsonx):** 16.72 pts
-- **LLM Projection (Claude Sonnet 4.5):** 20.5 pts (MEDIUM-HIGH confidence)
-- **Recommendation:** ✅ START BRISSETT - Trust LLM projection (~20-23 pts expected)
-
-**LLM Reasoning:**
-- **Vegas:** ARI implied total 22.5 pts (Total 47.5, JAX -2.5) - **HIGH-scoring game expected** (47.5 is MUCH higher than GB's 41.5)
-- **Indoor dome** at State Farm Stadium (PERFECT passing conditions, zero weather concerns)
-- **Defensive matchup:** JAX allows **20+ fantasy points to QBs in 5 STRAIGHT WEEKS**, ranks 26th vs pass
-- JAX ranks **1st vs run** (allows only 42 rush yds/game) → Forces ARI to throw = volume-based production
-- **Recent form:** QB4 in fantasy since Week 6 (21.9 PPG), top 12 QB **EVERY SINGLE START** (5 games)
-- **Week 11 performance:** 47 completions (**NFL RECORD**), 452 yards, 2 TDs vs SF
-- **Volume:** Averaging 36+ pass attempts per start, close spread (-2.5) = throwing all game
-- **Expert consensus:** FantasyPros QB1, SI "Start with confidence," PFF "Multiple TDs feel safe"
-- **Health:** 100% healthy, confirmed starter for 4th straight game
-- **Historical bias:** ESPN under-projects QBs by -3.61 pts → 16.72 + 3.61 = ~20.3 pts baseline
-- **Correction:** Original document had LOW confidence for Brissett - INCORRECT. Elite recent form + perfect matchup = MED-HIGH confidence
-
-**Data Sources Used:** vegas, weather, recent_performance, experts, defense, bias_analysis, volume
-
-#### Jordan Love (GB vs MIN, HOME, Sun 1:00 PM)
-- **ESPN Projection (IBM watsonx):** 17.42 pts
-- **LLM Projection (Claude Sonnet 4.5):** 18.0 pts (MEDIUM confidence)
-- **Recommendation:** ❌ BENCH - Higher risk, lower ceiling than Brissett
+#### Jacoby Brissett (ARI vs JAX, HOME, Sunday 2:05 PM)
+- **ESPN Projection (IBM watsonx):** 16.7 pts
+- **LLM Projection (Claude Sonnet 4.5):** 20.5 pts (HIGH confidence)
+- **Recommendation:** **START** - Trust LLM projection (~20 pts expected)
 
 **LLM Reasoning:**
-- **Vegas:** GB implied total 23.75 pts (Total 41.5, GB -6) - **LOW-scoring game** (market trending down from 42.5)
-- **Weather:** 45°F, Wind 6-11 mph with **gusts up to 23 mph** (impacts passing accuracy)
-- **Injury concern:** Playing through **sore left shoulder** from Week 11 (outdoor + wind + injury = risk)
-- **Defensive matchup:** MIN ranks **10th in points allowed** (20.8 PPG), **2nd in turnovers forced** (2.4/game)
-  - Vikings pass defense is weak (234 yds/game allowed), BUT high turnover rate creates risk
-  - **CORRECTION:** Original document stated "MIN 24th vs QB" - **INCORRECT DATA**. Vikings rank 10th, not 24th.
-- **Recent form:** Inconsistent (struggled Weeks 9-10, bounce-back Week 11 vs NYG)
-- **Expert consensus:** FantasyPros mid-low QB2 ranking, concern over low Vegas total (41.5)
-- **Vegas total trending DOWN:** Opened 42.5 → now 41.5 (market expects fewer points)
-- **Historical bias:** ESPN 17.42 + QB bias 3.61 = ~21 pts, BUT low game total caps ceiling at 18-19 pts
+- **Defensive matchup:** Jacksonville ranks 26th in passing defense, allowing 20.7 fantasy PPG to QBs
+- **Vegas odds:** Cardinals implied team total 24.5 pts (game total 49, spread Cardinals -3)
+- **Weather:** Dome game (State Farm Stadium) - perfect conditions
+- **Recent form:** Posted top-12 fantasy finishes in ALL FIVE starts, averaging 22.0 fantasy PPG over last 3 games
+- **Record performance:** Set NFL record with 47 completions vs 49ers in Week 11 (452 yards, 2 TDs)
+- **Expert consensus:** FantasyPros ECR ranks him as low-end QB1 for Week 12
+- **Historical bias:** QBs systematically under-projected by ESPN by -2.56 pts (R²=0.109)
 
-**Data Sources Used:** vegas, weather, injury, defense, bias_analysis
-
-**DECISION:** **START Jacoby Brissett over Jordan Love**
-- Brissett has **+2.5 point advantage** (20.5 vs 18.0 LLM projection)
-- **Vegas game environment:** 47.5 (ARI) vs 41.5 (GB) = **6-point difference** favors Brissett
-- **Weather:** Indoor dome vs outdoor 23 mph gusts = **SIGNIFICANT advantage**
-- **Health:** Brissett 100% healthy vs Love sore shoulder = lower injury risk
-- **Defensive matchup:** JAX allows 20+ pts to QBs 5 straight weeks vs MIN forces turnovers (2nd in NFL)
-- **Recent form:** Brissett QB4 (21.9 PPG) since Week 6 vs Love inconsistent = higher floor
-- **Expert consensus:** Brissett QB1 vs Love QB2 = universal agreement
-- **Risk/reward:** Brissett has higher floor (20 pts) AND higher ceiling (23+ pts)
-
-**Note on Aaron Rodgers:** Showing 0.0 projection (injury-related). Monitor but do not start.
-
-### Running Backs: Critical Position Due to Injuries
-
-**RB1 - Emanuel Wilson (GB vs MIN, HOME, Sun 1:00 PM)**
-- **ESPN Projection (IBM watsonx):** 14.54 pts
-- **LLM Projection (Claude Sonnet 4.5):** 15.5 pts (MEDIUM-HIGH confidence)
-- **Recommendation:** START - Trust LLM projection, RB most reliable ESPN position
-
-**LLM Reasoning:**
-- **Established starter role** replacing injured Josh Jacobs
-- MIN ranks **24th vs RB** (allows 4th most points to RBs - weak run defense)
-- **Home game** at Lambeau, **moderate weather** (45°F, wind favors running game)
-- **Vegas:** GB implied 23.75 pts, Total 41.5 (low-scoring game suggests **run-heavy script**)
-- GB favored -6 suggests **positive game script** (more rushing volume when ahead)
-- **Historical note:** RBs are ESPN's **most reliable position** (R²=0.452, Bias -0.01)
-- ESPN projection 14.54 aligns with LLM 15.5 - both models agree on solid RB1 value
-
-**Data Sources Used:** vegas, weather, defense, bias_analysis
-
-**RB2 - Devin Singletary (NYG @ DET, AWAY, Sun 1:00 PM)**
-- **ESPN Projection (IBM watsonx):** 9.86 pts
-- **LLM Projection (Claude Sonnet 4.5):** 10.5 pts (MEDIUM confidence)
-- **Recommendation:** START - Solid PPR floor due to volume, trust LLM slight upgrade
-
-**LLM Reasoning:**
-- **Lead back role** with consistent volume in NYG offense
-- **Vegas:** NYG implied total only 19.75 pts (Total 49.5, DET -10) - **LOW-scoring game for NYG**
-- DET favored -10 suggests **NYG playing from behind** (less rushing volume, more passing work)
-- **Away game** at DET - road game disadvantage
-- DET defense ranks **~18th vs RB** (middle of pack)
-- **PPR value:** Likely catches 3-5 passes as checkdown option when behind
-- Low ceiling due to negative game script, but PPR floor solid
-- RBs are ESPN's most reliable position (R²=0.452), LLM projects slight upgrade to 10.5
-
-**Data Sources Used:** vegas, defense, bias_analysis
-
-**BENCH - Bucky Irving (TB): 12.2 proj, 35% confidence, HIGH RISK**
-- **Injury Update (Nov 19):** Participated in Wednesday walk-through practice in uniform, catching passes. Coach Todd Bowles says Irving is "ramping up" this week.
-- **Injury History:** Missed 6 consecutive games with foot + shoulder injuries
-- **Week 12 Outlook:** Thursday/Friday practice reports will determine availability. Even if active, snap count/effectiveness uncertain in first game back.
-- **Recommendation:** **Keep benched**. Monitor practice reports Thu/Fri, but don't risk starting in a must-win game.
-
-**Position Depth:** Concerning. If Wilson or Singletary get injured, we're down to Spears (9.6) or Allgeier (6.8). Consider waiver adds (see below).
-
-### Wide Receivers: Strong Group With Critical FLEX Decision
-
-**WR1 - Jaxon Smith-Njigba (SEA @ TEN, AWAY, Sun 4:05 PM)**
-- **ESPN Projection (IBM watsonx):** 21.33 pts
-- **LLM Projection (Claude Sonnet 4.5):** 20.5 pts (MEDIUM confidence)
-- **Recommendation:** START - Elite WR1, both models agree on WR1 value
-
-**LLM Reasoning:**
-- **Vegas:** SEA implied total 27 pts (Total 40.5, SEA -13.5) - **HIGH-scoring game expected**
-- SEA favored -13.5 suggests **blowout potential** (more passing volume early, run late)
-- **Perfect weather:** 62°F, Wind 2-11 mph in Nashville (ideal passing conditions)
-- **Away game** at TEN - neutral impact
-- WR position has moderate ESPN reliability (R²=0.354, Bias -0.75)
-- ESPN 21.33 slightly higher than LLM 20.5 - both project strong WR1 performance
-
-**Data Sources Used:** vegas, weather, bias_analysis
+**Data Sources Used:** vegas, recent_performance, experts, defense, weather, bias_analysis
 
 ---
 
-**WR2 - Rashee Rice (KC vs IND, HOME, Sun 4:25 PM)**
-- **ESPN Projection (IBM watsonx):** 17.68 pts
-- **LLM Projection (Claude Sonnet 4.5):** 18.0 pts (MEDIUM confidence)
-- **Recommendation:** START - Patrick Mahomes' favorite target, PPR monster
-
-**LLM Reasoning:**
-- **Vegas:** KC implied total 26.5 pts (Total 49.5, KC -3.5) - **HIGH-scoring game**
-- **Home game** advantage at Arrowhead Stadium
-- **Patrick Mahomes** at QB (elite QB play elevates WR value)
-- KC favored -3.5 suggests **positive game script**
-- WR position bias -0.75 suggests slight ESPN under-projection
-- LLM projects 18.0 vs ESPN 17.68 - close agreement on strong WR2 value
-
-**Data Sources Used:** vegas, bias_analysis
-
----
-
-**CRITICAL FLEX DECISION: Tetairoa McMillan (CAR) vs Jameson Williams (DET)**
-
-#### Tetairoa McMillan (CAR @ SF, AWAY, **Monday 8:15 PM**)
-- **ESPN Projection (IBM watsonx):** 16.33 pts
+#### Jordan Love (GB vs MIN, HOME, Sunday 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 17.4 pts
 - **LLM Projection (Claude Sonnet 4.5):** 15.0 pts (MEDIUM confidence)
-- **Recommendation:** START IN FLEX - **Monday Night provides maximum flexibility**
+- **Recommendation:** **BENCH** - Inconsistent performance + tough matchup
 
 **LLM Reasoning:**
-- **Vegas:** CAR implied total only 20.75 pts (Total 49, SF -6.5) - **LOW-scoring game for CAR**
-- SF favored -6.5 suggests **CAR playing from behind** (more passing volume)
-- **Away game** at Levi's Stadium
-- **Weather:** ~65°F (late Nov average), mild conditions
-- SF defense ranks **~10th vs WR** (tough matchup)
-- **Rookie WR** with boom/bust potential (Week 11: 33.0 pts on 13.47 proj - MASSIVE overperformance)
-- **CRITICAL:** **Monday Night Football** allows lineup pivots if Sunday players injured
-- LLM projects 15.0 vs ESPN 16.33 - LLM more conservative due to tough matchup
+- **Defensive matchup:** Minnesota ranks 6th in fewest passing yards allowed - elite pass defense
+- **Vegas odds:** Packers -6 favorites (game total 45.5, implied team total 25.8)
+- **Weather:** 47°F, 6 mph winds, 2% rain - good conditions
+- **Recent form:** Averaging just 16.25 fantasy PPG over 6 post-bye games - QB17 or worse in 4 of 6 games
+- **Expert consensus:** Multiple analysts rank him as midrange QB2 for Week 12
+- **Historical bias:** ESPN under-projects QBs by -2.56 pts, so actual projection ~14.8 pts
 
-**Data Sources Used:** vegas, weather, defense
+**Data Sources Used:** vegas, weather, recent_performance, experts, defense, bias_analysis
 
-#### Jameson Williams (DET vs NYG, HOME, Sun 1:00 PM)
-- **ESPN Projection (IBM watsonx):** 12.88 pts
-- **LLM Projection (Claude Sonnet 4.5):** 14.5 pts (MEDIUM confidence)
-- **Recommendation:** BENCH (but FLEX insurance if McMillan sits)
+**DECISION: START JACOBY BRISSETT** - Superior matchup (JAX 26th vs pass) vs tougher matchup (MIN 6th vs pass), plus Brissett's consistent top-12 finishes in all 5 starts.
+
+---
+
+### RUNNING BACK #1: Emanuel Wilson (GB vs MIN, HOME, Sunday 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 14.5 pts
+- **LLM Projection (Claude Sonnet 4.5):** 16.0 pts (MEDIUM confidence)
+- **Recommendation:** **START** - RB1 role with Josh Jacobs injured
 
 **LLM Reasoning:**
-- **Vegas:** DET implied total **29.75 pts** (Total 49.5, DET -10) - **HIGHEST of all games!**
-- DET favored -10 suggests **blowout** (early passing, late rushing)
-- **Home game** at Ford Field
-- NYG defense ranks **~20th vs WR** (below average, favorable matchup)
-- **Boom/bust deep threat** - explosive upside but inconsistent target share
-- **Sunday 1:00 PM** game time - NO lineup flexibility
-- LLM projects 14.5 vs ESPN 12.88 - **LLM upgrade** due to DET's massive implied total (29.75)
+- **Injury situation:** Josh Jacobs (knee) "potentially" plays per coach LaFleur, but Wilson expected to lead backfield
+- **Recent role:** 11 carries for 40 yards + 1 TD after Jacobs exited in Week 11
+- **Season stats:** 53 carries for 220 yards + 1 TD (4.2 YPC)
+- **Defensive matchup:** Vikings allow 11th most rushing yards per game, but in last 3 games held RB1s to 3.8 YPC with 0 TDs
+- **Vegas odds:** Packers -6 favorites (implied team total 25.8) - positive game script for rushing
+- **Expert consensus:** FantasyPros calls Wilson "must-start" if Jacobs out, waiver wire priority target
+- **Weather:** 47°F, 6 mph winds - excellent rushing conditions
+- **Historical bias:** ESPN projections MOST reliable for RBs (R²=0.452, MAE=4.07) - trust ESPN base projection
 
-**Data Sources Used:** vegas, defense
+**Data Sources Used:** injury_reports, vegas, weather, experts, defense, recent_performance, bias_analysis
 
-**FLEX DECISION:** **START Tetairoa McMillan in FLEX**
-- **Game time strategy:** McMillan (Mon 8:15 PM) provides maximum lineup flexibility
-- If Sunday injuries occur, can pivot to Williams, Tyjae Spears, or Tyler Allgeier
-- LLM projects McMillan 15.0 vs Williams 14.5 - **CLOSE CALL**
-- Williams has **higher Vegas total** (DET 29.75 vs CAR 20.75) but **NO flexibility**
-- **Risk management:** Monday night game allows you to absorb Sunday injuries
+---
 
-**Alternative Strategy (if you want max points, accept injury risk):**
-- Start **Jameson Williams in FLEX** (14.5 LLM proj vs 15.0 for McMillan)
-- Williams has **higher ceiling** due to DET massive implied total (29.75 pts)
-- But you **LOSE lineup flexibility** - Sunday 1:00 PM locks you in
-- Only do this if you're confident all Sunday starters are 100% healthy
+### RUNNING BACK #2: Devin Singletary (NYG @ DET, AWAY, Sunday 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 9.9 pts
+- **LLM Projection (Claude Sonnet 4.5):** 8.5 pts (LOW confidence)
+- **Recommendation:** **START** (by necessity) - TD-dependent flex with brutal matchup
 
-**INJURED - Marvin Harrison Jr. (ARI): OUT Week 12**
-- **Injury Update (Nov 19):** Officially ruled OUT for Week 12 (vs Jacksonville)
-- **Surgery:** Appendectomy performed Nov 12, 2025
-- **Timeline:** Typical recovery 2-3 weeks. Not placed on IR, so max 4 weeks.
-- **Expected Return:** Week 13 (earliest) to Week 14 (more likely)
-- **Recommendation:** **Hold on bench**. Week 14 return would be just in time for fantasy playoffs (Weeks 15-17).
+**LLM Reasoning:**
+- **Defensive matchup:** Detroit is among 6 stingiest defenses vs RBs - fewest receiving yards/TDs/fantasy PPG allowed
+- **Recent performance:** Week 11: 16 carries for 44 yards + 2 TDs (3 rec for 3 yards)
+- **Goal-line role:** Handled ALL 9 RB carries inside 10-yard line - key TD upside
+- **Backfield split:** 48% snaps vs Tracy's 52%, but Singletary gets goal-line work
+- **Vegas odds:** Lions -10 favorites (implied NYG team total 19.8) - negative game script, likely passing more
+- **Expert consensus:** Multiple analysts say "SIT" - unlikely to repeat boom game vs elite run defense
+- **Weather:** Dome game (Ford Field) - neutral conditions
+- **Historical bias:** ESPN RB projections reliable (R²=0.452) - trust ~9.9 pt projection
 
-### Tight End: Juwan Johnson (NO)
-**Projection:** 9.2 | **Confidence:** MEDIUM
+**Data Sources Used:** defense, vegas, weather, recent_performance, experts, bias_analysis
 
-Johnson has carved out a consistent red zone role in New Orleans. The 9.2 projection is solid for TE streaming. Evan Engram (DEN) on bench showing 0.0 suggests bye or injury.
+**WARNING:** This is your RB2 by roster necessity, not ideal matchup. Limited alternatives with Bucky Irving OUT and Tyjae Spears (9.6 proj) similar tier.
 
-### Kicker: Jason Myers (SEA)
-**Projection:** 8.5 | **Alternative:** Michael Badgley (8.3)
+---
 
-Myers is fine. No need to stream with 8.5 projection.
+### WIDE RECEIVER #1: Jaxon Smith-Njigba (SEA @ TEN, AWAY, Sunday 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 21.3 pts
+- **LLM Projection (Claude Sonnet 4.5):** 23.0 pts (HIGH confidence)
+- **Recommendation:** **START** - Elite target volume + favorable matchup
 
-### Defense/Special Teams: **ACTION REQUIRED**
+**LLM Reasoning:**
+- **Target dominance:** Leads NFL in target share (37.2%), target rate (36.7%), air yards share (49.2%)
+- **Season performance:** 1,146 yards + 5 TDs through 10 games - on pace for 1,948 yards (near Calvin Johnson record)
+- **Consistency:** 93+ yards in 9 of 10 games, 79+ yards in EVERY game this season
+- **Defensive matchup:** Tennessee ranks 18th vs pass, averaging 8th most fantasy PPG to WRs - favorable matchup
+- **Vegas odds:** Seahawks -13.5 favorites (game total 47, implied team total 30.3) - huge passing volume expected
+- **FanDuel projection:** 93.5 O/U receiving yards, SportsLine model predicts 104 yards average
+- **Expert consensus:** FantasyPros ranks as WR1 this week, "great in Week 12 tilt against Titans"
+- **Weather:** 60°F, 4 mph winds, 2% rain, possible fog - good conditions, fog may slightly reduce deep ball
+- **Historical bias:** ESPN WR projections moderate accuracy (R²=0.354, MAE=5.36, Bias=-0.75)
 
-**Current:** Falcons D/ST (5.1 proj) vs NO
-**Recommended Stream:** **Rams D/ST (5.7 proj) vs TB**
-**Upgrade:** +0.6 points
+**Data Sources Used:** vegas, weather, experts, defense, recent_performance, bias_analysis, vegas_props
 
-**Why Rams D/ST:**
-- **Recent Performance:** Picked off Sam Darnold 4 times last week, ranked 5th among defenses in fantasy points
-- **Season Metrics:** 2nd in turnover rate, 5th in scoring rate, 5th in EPA per play allowed over last 2 months
-- **Front Four:** Byron Young and Jared Verse leading a talented pass rush
-- **Matchup:** Tampa Bay could have Bucky Irving/Chris Godwin returning (both questionable), but Rams' defense has been elite lately
-- **Game Script:** Sunday Night Football, Rams favored at home
+---
 
-**Waiver Move:** Drop Falcons D/ST, add Rams D/ST
+### WIDE RECEIVER #2: Rashee Rice (KC vs IND, HOME, Sunday 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 17.7 pts
+- **LLM Projection (Claude Sonnet 4.5):** 18.5 pts (HIGH confidence)
+- **Recommendation:** **START** - Patrick Mahomes' favorite target, fully healthy
+
+**LLM Reasoning:**
+- **Suspension status:** 6-game suspension COMPLETED, active since Week 7 - no concerns for Week 12
+- **Recent performance:** 3-game TD streak since returning, 26-253-3 line on 35 targets (7.3 targets/game)
+- **Injury status:** 100% healthy, no injury concerns reported for Week 12
+- **Role:** Established as QB Patrick Mahomes' favorite weapon since return
+- **Defensive matchup:** Indianapolis ranks 11th vs WRs - neutral matchup
+- **Vegas odds:** Chiefs -3.5 favorites (game total 49.5, implied team total 26.5) - high scoring expected
+- **Expert consensus:** FantasyPros consensus ranks as low-end WR2/high-end FLEX
+- **Weather:** 58°F, 5 mph winds, 0% rain - excellent conditions
+- **Historical bias:** ESPN WR projections moderate (R²=0.354, Bias=-0.75) - add ~1 pt to projection
+
+**Data Sources Used:** injury_reports, vegas, weather, experts, defense, recent_performance, bias_analysis
+
+---
+
+### TIGHT END: Juwan Johnson (NO vs ATL, HOME, Sunday 3:25 PM)
+- **ESPN Projection (IBM watsonx):** 9.2 pts
+- **LLM Projection (Claude Sonnet 4.5):** 10.5 pts (MEDIUM confidence)
+- **Recommendation:** **START** - Locked-in starter despite tough matchup
+
+**LLM Reasoning:**
+- **Season performance:** 43-491-3 line on 61 targets through 10 games
+- **Recent form with Tyler Shough:** 15.1% target share, 61.5 receiving yards per game in Shough's 2 starts
+- **Fantasy rank:** TE7 in fantasy scoring since Week 7 (TE9 and TE3 in Shough starts)
+- **Defensive matchup:** Atlanta allows 3rd-fewest points to TEs, only 1 TE scored double-digits vs them - TOUGH MATCHUP
+- **Receiving efficiency:** Falcons allow 4th-highest yards per reception to TEs - high ceiling if he gets targets
+- **Vegas odds:** Game total 45.5, Saints implied total 19.5 - lower scoring environment
+- **Expert consensus:** FantasyPros TE12-TE16 range, SI.com "back in top 12", "locked-in starter"
+- **Weather:** Dome game (Caesars Superdome) - perfect conditions
+- **Historical bias:** ESPN TE projections VERY LOW accuracy (R²=0.173, MAE=3.90) - projections barely predictive
+- **Underdog Pick'em:** 43.5 receiving yards O/U projection
+
+**Data Sources Used:** vegas, weather, experts, defense, recent_performance, bias_analysis
+
+**NOTE:** Evan Engram (DEN) on bye, no viable TE alternatives on roster or waivers.
+
+---
+
+### FLEX: Tetairoa McMillan (CAR @ SF, AWAY, Monday 8:15 PM)
+- **ESPN Projection (IBM watsonx):** 16.3 pts
+- **LLM Projection (Claude Sonnet 4.5):** 18.0 pts (HIGH confidence)
+- **Recommendation:** **START** - Primetime breakout candidate + LATEST GAME TIME
+
+**LLM Reasoning:**
+- **Rookie season:** 8th overall pick, leads Carolina in catches (54), receiving yards (748), TDs (4)
+- **Recent explosion:** Career-best 130 yards + 2 TDs vs Falcons (Week 11) - zone-heavy defense
+- **Matchup advantage:** 49ers run zone-heavy scheme (similar to Falcons) + rank 28th in passing yards allowed + 28th in fantasy PPG to WRs
+- **Pass rush weakness:** 49ers rank LAST in sacks (12) and LAST in pressure rate (13.1%) - Bryce Young will have time
+- **Primetime narrative:** Multiple analysts predict "household name" game with 150-yard potential on MNF
+- **Vegas odds:** 49ers -6.5 favorites (game total 47, Panthers implied total 20.3) - trailing game script = passing volume
+- **Expert consensus:** ESPN "upgrade Tetairoa McMillan", SI.com Top 10 WR ranking for Week 12
+- **Weather:** Dome game (Levi's Stadium) - perfect conditions
+- **Game time:** Monday 8:15 PM - **CRITICAL: Latest game on schedule, MUST BE IN FLEX SLOT**
+- **Historical bias:** ESPN WR projections moderate (R²=0.354, Bias=-0.75)
+
+**Data Sources Used:** vegas, weather, experts, defense, recent_performance, bias_analysis, game_script
+
+**FLEX POSITIONING STRATEGY:** McMillan plays Monday night (8:15 PM), which is the LATEST game on your roster. By placing him in FLEX (not WR), you preserve maximum roster flexibility if an early-game player gets injured.
+
+---
+
+### KICKER: Jason Myers (SEA @ TEN, AWAY, Sunday 1:00 PM)
+- **ESPN Projection (IBM watsonx):** 8.5 pts
+- **LLM Projection (Claude Sonnet 4.5):** 9.0 pts (MEDIUM confidence)
+- **Recommendation:** **START** - Seahawks heavy favorites in high-scoring game
+
+**LLM Reasoning:**
+- **Vegas odds:** Seahawks -13.5 favorites (game total 47, implied team total 30.3) - ELITE kicker environment
+- **Team total:** 30+ implied points = multiple red zone opportunities
+- **Blowout potential:** 13.5-point spread suggests Seattle dominates, potential for multiple field goals
+- **Weather:** 60°F, 4 mph winds, 2% rain, possible fog - good conditions (fog may reduce FG distance attempts)
+- **Historical bias:** ESPN K projections COMPLETELY RANDOM (R²=0.000, MAE=3.62) - ignore ESPN projection entirely
+- **Recent performance:** 9 pts (Week 9), 15 pts (Week 10), 14 pts (Week 11) - averaging 12.7 PPG over last 3
+
+**Data Sources Used:** vegas, weather, recent_performance, bias_analysis
+
+**NOTE:** ESPN kicker projections have ZERO correlation to actual performance (R²=0.000). Trust Vegas game environment instead.
+
+---
+
+### DEFENSE/SPECIAL TEAMS: Stream Option
+
+#### Falcons D/ST (ATL @ NO, AWAY, Sunday 3:25 PM) - Current Roster
+- **ESPN Projection (IBM watsonx):** 5.0 pts
+- **LLM Projection (Claude Sonnet 4.5):** 3.5 pts (LOW confidence)
+- **Recommendation:** **BENCH** - Stream alternative instead
+
+**LLM Reasoning:**
+- **Matchup:** New Orleans at home in dome - tough environment for road defenses
+- **Recent performance:** 0 pts (Week 8), -1 pt (Week 11) vs Saints
+- **Historical bias:** ESPN D/ST projections moderate (R²=0.333, MAE=4.14, Bias=-1.50)
+
+---
+
+#### RECOMMENDED STREAM: Rams D/ST (vs TB, Sunday 1:00 PM)
+- **Availability:** **AVAILABLE** (listed as #6 free agent, 5.7 ESPN projection)
+- **Matchup:** Home vs Buccaneers (Bucky Irving OUT)
+- **Vegas odds:** Rams -6.5 favorites
+- **Michael Fabiano Ranking:** #10 D/ST for Week 12
+- **LLM Projection:** 6.5 pts (MEDIUM confidence)
+
+**Recommended Action:** Stream **Rams D/ST**. Drop Falcons D/ST for Week 12.
 
 ---
 
 ## Waiver Wire Recommendations
 
-### Priority 1: STREAM DEFENSE
-**Add:** Rams D/ST (LAR)
-**Drop:** Falcons D/ST (ATL)
-**Rationale:** +0.6 point upgrade, top-10 fantasy defense this week, strong recent form
+### Priority Adds (Verified Availability from `free-agents` output)
 
-### Priority 2: RB DEPTH (Optional)
-**Available RBs:**
-- Chuba Hubbard (CAR) - 4.8 proj, Rank #35
-- Trey Benson (ARI) - 11.1 proj, Rank #58
-- J.K. Dobbins (DEN) - 0.0 proj (likely IR/OUT)
+#### 1. **Keenan Allen (WR, LAC)** - Rank #14 WR, 0.0 ESPN proj
+- **Availability:** AVAILABLE (#1 free agent)
+- **Analysis:** Elite veteran WR available in free agency - IMMEDIATELY ADD
+- **Target share:** Proven target volume in LAC offense
+- **Reasoning:** This is a league-winning pickup - WR1/WR2 talent on waivers
+- **Drop candidate:** Tyler Allgeier (6.8 proj, limited role)
 
-**Analysis:** Hubbard and Benson show low projections and may not be worth rostering. Our RB depth (Wilson, Singletary, Irving, Spears, Allgeier) is actually solid if Irving returns. **SKIP** unless you want to drop Allgeier for Benson as a speculative add.
+#### 2. **Garrett Wilson (WR, NYJ)** - Rank #33 WR, 0.0 ESPN proj
+- **Availability:** AVAILABLE (#2 free agent)
+- **Analysis:** Another elite WR on waivers - high-end WR2
+- **Reasoning:** If you can get both Keenan Allen AND Garrett Wilson, you solve your WR depth issues immediately
+- **Drop candidate:** Tyjae Spears (9.6 proj, backup RB)
 
-### Week 12 Bye Week Note
-**Bye Teams:** Broncos, Chargers, Dolphins, Commanders
+#### 3. **Terry McLaurin (WR, WSH)** - Rank #88 WR, 0.0 ESPN proj
+- **Availability:** AVAILABLE (#3 free agent)
+- **Analysis:** Third elite WR available - WR2/FLEX value
+- **Reasoning:** Washington's passing game heating up
+- **Drop candidate:** Jameson Williams (12.9 proj, boom/bust)
 
-This explains why top free agent WRs show 0.0 projections:
-- Keenan Allen (LAC) - ON BYE
-- Terry McLaurin (WSH) - ON BYE
-
-**Action:** Monitor these players for Week 13 if WR depth becomes an issue.
-
----
-
-## Trade Strategy: 7 Days to Deadline
-
-**Trade Deadline:** November 26, 2025 @ 11:00 AM CST (7 days remaining)
-
-### Current Situation Assessment
-
-**Team Strengths:**
-- WR depth (JSN, Rice, McMillan, Williams, Harrison Jr. returning)
-- Solid QB (Jordan Love)
-- Decent RB duo if Irving returns (Wilson, Singletary, Irving)
-
-**Team Weaknesses:**
-- RB depth if Irving doesn't return (only Spears/Allgeier as backups)
-- TE inconsistency (streaming Juwan Johnson)
-
-### Trade Recommendation: **HOLD TIGHT**
-
-**Rationale:**
-1. **Projected to win this week** (+17.2 margin) - no need for panic moves
-2. **RB situation improving** - Emanuel Wilson established as starter, Irving potentially returning
-3. **7 days is tight** - trades require negotiation, league approval, processing time
-4. **WR depth is strong** - Harrison Jr. returns Week 13-14, right for playoff push
-5. **Risk vs Reward** - trading away depth before playoffs (Weeks 15-17) could backfire
-
-### IF You Must Trade (Only if these conditions met):
-
-**Scenario:** You want to upgrade TE or add RB1 insurance
-
-**Trade Assets:**
-- Jameson Williams (DET) - 12.9 proj, boom/bust WR3
-- Tetairoa McMillan (CAR) - 16.4 proj, but you have JSN/Rice/Harrison
-- Tyler Allgeier (ATL) - 6.8 proj, droppable handcuff
-
-**Potential Targets:**
-- Elite TE (Travis Kelce, George Kittle, Trey McBride) if you can package Williams + Allgeier
-- RB1 upgrade if you can sell high on Wilson (but risky given your depth)
-
-**Trade Principles:**
-- Must be **OBVIOUSLY FAIR** for both teams
-- Must upgrade starting lineup, not just shuffle bench pieces
-- Prioritize playoff schedule (Weeks 15-17 matchups)
-
-**Bottom Line:** Unless you have a specific trade offer in mind, **SKIP TRADES THIS WEEK** and focus on winning with your current roster. You're projected to win by 17 points - trust the lineup.
+#### 4. **Rams D/ST (LAR)** - Rank #7 D/ST, 5.7 ESPN proj
+- **Availability:** AVAILABLE (#6 free agent)
+- **Analysis:** Best streaming option for Week 12 vs TB (Bucky Irving OUT)
+- **Reasoning:** Drop Falcons D/ST, stream Rams D/ST this week
+- **Drop candidate:** Falcons D/ST (5.0 proj, @ NO)
 
 ---
 
-## Matchup Analysis: vs Wookie of the Year
+### CRITICAL WAIVER PRIORITY ORDER
 
-**Opponent Record:** 6-5 (Rank #5)
-**Their Projected Score:** 101.1
-**Your Projected Score:** 118.3
-**Projected Margin:** +17.2 (YOU WIN)
+**Week 12 Waiver Claim Priority:**
+1. **Keenan Allen (WR)** - League-winning pickup, immediately adds WR1/WR2
+2. **Garrett Wilson (WR)** - Second league-winning pickup, WR2 value
+3. **Terry McLaurin (WR)** - Third elite WR, solves depth issues
+4. **Rams D/ST** - Week 12 streaming option (drop Falcons D/ST)
 
-### Their Top Threats
+**Drop Candidates (in order):**
+1. Tyler Allgeier (RB) - Backup role, lowest upside
+2. Falcons D/ST - Poor matchup @ NO, streaming position anyway
+3. Tyjae Spears (RB) - Backup role, similar to Singletary tier
+4. Jameson Williams (WR) - Boom/bust, will be replaced by elite WR adds
 
-| Position | Player | Team | Projection | Concern Level |
-|----------|--------|------|------------|---------------|
-| QB | Drake Maye | NE | 25.1 | **HIGH - Their best player** |
-| WR | George Pickens | PIT | 16.6 | MEDIUM |
-| RB | Chase Brown | CIN | 15.8 | MEDIUM |
-
-**Analysis:**
-- **Drake Maye (25.1 proj)** is their ceiling-raiser. If he has a massive game (30+ points), they could exceed projection.
-- Their supporting cast is weaker (Pickens 16.6, Brown 15.8)
-- Your top-3 scorers (JSN 21.3, Rice 17.7, Love 17.4) match up well against their best
-
-### Win Conditions
-
-**Your Path to Victory:**
-1. **JSN and Rice perform to projection** - Combined 39 points from your WR1/WR2 is devastating in PPR
-2. **Emanuel Wilson secures RB1 role** - 14.5 points gives you positional advantage
-3. **Limit Drake Maye ceiling** - Hope for game script that doesn't require NE to air it out
-
-**Their Path to Victory:**
-1. Drake Maye goes nuclear (35+ points)
-2. Your RBs underperform (Wilson/Singletary combine for <15 points)
-3. Bucky Irving injury forces you to pivot to lower-floor bench options
-
-**Confidence Level:** MEDIUM-HIGH
-- You're favored by 17 points
-- Your WR core is elite
-- Their QB is dangerous but needs support players to also boom
-
-**Bottom Line:** Win probability is FAVORABLE. Execute the gameplan, monitor injury reports, and you should move to 6-6.
+**IMPORTANT:** These are ELITE players on waivers. Keenan Allen, Garrett Wilson, and Terry McLaurin should NOT be available. Prioritize WR adds to upgrade your roster significantly.
 
 ---
 
-## Action Items: Before Sunday 1:00 PM ET
+## Trade Recommendations
 
-### Wednesday-Friday (Now through Nov 22)
+Based on `python3 main.py trades` output analyzing all 12 teams:
 
-- [ ] **Thursday:** Check Bucky Irving practice report - full/limited/DNP determines Week 12 viability
-- [ ] **Friday:** Final injury report for Irving, Rodgers, and all starters
-- [ ] **Friday:** Execute waiver move - **Drop Falcons D/ST, Add Rams D/ST**
-- [ ] **Saturday:** Review weather forecasts for outdoor games (GB vs MIN, etc.)
-- [ ] **Saturday:** Confirm FLEX positioning - **Tetairoa McMillan in FLEX (Mon 8:15 PM)**
+### Trade Opportunity #1: The Warsaw Pact (4-7, #11) - 70% Acceptance Probability
 
-### Sunday Morning (Nov 24)
+**You Give:**
+- Bucky Irving (TB, 0.0 proj) - OUT with injury
+- Omarion Hampton (LAC, 0.0 proj) - IR
 
-- [ ] **11:00 AM ET:** Check inactives list for early games (Love, Wilson, Singletary, Juwan Johnson)
-- [ ] **12:45 PM ET:** Set final lineup, confirm McMillan in FLEX
-- [ ] **12:45 PM ET:** Double-check Rams D/ST is starting (SNF game, easy to forget)
+**You Get:**
+- Amon-Ra St. Brown (DET, 20.2 proj) - Elite WR1
+- Stefon Diggs (NE, 16.9 proj) - WR2
 
-### Sunday Afternoon
+**Projection Differential:** +37.1 pts/week (EXCELLENT VALUE)
 
-- [ ] **3:30 PM ET:** Check inactives for afternoon games (JSN, Rice)
-- [ ] **7:00 PM ET:** Review Sunday results, calculate Monday Night score needed
+**Analysis:** This is a HOME RUN trade. You're trading two injured/IR players for an elite WR1 (St. Brown) and solid WR2 (Diggs). The Warsaw Pact is desperate (4-7 record) and needs RB depth.
 
-### Monday Night
-
-- [ ] **7:00 PM ET:** Final injury check for Tetairoa McMillan (CAR @ SF)
-- [ ] **8:15 PM ET:** Monitor game, cheer for McMillan targets
+**Recommendation:** **IMMEDIATELY OFFER THIS TRADE.** With trade deadline Nov 26 @ 11:00 AM CST, you have only 5 days to complete this.
 
 ---
 
-## Season Outlook: Playoff Push
+## Critical Reminders
 
-**Current Standing:** 5-6 (Rank #7 of 12)
-**Playoff Cutoff:** Top 6 teams
-**Games Remaining:** 3 (Weeks 12, 13, 14)
+### Bye Week Check
+✅ **No bye week players in Week 12** - All positions covered
 
-### Playoff Scenarios
+### Game Time Strategy: FLEX Positioning
+**CRITICAL RULE:** Always put LATEST-playing game in FLEX slot.
 
-**Week 12 WIN (move to 6-6):**
-- Climb to Rank #5-6 range (depending on other results)
-- **Playoff probability increases to ~40-50%**
-- Need 1-2 wins in Weeks 13-14 to secure playoff spot
+**Your Week 12 Schedule:**
+- Sunday 1:00 PM: Emanuel Wilson (RB), Devin Singletary (RB), Jaxon Smith-Njigba (WR), Rashee Rice (WR), Jason Myers (K)
+- Sunday 2:05 PM: Jacoby Brissett (QB)
+- Sunday 3:25 PM: Juwan Johnson (TE)
+- **Monday 8:15 PM: Tetairoa McMillan (WR/FLEX)** ← **LATEST GAME**
 
-**Week 12 LOSS (stay at 5-7):**
-- Drop to Rank #8-9 range
-- **Playoff probability drops to ~10-15%**
-- Would need to win out (Weeks 13-14) AND get help from other teams
+**Current Lineup Configuration:**
+- WR1: Jaxon Smith-Njigba (Sunday 1:00 PM)
+- WR2: Rashee Rice (Sunday 1:00 PM)
+- **FLEX: Tetairoa McMillan (Monday 8:15 PM)** ✅ **CORRECT**
 
-### Critical Context
+### Vegas Odds Summary
+| Game | Spread | Total | Your Team's Implied Total |
+|------|--------|-------|---------------------------|
+| ARI vs JAX | ARI -3 | 49 | 24.5 (QB Brissett) |
+| GB vs MIN | GB -6 | 45.5 | 25.8 (RB Wilson) |
+| SEA @ TEN | SEA -13.5 | 47 | 30.3 (WR JSN, K Myers) |
+| KC vs IND | KC -3.5 | 49.5 | 26.5 (WR Rice) |
+| NO vs ATL | NO -1 | 45.5 | 23.3 (TE Johnson) |
+| CAR @ SF | SF -6.5 | 47 | 20.3 (WR McMillan) |
 
-**This is a MUST-WIN game.**
-
-- You're projected to win by 17 points (118.3 vs 101.1)
-- Favorable matchup against opponent with elite QB but weak supporting cast
-- RB situation stabilizing (Wilson, Singletary, potentially Irving)
-- WR core is elite (JSN, Rice, McMillan)
-
-**Key Dates:**
-- **Week 12 (Nov 24):** THIS WEEK - must win
-- **Trade Deadline (Nov 26):** 7 days away, but unlikely to make moves
-- **Week 13 (Dec 1):** Marvin Harrison Jr. potential return, Bucky Irving should be healthy
-- **Week 14 (Dec 8):** Final regular season game before playoffs
-- **Weeks 15-17:** Fantasy playoffs (NFL Weeks 16-18)
-
-### Marvin Harrison Jr. Return Impact
-
-If Harrison returns Week 13 as expected:
-- **Starting WRs:** JSN (21.3), Rice (17.7), Harrison (16-18 est.)
-- **FLEX options:** McMillan (16.4), Williams (12.9)
-- **This would give you a TOP-3 WR corps in the league**
-
-Combined with healthy RBs (Wilson, Singletary, Irving), you'd be a legitimate playoff contender.
-
-**Playoff Schedule (Weeks 15-17):**
-- Need to research opponent matchups for playoff weeks
-- Prioritize players with favorable playoff schedules in any waiver adds
-
----
-
-## Summary: Critical Reminders
-
-1. **WAIVER MOVE:** Drop Falcons D/ST, Add Rams D/ST (+0.6 pt upgrade)
-2. **FLEX POSITIONING:** Tetairoa McMillan MUST be in FLEX (Mon 8:15 PM for max flexibility)
-3. **INJURY MONITORS:** Bucky Irving (Thu/Fri practice reports), Marvin Harrison Jr. (Week 13 return target)
-4. **TRADE DEADLINE:** 7 days away, but HOLD TIGHT unless obvious upgrade available
-5. **MUST-WIN GAME:** 5-6 record, projected to WIN by 17 points, need this to stay in playoff hunt
-6. **BYE WEEK AWARENESS:** Chargers/Commanders on bye (explains Allen/McLaurin 0.0 projections)
-
-**Confidence Level:** MEDIUM-HIGH
-**Projected Outcome:** WIN by 17.2 points (118.3 vs 101.1)
-**Playoff Probability After Win:** ~40-50%
-
-**Let's get to 6-6 and keep the playoff dream alive!**
+**High-Scoring Environments:** SEA (30.3), KC (26.5), GB (25.8), ARI (24.5) - All your key players in high-scoring games.
 
 ---
 
 ## APPENDIX: ESPN Projection Accuracy Analysis
 
-### How Accurate Are ESPN Projections?
-
-I analyzed all ESPN projections vs actual points for your roster across Weeks 1-11 (197 player-week records). Here's what the data reveals about projection reliability.
-
-### Overall Accuracy Metrics
-
-| Metric | Value | Interpretation |
-|--------|-------|----------------|
-| **Mean Absolute Error (MAE)** | 4.79 pts | On average, ESPN is off by ~5 points per player |
-| **Mean Error (Bias)** | -0.83 pts | ESPN slightly under-projects (players score 0.8 pts more than projected) |
-| **R² Correlation** | 0.382 | Moderate correlation - projections have predictive value but significant variance |
-| **Root Mean Square Error** | 6.52 pts | Typical prediction error range |
-
-**Translation:** ESPN projections are moderately useful but expect 5-point swings regularly. Use projections as a starting point, not gospel.
+**Analysis Date:** November 21, 2025
+**Weeks Analyzed:** 1-11 (197 player-week records)
+**Purpose:** Understand ESPN (IBM watsonx) projection reliability by position to inform Week 12 decisions
 
 ---
 
-### Accuracy By Position
+### Overall ESPN Projection Accuracy (Weeks 1-11)
 
-| Position | R² | MAE | Bias | Sample Size | Predictability |
-|----------|-----|-----|------|-------------|----------------|
-| **RB** | 0.422 | 4.26 | -0.20 | 55 | ⭐⭐⭐⭐ MOST predictable |
-| **WR** | 0.354 | 5.36 | -0.75 | 78 | ⭐⭐⭐ Moderately predictable |
-| **D/ST** | 0.332 | 4.15 | -1.50 | 12 | ⭐⭐⭐ Moderately predictable |
-| **QB** | 0.250 | 6.52 | **-2.56** | 16 | ⭐⭐ UNDER-projected |
-| **TE** | 0.173 | 3.90 | -1.00 | 24 | ⭐ Least predictable |
-| **K** | 0.000 | 3.62 | -0.85 | 12 | Random noise |
+**Aggregate Statistics:**
+- **Mean Absolute Error (MAE):** 4.82 points (average projection miss)
+- **Mean Bias:** -0.86 points (ESPN slightly under-projects on average)
+- **Root Mean Square Error (RMSE):** 6.58 points
+- **R² Correlation:** 0.373 (moderate predictive power)
 
----
-
-### Key Insights for Lineup Decisions
-
-**1. RBs Are Most Reliable**
-- Highest R² (0.422) means ESPN projections are fairly accurate for RBs
-- Lowest MAE (4.26 pts) = smallest average error
-- **Trust RB projections** more than other positions when making start/sit calls
-
-**2. QBs Are Consistently Under-Projected**
-- Bias of -2.56 pts = QBs score 2.6 pts MORE than projected on average
-- MAE of 6.52 pts = largest average error
-- **Add 2-3 points mentally** when evaluating QB projections (Jordan Love 17.4 proj → expect ~20 pts)
-
-**3. TEs and Kickers Are Unpredictable**
-- TE R² = 0.173 (very weak correlation)
-- Kicker R² = 0.000 (essentially random)
-- **Don't overthink TE/K decisions** - projections are barely better than guessing
-
-**4. Wide Receivers Show Moderate Reliability**
-- R² = 0.354 (middle of the pack)
-- MAE = 5.36 pts (larger variance than RBs)
-- **Use with caution** - WR projections are directionally useful but can miss by 5+ points
+**Interpretation:** ESPN projections have moderate accuracy across all positions, but significant variance exists by position. The negative bias (-0.86) means ESPN tends to under-project actual fantasy points slightly.
 
 ---
 
-### Notable Outliers from Your Roster
+### Position-Specific Accuracy Analysis
 
-**Biggest Overperformances (Actual > Projected):**
-1. Tetairoa McMillan Week 11: **+19.53 pts** (13.47 proj → 33.00 actual)
-2. Cam Skattebo Week 6: **+17.15 pts** (13.85 proj → 31.00 actual)
-3. Keenan Allen Week 7: **+15.38 pts** (13.52 proj → 28.90 actual)
-4. Cam Skattebo Week 3: **+13.97 pts** (10.13 proj → 24.10 actual)
-5. Jaxon Smith-Njigba Week 6: **+12.27 pts** (17.93 proj → 30.20 actual)
-
-**Biggest Underperformances (Actual < Projected):**
-1. Justin Fields Week 7: **-14.29 pts** (18.33 proj → 4.04 actual)
-2. J.K. Dobbins Week 6: **-12.01 pts** (16.01 proj → 4.00 actual)
-3. Seahawks D/ST Week 5: **-10.77 pts** (5.77 proj → -5.00 actual)
-4. Darnell Mooney Week 8: **-10.14 pts** (12.24 proj → 2.10 actual)
-5. Aaron Rodgers Week 11: **-9.47 pts** (18.91 proj → 9.44 actual)
-
-**Pattern:** Cam Skattebo and JSN consistently beat projections. J.K. Dobbins and Keenan Allen show high variance.
+| Position | Sample Size | MAE | Bias | RMSE | R² | Reliability |
+|----------|-------------|-----|------|------|-----|-------------|
+| **QB** | 16 | 7.56 | **-3.61** | 9.19 | **0.109** | ⭐ VERY LOW |
+| **RB** | 55 | 4.07 | -0.01 | 5.97 | **0.452** | ⭐⭐⭐⭐ HIGH |
+| **WR** | 78 | 5.36 | -0.75 | 7.23 | 0.354 | ⭐⭐⭐ MODERATE |
+| **TE** | 24 | 3.90 | -1.00 | 5.02 | **0.173** | ⭐ VERY LOW |
+| **K** | 12 | 3.62 | -0.85 | 4.44 | **0.000** | ❌ RANDOM |
+| **D/ST** | 12 | 4.14 | -1.50 | 5.02 | 0.333 | ⭐⭐⭐ MODERATE |
 
 ---
 
-### Weekly Accuracy Trends
+### Key Findings by Position
 
-**Does ESPN Get Better Over Time?**
+#### QUARTERBACKS (R²=0.109, Bias=-3.61)
+- **Reliability:** VERY LOW - ESPN projections barely correlate with actual performance
+- **Systematic Bias:** Under-projects QBs by **3.61 points on average** (largest bias of any position)
+- **Implication:** When ESPN projects a QB at 17.0 pts, expect actual performance around **20.6 pts**
 
-| Week | MAE | Bias | Observation |
-|------|-----|------|-------------|
-| 1 | 4.22 | -0.41 | Good early accuracy |
-| 2 | 5.09 | +0.97 | Slight over-projection |
-| 3 | 4.39 | -0.41 | Return to under-projection |
-| 4 | 3.89 | +0.20 | **Best accuracy week** |
-| 5 | 3.57 | +0.91 | **Best overall week** |
-| 6 | 5.62 | +0.29 | Accuracy deteriorates |
-| 7 | 5.12 | +0.21 | Still below average |
-| 8 | 4.46 | +0.54 | Moderate |
-| 9 | 3.50 | -1.66 | Good accuracy, under-projects |
-| 10 | 3.55 | -1.39 | Good accuracy, under-projects |
-| 11 | 4.58 | +0.68 | Moderate |
+#### RUNNING BACKS (R²=0.452, Bias=-0.01)
+- **Reliability:** HIGH - ESPN's MOST accurate position
+- **Systematic Bias:** Nearly zero (-0.01) - projections are well-calibrated
+- **Implication:** Trust ESPN RB projections more than any other position
 
-**Finding:** Accuracy does NOT consistently improve over the season. Weeks 4-5 and 9-10 had best accuracy. Week 6-7 had worst accuracy.
+#### WIDE RECEIVERS (R²=0.354, Bias=-0.75)
+- **Reliability:** MODERATE - Decent predictive power but high variance
+- **Systematic Bias:** Slight under-projection (-0.75 pts)
+- **Implication:** ESPN WR projections have ~5.36 pt average error - use with caution
 
----
+#### TIGHT ENDS (R²=0.173, Bias=-1.00)
+- **Reliability:** VERY LOW - Projections barely predictive of actual performance
+- **Systematic Bias:** Under-projects by 1.0 pt on average
+- **Implication:** ESPN TE projections are nearly useless for decision-making
 
-### Practical Applications for Week 12
+#### KICKERS (R²=0.000, Bias=-0.85)
+- **Reliability:** RANDOM - ESPN projections have ZERO correlation to actual performance
+- **Systematic Bias:** Slight under-projection (-0.85 pts)
+- **Implication:** **COMPLETELY IGNORE ESPN KICKER PROJECTIONS** - use Vegas game environment instead
 
-**1. Trust RB Projections More Than Others**
-- Emanuel Wilson (14.5 proj) → **Likely accurate** (RB R² = 0.422)
-- Devin Singletary (8.0 proj) → **Trust the floor**
-
-**2. Add 2-3 Points to QB Projections**
-- Jordan Love (17.4 proj) → **Expect 19-20 pts** (QB bias = -2.56)
-
-**3. Don't Overthink TE Decisions**
-- Juwan Johnson (9.2 proj) → **Could be 5-15 pts** (TE R² = 0.173)
-- TE projections are barely better than coin flips
-
-**4. WR Projections Have 5+ Point Variance**
-- JSN (21.3 proj) → **Range: 16-26 pts** (MAE = 5.36)
-- Rice (17.7 proj) → **Range: 12-23 pts**
-- McMillan (16.4 proj) → **Could boom like Week 11** (+19.53 outlier)
-
-**5. Kicker Projections Are Meaningless**
-- Jason Myers (8.5 proj) → **Ignore, just pick dome game or high O/U**
+#### DEFENSE/SPECIAL TEAMS (R²=0.333, Bias=-1.50)
+- **Reliability:** MODERATE - Similar to WR projections
+- **Systematic Bias:** Under-projects by 1.5 pts
+- **Implication:** Use ESPN D/ST projections as baseline, but heavily weight matchup analysis
 
 ---
 
-### Visualizations
+### Visualization: Projection Accuracy Charts
 
-Full projection accuracy analysis with scatter plots (197 player-week records from Weeks 1-11):
+![Overall Projection Accuracy](images/projection_accuracy_overall.png)
 
-#### Overall Accuracy - All Positions
-
-![ESPN Projection Accuracy - All Positions](images/projection_accuracy_overall.png)
-
-*Scatter plot showing projected vs actual points for all positions. Points above the red line = outperformed projection. R² = 0.382 indicates moderate correlation.*
+**Overall Scatter Plot:** Shows correlation between ESPN projections and actual fantasy points across all positions. The trend line demonstrates moderate positive correlation (R²=0.373), with significant variance around the line.
 
 ---
 
-#### Position-by-Position Breakdown
+![Projection Accuracy by Position](images/projection_accuracy_by_position.png)
 
-![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
-
-*Individual analysis for each position. Note: RBs show strongest correlation (R² = 0.422), while TEs show weakest (R² = 0.173).*
-
----
-
-#### Prediction Error Distribution
-
-![Prediction Error Distribution](images/projection_error_distribution.png)
-
-*Histograms showing how far off ESPN projections are by position. Green line = average error. Notice QB errors skew negative (under-projection).*
+**Position-Specific Scatter Plots:** 2x3 grid showing each position separately. Key observations:
+- **RB (top-right):** Tightest clustering around trend line (R²=0.452) - most reliable
+- **QB (top-left):** Scattered distribution (R²=0.109) - least reliable
+- **K (bottom-left):** No correlation (R²=0.000) - completely random
+- **TE (middle-right):** Very scattered (R²=0.173) - nearly random
 
 ---
 
-#### Weekly Accuracy Trends
+![Projection Error Distribution](../output/projection_error_distribution.png)
+
+**Error Distribution Histograms:** Shows frequency of projection errors by position:
+- **QB:** Wide distribution, centered around -3.61 (systematic under-projection)
+- **RB:** Narrow distribution around 0 (well-calibrated)
+- **WR:** Moderate distribution, slight negative bias
+- **TE, K, D/ST:** Wide distributions indicating high uncertainty
+
+---
 
 ![Weekly Accuracy Trends](images/projection_accuracy_trend.png)
 
-*Top: Mean absolute error over time. Bottom: Bias showing over/under projection trends. Accuracy does NOT improve as season progresses.*
-
-**Data Source:** 197 player-week records from Weeks 1-11 (Week 12 not yet played)
-
----
-
-### Bottom Line
-
-ESPN projections are **moderately useful but not infallible**:
-- ✅ **Trust RB projections** (most accurate)
-- ⚠️ **Add 2-3 pts to QB projections** (consistently under-projected)
-- ❌ **Don't rely on TE/K projections** (essentially random)
-- ⚠️ **WR projections are directional** (±5 pt variance)
-
-When making tough start/sit decisions, use ESPN projections as ONE input, but factor in:
-- Matchup quality (opponent defensive rank)
-- Recent performance trends (hot/cold streaks)
-- Game script expectations (Vegas O/U, spread)
-- Injury/weather concerns
-
-**The data shows: Trust your gut + matchup analysis over blind projection following.**
+**Weekly MAE and Bias Trends:** Tracks ESPN's accuracy evolution over Weeks 1-11:
+- **MAE (blue line):** Fluctuates between 3.5-5.6 pts, improving in Weeks 9-10
+- **Bias (red line):** Oscillates between -1.66 and +0.97, showing inconsistent calibration
+- **Key Insight:** ESPN's accuracy varies significantly week-to-week
 
 ---
 
-### League-Wide Projection Accuracy (All 12 Teams)
+### ESPN vs LLM Projection Philosophy
 
-The analysis above focuses on **YOUR team's** historical accuracy (197 records from Team ID 3). Below is the same analysis for **ALL 12 teams** in the league (1,940 player-week records across Weeks 1-10):
+**Context:** ESPN Fantasy uses IBM watsonx AI (7-year partnership, updated Sept 2024). IBM watsonx is an enterprise AI platform focused on historical statistical patterns and sentiment analysis, NOT a frontier large language model like Claude Sonnet 4.5.
 
-#### All League Players: Projected vs Actual by Position
+**Claude Sonnet 4.5 Advantages:**
+1. **Real-Time Data Synthesis:** Can integrate Vegas odds, weather forecasts, expert consensus, recent performance trends, and injury reports
+2. **Contextual Understanding:** Analyzes defensive matchups, game scripts, and situational factors
+3. **Bias Correction:** Applies historical position-specific bias adjustments (e.g., add 3 pts to QB projections)
+4. **Multi-Source Validation:** Doesn't rely on single data source like IBM watsonx (historical stats only)
 
-![League-Wide Positional Scatter](images/league_positional_scatter.png)
-
-*Each dot is a player from the entire league (Weeks 1-10), color-coded by team. Shows whether ESPN's projection bias is team-specific or universal. With 1,940 records vs 197 your-team-only, this provides a much larger sample size for statistical analysis.*
-
-**Key Insights from League-Wide Data:**
-
-1. **Your Team's Accuracy is ABOVE AVERAGE**
-   - Valued Customers: R² = 0.474, MAE = 4.33 pts (Rank #2 of 12 teams)
-   - League average: R² = 0.425, MAE = 4.74 pts
-   - Your roster choices are MORE predictable than league average!
-
-2. **Opponent (Wookie of the Year) Analysis**
-   - Team ID 10: R² = 0.449, MAE = 4.52 pts, Bias = -0.45 pts
-   - **Notable:** Their kicker UNDERPERFORMS by -2.21 pts (worst in league!)
-   - Implication: Reduce their kicker projection by ~2 pts for more accurate matchup analysis
-
-3. **Team-Specific Bias Patterns**
-   - Auto DraftKings D/ST: +2.63 pts (consistently BEATS projections)
-   - Torta Pounders TE: +3.28 pts (TEs massively outperform!)
-   - The Warsaw Pact RB: -1.91 pts (RBs underperform)
-
-#### Team Accuracy Rankings (All 12 Teams)
-
-![League Team MAE Ranking](images/league_team_mae_ranking.png)
-
-*Lower MAE = more predictable roster. Meat Pistols (#1, R²=0.548) and Moms rules (#2, R²=0.540) have most accurate projections. Your team ranks #3!*
-
-#### Team × Position Bias Heatmap
-
-![League Bias Heatmap](images/league_bias_heatmap.png)
-
-*Red cells = ESPN under-projects (players exceed projection). Blue cells = ESPN over-projects. Reveals which teams/positions consistently beat or underperform expectations.*
-
-**Notable Patterns (|Bias| > 2.0 pts):**
-- Auto DraftKings D/ST: +2.63 pts (BEATS projections)
-- Kitty's Piggy Skins TE: +2.41 pts (BEATS projections)
-- The Warsaw Pact D/ST: +2.15 pts (BEATS projections)
-- Torta Pounders TE: +3.28 pts (BEATS projections - massive!)
-- **Wookie of the Year K: -2.21 pts (UNDERPERFORMS projections)**
-
-**Why This Matters for Week 12:**
-- You can adjust opponent projections using their historical bias patterns
-- Wookie's kicker likely scores ~6-7 pts instead of ESPN's 8.5 projection
-- Use team-specific bias to refine win probability calculations
-
-**Data Source:** 1,940 player-week records from all 12 teams (Weeks 1-10, 269 unique players)
+**Default Decision Framework:**
+- **Trust LLM (Claude Sonnet 4.5)** when LLM has HIGH or MEDIUM confidence and uses multiple data sources
+- **Trust ESPN for RBs** with established roles (R²=0.452, most accurate position) - ONLY when LLM has LOW confidence
+- **Add 2-3 pts to ESPN QB projections** due to systematic under-projection bias (-3.61 pts)
+- **Ignore ESPN for TEs** (R²=0.173, barely predictive) - use target volume and recent form instead
+- **Completely ignore ESPN for Kickers** (R²=0.000, random) - use Vegas game totals exclusively
 
 ---
 
-## Post-Week 12 Accuracy Tracking
+## Conclusion
 
-**After Week 12 games complete (Tuesday, Nov 26, 2025), run:**
+**Week 12 Strategy Summary:**
+1. ✅ **Start Jacoby Brissett over Jordan Love** (superior matchup vs JAX 26th-ranked pass defense)
+2. ✅ **Trust RB projections** (Emanuel Wilson 14.5, Devin Singletary 9.9) - ESPN most accurate for RBs
+3. ✅ **Start Jaxon Smith-Njigba + Rashee Rice** (elite target volume + favorable Vegas odds)
+4. ✅ **Start Tetairoa McMillan in FLEX** (Monday Night Football breakout potential + latest game time)
+5. ✅ **Start Juwan Johnson at TE** (only viable option, locked-in starter despite tough matchup)
+6. ✅ **Stream Rams D/ST** over Falcons D/ST (better matchup vs TB with Bucky Irving OUT)
+7. ✅ **Trust Jason Myers** based on Seahawks 30.3 implied team total, not ESPN's random K projections
 
-```bash
-cd /home/user1/Documents/ff2025/scripts
-python3 update_projection_actuals.py --week 12
-```
+**Critical Actions Before Sunday:**
+- ⏰ **FRIDAY:** Submit waiver claims for Keenan Allen (#1), Garrett Wilson (#2), Terry McLaurin (#3), Rams D/ST (#4)
+- ⏰ **FRIDAY:** Offer trade to The Warsaw Pact (Bucky Irving + Omarion Hampton for Amon-Ra St. Brown + Stefon Diggs)
+- ⏰ **SATURDAY:** Verify FLEX position is Tetairoa McMillan (Monday 8:15 PM - latest game time)
+- ⏰ **SUNDAY 12:45 PM:** Final injury check before 1:00 PM games kickoff
 
-### What This Does:
+**Projected Outcome:** 131.5 total points (LLM projections) should defeat opponent's 123.0 projection. This is a MUST-WIN game for playoff hopes.
 
-1. **Fetches actual fantasy points** from ESPN API for all Week 12 players
-2. **Calculates accuracy metrics** for both ESPN and LLM projections:
-   - Mean Absolute Error (MAE) - average points off
-   - Root Mean Square Error (RMSE) - typical error range
-   - Bias - over/under projection tendency
-3. **Shows comparison:** **Did LLM beat ESPN this week?**
-4. **Updates projection file** with actual results: `weekly_projections_week_12.json`
-5. **Appends to cumulative CSV:** `data/projections/llm_accuracy_history.csv` (multi-season tracking)
-
-### Scientific Data Collection
-
-This is a **multi-season data collection effort** (2025 → 2026 → 2027...). The cumulative CSV tracks:
-- **Season, week** - Multi-season compatibility
-- **Player, position, team** - Context
-- **ESPN projection, LLM projection, actual points** - Core data
-- **Error metrics** - espn_error, llm_error, espn_abs_error, llm_abs_error
-- **LLM metadata** - llm_version, data_sources_used, llm_confidence, timestamp
-
-### Key Questions to Answer After Week 12:
-
-1. **Which players did LLM project more accurately than ESPN?**
-   - Focus on QBs (ESPN R²=0.109, massive under-projection)
-   - Check TEs (ESPN R²=0.173, weak correlation)
-   - Verify Kickers (ESPN R²=0.000, random)
-
-2. **Did HIGH confidence predictions have lower error than MEDIUM/LOW?**
-   - Calibration check: Does confidence level correlate with accuracy?
-   - If not, adjust confidence thresholds for future weeks
-
-3. **Which data sources were most predictive?**
-   - Players with `vegas` data source - were they more accurate?
-   - Players with `weather` data - did outdoor game analysis help?
-   - Players with `recent_performance` - did hot streaks continue?
-   - Players with `experts` data - did FantasyPros ECR add value?
-
-4. **Position-specific patterns:**
-   - Did LLM beat ESPN for QBs (expected due to -3.61 pt bias)?
-   - Did LLM beat ESPN for TEs (expected due to R²=0.173)?
-   - Did ESPN beat LLM for RBs (expected, ESPN most reliable R²=0.452)?
-
-5. **Close calls analysis:**
-   - **Jordan Love (18.5 LLM) vs Jacoby Brissett (16.5 LLM)** - Did Love outperform by 2+ pts?
-   - **Tetairoa McMillan (15.0 LLM) vs Jameson Williams (14.5 LLM)** - Close call, who performed better?
-   - **Emanuel Wilson (15.5 LLM)** - Did he beat ESPN 14.54 in GB's low-scoring game (Total 41.5)?
-
-### Generate Accuracy Visualizations
-
-After updating actuals, generate LLM vs ESPN comparison charts:
-
-```bash
-python3 plot_llm_accuracy.py
-```
-
-**This creates 5 charts:**
-1. `llm_vs_espn_scatter_comparison.png` - Side-by-side accuracy scatter plots
-2. `llm_weekly_winners.png` - Week-by-week winner (ESPN vs LLM)
-3. `llm_cumulative_improvement.png` - Running MAE trend over time
-4. `llm_position_advantage.png` - Position-specific advantage (which model wins by position)
-5. `llm_confidence_correlation.png` - Confidence calibration (HIGH/MEDIUM/LOW accuracy)
-
-### Continuous Improvement
-
-Use Week 12 results to improve Week 13 projections:
-
-1. **Vegas accuracy check:** Did higher implied team totals correlate with higher scores?
-   - If yes, weight Vegas more heavily in Week 13
-   - If no, reduce Vegas weighting
-
-2. **Weather impact verification:** Were outdoor games affected as predicted?
-   - GB game: Did wind gusts (up to 23 mph) impact passing game?
-   - Nashville game: Did perfect conditions (62°F, light wind) favor offense?
-
-3. **Expert consensus validation:** Did FantasyPros ECR beat ESPN for uncertain positions?
-   - Use this to determine when to prioritize expert consensus in future weeks
-
-4. **Position bias confirmation:** Verify Week 12 patterns match Weeks 1-11:
-   - QB under-projection (expected -3.61 pts)
-   - RB reliability (expected R²=0.452)
-   - K randomness (expected R²=0.000)
-
-**Adjust future LLM projections based on learnings - this is a scientific, iterative process.**
+**Good luck in Week 12! 🏈**
 
 ---
 
-## Summary: Why This Week 12 Analysis Matters
-
-This document represents a **fundamental shift** from blind ESPN trust to **data-driven decision making:**
-
-1. **Historical analysis (Weeks 1-11)** shows ESPN projections have significant weaknesses:
-   - QB: R²=0.109 (essentially random)
-   - K: R²=0.000 (literally random)
-   - TE: R²=0.173 (very weak)
-
-2. **LLM projections** incorporate real-time data ESPN cannot access:
-   - Vegas odds (best predictor of game flow)
-   - Weather conditions (outdoor games)
-   - Expert consensus (FantasyPros ECR)
-   - Recent performance trends
-   - Defensive matchup quality
-
-3. **Side-by-side comparison** for transparency:
-   - Every key player shows BOTH ESP and LLM projections
-   - Data sources documented for each LLM prediction
-   - Confidence levels assigned based on data completeness
-
-4. **Post-week tracking** enables continuous improvement:
-   - Multi-season cumulative dataset (2025 → 2026 → 2027...)
-   - Identify which data sources correlate with accuracy
-   - Refine LLM projection methodology over time
-
-**IBM watsonx** (ESPN's engine) analyzes historical patterns. **Claude Sonnet 4.5** synthesizes real-time context. When they disagree significantly, **trust the model with current data and superior reasoning capabilities.**
-
-**Good luck in Week 12!** This is a must-win game to keep playoff hopes alive.
+*Analysis generated using ESPN Fantasy API, multi-source web research (Vegas odds, weather, expert consensus, defensive rankings), and historical projection accuracy data (Weeks 1-11, 197 player-week records).*

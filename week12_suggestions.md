@@ -45,7 +45,7 @@
 
 ### Overall Accuracy
 
-![ESPN Projection Accuracy Overall](images/projection_accuracy_overall.png)
+![ESPN Projection Accuracy Overall](../output/projection_accuracy_overall.png)
 
 **Key Finding:** ESPN projections show **WEAK overall correlation** with actual points:
 - **R² = 0.373** (explains only 37.3% of variance in actual points)
@@ -54,7 +54,7 @@
 
 ### Position-Specific Reliability
 
-![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
+![ESPN Projection Accuracy by Position](../output/projection_accuracy_by_position.png)
 
 **Reliability Rankings (Weeks 1-11, 197 records):**
 
@@ -678,7 +678,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Overall Accuracy - All Positions
 
-![ESPN Projection Accuracy - All Positions](images/projection_accuracy_overall.png)
+![ESPN Projection Accuracy - All Positions](../output/projection_accuracy_overall.png)
 
 *Scatter plot showing projected vs actual points for all positions. Points above the red line = outperformed projection. R² = 0.382 indicates moderate correlation.*
 
@@ -686,7 +686,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Position-by-Position Breakdown
 
-![ESPN Projection Accuracy by Position](images/projection_accuracy_by_position.png)
+![ESPN Projection Accuracy by Position](../output/projection_accuracy_by_position.png)
 
 *Individual analysis for each position. Note: RBs show strongest correlation (R² = 0.422), while TEs show weakest (R² = 0.173).*
 
@@ -702,7 +702,7 @@ Full projection accuracy analysis with scatter plots (197 player-week records fr
 
 #### Weekly Accuracy Trends
 
-![Weekly Accuracy Trends](images/projection_accuracy_trend.png)
+![Weekly Accuracy Trends](../output/projection_accuracy_trend.png)
 
 *Top: Mean absolute error over time. Bottom: Bias showing over/under projection trends. Accuracy does NOT improve as season progresses.*
 
@@ -725,6 +725,61 @@ When making tough start/sit decisions, use ESPN projections as ONE input, but fa
 - Injury/weather concerns
 
 **The data shows: Trust your gut + matchup analysis over blind projection following.**
+
+---
+
+### League-Wide Projection Accuracy (All 12 Teams)
+
+The analysis above focuses on **YOUR team's** historical accuracy (197 records from Team ID 3). Below is the same analysis for **ALL 12 teams** in the league (1,940 player-week records across Weeks 1-10):
+
+#### All League Players: Projected vs Actual by Position
+
+![League-Wide Positional Scatter](images/league_positional_scatter.png)
+
+*Each dot is a player from the entire league (Weeks 1-10), color-coded by team. Shows whether ESPN's projection bias is team-specific or universal. With 1,940 records vs 197 your-team-only, this provides a much larger sample size for statistical analysis.*
+
+**Key Insights from League-Wide Data:**
+
+1. **Your Team's Accuracy is ABOVE AVERAGE**
+   - Valued Customers: R² = 0.474, MAE = 4.33 pts (Rank #2 of 12 teams)
+   - League average: R² = 0.425, MAE = 4.74 pts
+   - Your roster choices are MORE predictable than league average!
+
+2. **Opponent (Wookie of the Year) Analysis**
+   - Team ID 10: R² = 0.449, MAE = 4.52 pts, Bias = -0.45 pts
+   - **Notable:** Their kicker UNDERPERFORMS by -2.21 pts (worst in league!)
+   - Implication: Reduce their kicker projection by ~2 pts for more accurate matchup analysis
+
+3. **Team-Specific Bias Patterns**
+   - Auto DraftKings D/ST: +2.63 pts (consistently BEATS projections)
+   - Torta Pounders TE: +3.28 pts (TEs massively outperform!)
+   - The Warsaw Pact RB: -1.91 pts (RBs underperform)
+
+#### Team Accuracy Rankings (All 12 Teams)
+
+![League Team MAE Ranking](images/league_team_mae_ranking.png)
+
+*Lower MAE = more predictable roster. Meat Pistols (#1, R²=0.548) and Moms rules (#2, R²=0.540) have most accurate projections. Your team ranks #3!*
+
+#### Team × Position Bias Heatmap
+
+![League Bias Heatmap](images/league_bias_heatmap.png)
+
+*Red cells = ESPN under-projects (players exceed projection). Blue cells = ESPN over-projects. Reveals which teams/positions consistently beat or underperform expectations.*
+
+**Notable Patterns (|Bias| > 2.0 pts):**
+- Auto DraftKings D/ST: +2.63 pts (BEATS projections)
+- Kitty's Piggy Skins TE: +2.41 pts (BEATS projections)
+- The Warsaw Pact D/ST: +2.15 pts (BEATS projections)
+- Torta Pounders TE: +3.28 pts (BEATS projections - massive!)
+- **Wookie of the Year K: -2.21 pts (UNDERPERFORMS projections)**
+
+**Why This Matters for Week 12:**
+- You can adjust opponent projections using their historical bias patterns
+- Wookie's kicker likely scores ~6-7 pts instead of ESPN's 8.5 projection
+- Use team-specific bias to refine win probability calculations
+
+**Data Source:** 1,940 player-week records from all 12 teams (Weeks 1-10, 269 unique players)
 
 ---
 

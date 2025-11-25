@@ -1,5 +1,5 @@
 # Week 13 Lineup Suggestions - Valued Customers
-**Generated:** November 25, 2025 (Early Analysis)
+**Generated:** November 25, 2025 (Updated Analysis - Fresh Vegas/Injury Data)
 **Matchup:** vs 4th and pinches (HOME)
 **Current Record:** 6-6 (#5 of 12)
 **Playoff Status:** On the bubble - MUST WIN all remaining games
@@ -72,7 +72,8 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 - **Marvin Harrison Jr. (ARI):** Appendicitis surgery (Nov 12). Likely OUT Week 13 (3rd straight game). Possible Week 14 return. "When he's physically and mentally healthy to play, he'll play" - Coach Gannon
 
 **QUESTIONABLE:**
-- **Rashee Rice (KC):** Listed as QUESTIONABLE. 6-game suspension completed. Posted 24.10 fantasy points (8/141 yards) in Week 12 win vs IND. Monitor practice reports - expected to play but check Friday injury report.
+- **Rashee Rice (KC):** Listed as QUESTIONABLE with HAMSTRING injury. The injury occurred during the 4th quarter vs IND on a 47-yard catch. Posted 24.10 fantasy points (8/141 yards) in Week 12. Expected to play Thursday vs DAL per beat reporters - spoke to media after game which indicates he should be good to go.
+- **Baker Mayfield (TB):** QUESTIONABLE with shoulder injury. Low-grade left shoulder injury suffered vs LAR. His status is unclear for Sunday vs ARI. If he cannot go, Teddy Bridgewater would start. This moved the TB line from -5.5 to -2.5.
 
 **INJURED RESERVE:**
 - **Omarion Hampton (LAC):** Remains on IR, no return timeline.
@@ -86,14 +87,14 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 | **QB** | Jacoby Brissett | ARI | @ TB | Sun | 17.3 | 19.5 | **START** |
 | **RB** | Bucky Irving | TB | vs ARI | Sun | 11.8 | 15.5 | **START** (if active) |
 | **RB** | Devin Singletary | NYG | @ NE | Mon 8:15 PM | 6.3 | 10.0 | **START** |
-| **WR** | Jaxon Smith-Njigba | SEA | vs MIN | Sun | 22.4 | 24.0 | **START** |
+| **WR** | Jaxon Smith-Njigba | SEA | vs MIN | Sun 4:05 PM | 22.4 | 25.0 | **START** |
 | **WR** | Rashee Rice | KC | @ DAL | Thu 4:30 PM | 18.1 | 21.0 | **START** |
 | **TE** | Juwan Johnson | NO | @ MIA | Sun | 8.7 | 10.0 | **START** |
 | **FLEX** | Tetairoa McMillan | CAR | vs LAR | Sun | 13.2 | 16.5 | **START** |
-| **K** | Jason Myers | SEA | vs MIN | Sun | 8.5 | 9.0 | **START** |
+| **K** | Jason Myers | SEA | vs MIN | Sun 4:05 PM | 8.5 | 10.0 | **START** |
 | **D/ST** | Rams D/ST | LAR | @ CAR | Sun | 7.5 | 9.0 | **START** |
 
-**Total Projected Points:** 134.5 (LLM projections) vs 113.8 (ESPN projections)
+**Total Projected Points:** 136.5 (LLM projections) vs 113.8 (ESPN projections)
 
 **Contingency:** If Bucky Irving is ruled OUT, start Emanuel Wilson (GB @ DET, Thu 12:30 PM) instead.
 
@@ -190,22 +191,24 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ---
 
-### WIDE RECEIVER #1: Jaxon Smith-Njigba (SEA vs MIN, HOME, Sunday)
+### WIDE RECEIVER #1: Jaxon Smith-Njigba (SEA vs MIN, HOME, Sunday 4:05 PM)
 
 - **ESPN Projection (IBM watsonx):** 22.4 pts
-- **LLM Projection (Claude Sonnet 4.5):** 24.0 pts (HIGH confidence)
+- **LLM Projection (Claude Sonnet 4.5):** 25.0 pts (HIGH confidence)
 - **Recommendation:** **MUST START** - Elite WR1, matchup-proof
 
 **LLM Reasoning:**
 - **Elite Production:** WR #2 overall in ECR. 1,313 receiving yards (most in Seattle history). Scored 37.10 pts in Week 12!
 - **Floor Security:** Double-digit fantasy points in 11 straight games. Never scored below 13 PPR points this season.
-- **Defensive matchup:** Vikings have solid secondary but JSN transcends matchups
+- **Vegas:** SEA -10.5 massive favorites (implied team total 26.0) - game script favors continued passing even with lead
+- **Defensive matchup:** Vikings defense has collapsed, losing 5 of 6 since bye week. MIN allowing big days to WRs.
 - **Target Volume:** 37.2% target share - leads NFL
 - **Ceiling:** 7 TDs in last 9 games, explosiveness increasing
+- **Sam Darnold revenge game:** Seattle motivated to dominate former QB matchup
 
-**Data Sources Used:** recent_performance, experts, defense
+**Data Sources Used:** recent_performance, experts, defense, vegas
 
-**VERDICT:** Locked-in WR1. Start every week without question.
+**VERDICT:** Locked-in WR1. Start every week without question. Premium spot with SEA as massive home favorite.
 
 ---
 
@@ -263,13 +266,19 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ---
 
-### KICKER: Jason Myers (SEA vs MIN, HOME, Sunday)
+### KICKER: Jason Myers (SEA vs MIN, HOME, Sunday 4:05 PM)
 
 - **ESPN Projection (IBM watsonx):** 8.5 pts
-- **LLM Projection (Claude Sonnet 4.5):** 9.0 pts
+- **LLM Projection (Claude Sonnet 4.5):** 10.0 pts (MEDIUM-HIGH confidence)
 - **Recommendation:** **START**
 
-Myers has been consistently above projections - scored 13.00, 14.00, 15.00 pts in recent weeks. Reliable option.
+**LLM Reasoning:**
+- **Vegas:** Seattle implied team total of 26.0 points as -10.5 favorites - many FG/XP opportunities
+- **Recent Form:** Scored 13.00, 14.00, 15.00 pts in recent weeks - consistently above projections
+- **Game Environment:** Lumen Field, dome-like protection from elements, high-powered SEA offense
+- **Historical bias:** Kicker projections are essentially random (R²=0.039), but Myers has been reliable
+
+**Data Sources Used:** vegas, recent_performance, bias_analysis
 
 ---
 
@@ -403,21 +412,22 @@ Getting Amon-Ra St. Brown and Stefon Diggs for Singletary + Wilson is a HOME RUN
 
 ---
 
-## Vegas Odds Summary - Week 13
+## Vegas Odds Summary - Week 13 (Updated Nov 25, 2025)
 
-| Game | Spread | Total | Implied Team Totals |
-|------|--------|-------|---------------------|
-| GB @ DET | DET -2.5 | 48.5 | DET 25.5, GB 23.0 |
-| KC @ DAL | KC -3 | 52.5 | KC 27.8, DAL 24.7 |
-| NYG @ NE | NE -7.5 | 47.5 | NE 27.5, NYG 20.0 |
-| JAX @ TEN | JAX -6.5 | - | - |
-| SEA vs MIN | - | - | - |
-| NO @ MIA | - | - | - |
+| Game | Spread | Total | Implied Team Totals | Notes |
+|------|--------|-------|---------------------|-------|
+| GB @ DET | DET -2.5 | 48.5 | DET 25.5, GB 23.0 | Thanksgiving 12:30 PM |
+| KC @ DAL | KC -3 | 52.5 | KC 27.8, DAL 24.7 | Thanksgiving 4:30 PM - HIGH SCORING |
+| ARI @ TB | TB -2.5 | 45.5 | TB 24.0, ARI 21.5 | Line moved from -5.5 (Mayfield injury) |
+| MIN @ SEA | SEA -10.5 | 41.5 | SEA 26.0, MIN 15.5 | SEA massive favorite, Darnold revenge game |
+| NYG @ NE | NE -7.5 | 46.5 | NE 27.0, NYG 19.5 | Monday Night Football |
 
 **Key Takeaways:**
-- **High-scoring environments:** KC @ DAL (52.5 total) - great for Rashee Rice
-- **Competitive game:** GB @ DET (48.5) - both offenses should produce
-- **Giants underdog:** NYG @ NE - Giants may need to pass if trailing, could help Singletary in PPR
+- **High-scoring environments:** KC @ DAL (52.5 total) - GREAT for Rashee Rice
+- **Line movement alert:** ARI @ TB dropped from 48.5 to 45.5 due to Baker Mayfield shoulder injury
+- **Seattle dominance:** SEA -10.5 vs MIN is massive - good for JSN and Myers
+- **Competitive Thanksgiving:** GB @ DET (48.5) - both offenses should produce
+- **Giants underdog:** NYG @ NE -7.5 - Singletary could see dump-offs in PPR
 
 ---
 

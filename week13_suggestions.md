@@ -407,6 +407,28 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 3. **WRs have moderate reliability** - Use with caution, ±5 pt variance
 4. **Kicker projections are essentially random** - Don't overthink K decisions
 
+### Team-Specific Visualization Charts (Weeks 1-11)
+
+![Overall Projection Accuracy](images/projection_accuracy_overall.png)
+
+![Position-by-Position Accuracy](images/projection_accuracy_by_position.png)
+
+![Error Distribution](images/projection_error_distribution.png)
+
+![Weekly Accuracy Trends](images/projection_accuracy_trend.png)
+
+---
+
+## League-Wide Projection Accuracy Analysis
+
+### All 12 Teams - Visualization Charts
+
+![Team MAE Rankings](images/league_team_mae_ranking.png)
+
+![Team x Position Bias Heatmap](images/league_bias_heatmap.png)
+
+![League-Wide Position Scatter](images/league_positional_scatter.png)
+
 ---
 
 ## Critical Reminders

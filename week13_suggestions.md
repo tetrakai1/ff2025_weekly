@@ -71,8 +71,10 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 **STILL OUT:**
 - **Marvin Harrison Jr. (ARI):** Appendicitis surgery (Nov 12). Likely OUT Week 13 (3rd straight game). Possible Week 14 return. "When he's physically and mentally healthy to play, he'll play" - Coach Gannon
 
-**HEALTHY:**
-- **Rashee Rice (KC):** Fully healthy. 6-game suspension completed. Posted 24.10 fantasy points (8/141 yards) in Week 12 win vs IND.
+**QUESTIONABLE:**
+- **Rashee Rice (KC):** Listed as QUESTIONABLE. 6-game suspension completed. Posted 24.10 fantasy points (8/141 yards) in Week 12 win vs IND. Monitor practice reports - expected to play but check Friday injury report.
+
+**INJURED RESERVE:**
 - **Omarion Hampton (LAC):** Remains on IR, no return timeline.
 
 ---
@@ -209,11 +211,14 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ### WIDE RECEIVER #2: Rashee Rice (KC @ DAL, AWAY, Thursday 4:30 PM Thanksgiving)
 
+**INJURY ALERT:** Currently listed as QUESTIONABLE - monitor practice reports before Thursday game!
+
 - **ESPN Projection (IBM watsonx):** 18.1 pts
 - **LLM Projection (Claude Sonnet 4.5):** 21.0 pts (HIGH confidence)
-- **Recommendation:** **START** - Elite WR1 with excellent matchup
+- **Recommendation:** **START** (if active) - Elite WR1 with excellent matchup
 
 **LLM Reasoning:**
+- **Injury Note:** QUESTIONABLE designation - expected to play but verify before kickoff
 - **Week 12 Performance:** 8/141 yards (24.10 pts) - WR8 on the week
 - **Matchup:** Dallas defense ranks 31st per FPI. 29th in Yards Allowed, 31st in Points Allowed
 - **Vegas odds:** Chiefs -3 favorites (game total 52.5, implied team total 27.8) - high-scoring environment
@@ -480,7 +485,7 @@ Getting Amon-Ra St. Brown and Stefon Diggs for Singletary + Wilson is a HOME RUN
 3. **WRs have moderate reliability** - Use with caution, ±5 pt variance
 4. **Kicker projections are essentially random** - Don't overthink K decisions
 
-### Visualization Charts
+### Team-Specific Visualization Charts (Weeks 1-12)
 
 ![Overall Projection Accuracy](images/projection_accuracy_overall.png)
 
@@ -489,6 +494,43 @@ Getting Amon-Ra St. Brown and Stefon Diggs for Singletary + Wilson is a HOME RUN
 ![Error Distribution](images/projection_error_distribution.png)
 
 ![Weekly Accuracy Trends](images/projection_accuracy_trend.png)
+
+---
+
+## League-Wide Projection Accuracy Analysis
+
+### All 12 Teams - Summary Statistics (Weeks 1-12)
+
+| Team | Records | MAE | Bias | R² |
+|------|---------|-----|------|-----|
+| Meat Pistols | 192 | 4.27 | -0.29 | 0.548 |
+| Chupi and the End Zone Bandits | 200 | 4.41 | -0.14 | 0.420 |
+| Valued Customers | 197 | 4.45 | +0.08 | 0.477 |
+| Moms rules | 192 | 4.55 | -0.49 | 0.505 |
+| Wookie of the Year | 197 | 4.58 | -0.52 | 0.432 |
+| Ryan's Rowdy Team | 198 | 4.62 | -0.07 | 0.442 |
+| Torta Pounders Football Club | 192 | 4.62 | -0.36 | 0.435 |
+| The Warsaw Pact | 190 | 4.78 | -0.76 | 0.434 |
+| Smooth Roosters | 192 | 5.00 | -0.70 | 0.395 |
+| Kitty's Piggy Skins | 192 | 5.05 | +0.42 | 0.428 |
+| 4th and pinches | 197 | 5.09 | -0.80 | 0.386 |
+| Auto DraftKings | 192 | 5.76 | -0.15 | 0.328 |
+
+### Notable League-Wide Bias Patterns (|Bias| > 2.0 pts)
+
+- **4th and pinches QB:** -2.69 pts (UNDERPERFORMS projections)
+- **Valued Customers QB:** -2.00 pts (UNDERPERFORMS projections)
+- **Auto DraftKings D/ST:** +2.52 pts (BEATS projections)
+- **The Warsaw Pact D/ST:** +2.16 pts (BEATS projections)
+- **Torta Pounders Football Club TE:** +2.29 pts (BEATS projections)
+
+### League-Wide Visualization Charts
+
+![Team MAE Rankings](images/league_team_mae_ranking.png)
+
+![Team x Position Bias Heatmap](images/league_bias_heatmap.png)
+
+![League-Wide Position Scatter](images/league_positional_scatter.png)
 
 ---
 

@@ -88,16 +88,16 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ## Full Bench Listing
 
-| Position | Player | Team | Status | ESPN Proj | Notes |
-|----------|--------|------|--------|-----------|-------|
-| QB | Jordan Love | GB | BENCH | 15.7 | Tough DET matchup (Lions -2.5), recent inconsistency |
-| RB | Devin Singletary | NYG | BENCH | 6.3 | Backup if Irving OUT; Giants 7.5-pt underdogs |
-| RB | Tyjae Spears | TEN | BENCH | 10.0 | TD dependent, limited volume |
-| RB | Tyler Allgeier | ATL | BENCH | 7.9 | Limited role behind Bijan Robinson |
-| RB | Omarion Hampton | LAC | IR | 12.3 | Injured reserve |
-| WR | Jameson Williams | DET | BENCH | 11.8 | Boom/bust - FLEX if Rice OUT |
-| WR | Marvin Harrison Jr. | ARI | OUT | 13.7 | Appendicitis - Week 14 return expected |
-| TE | Evan Engram | DEN | BENCH | 8.1 | Johnson preferred for ceiling |
+| Position | Player | Team | Status | ESPN Proj | LLM Proj | Conf | Notes |
+|----------|--------|------|--------|-----------|----------|------|-------|
+| QB | Jordan Love | GB | BENCH | 15.7 | 14.5 | LOW | Tough DET matchup, recent inconsistency |
+| RB | Devin Singletary | NYG | BENCH | 6.3 | 7.5 | LOW | Backup if Irving OUT; negative game script |
+| RB | Tyjae Spears | TEN | BENCH | 10.0 | 10.0 | LOW | TD dependent, limited volume |
+| RB | Tyler Allgeier | ATL | BENCH | 7.9 | 8.0 | LOW | Limited role behind Bijan Robinson |
+| RB | Omarion Hampton | LAC | IR | 12.3 | 0.0 | N/A | Injured reserve - not playing |
+| WR | Jameson Williams | DET | BENCH | 11.8 | 13.0 | LOW | Boom/bust - FLEX if Rice OUT |
+| WR | Marvin Harrison Jr. | ARI | OUT | 13.7 | 0.0 | N/A | Appendicitis - Week 14 return expected |
+| TE | Evan Engram | DEN | BENCH | 8.1 | 8.5 | LOW | Johnson preferred for ceiling |
 
 ---
 

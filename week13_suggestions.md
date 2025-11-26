@@ -1,31 +1,34 @@
 # Week 13 Lineup Suggestions - Valued Customers
-**Generated:** November 25, 2025 (Fresh LLM Analysis)
+**Generated:** November 26, 2025 - THANKSGIVING DAY (Game Day Update)
 **Matchup:** vs 4th and pinches (HOME)
 **Current Record:** 6-6 (#5 of 12)
 **Playoff Status:** On the bubble - MUST WIN remaining games
 
 ---
 
-## URGENT: TRADE DEADLINE TOMORROW
+## THANKSGIVING GAME DAY SCHEDULE
 
-**Trade Deadline: November 26, 2025 @ 11:00 AM CST (LESS THAN 24 HOURS)**
+**Today's Games (Thursday, Nov 27):**
+- **12:30 PM ET:** GB @ DET (Emanuel Wilson, Jordan Love playing)
+- **4:30 PM ET:** KC @ DAL (Rashee Rice playing)
 
-All trades must be executed before this deadline. After this date, rosters can only be modified via waivers/free agency.
+**TRADE DEADLINE HAS PASSED** (Nov 26, 2025 @ 11:00 AM CST)
+Rosters can now only be modified via waivers/free agency.
 
 ---
 
 ## Data Verification Log
 
 **Data Sources:**
-- Roster Data: `python3 main.py roster` (Nov 25, 2025)
-- Matchup Data: `python3 main.py matchup` (Nov 25, 2025)
-- Standings: `python3 main.py standings` (Nov 25, 2025)
-- Free Agents: `python3 main.py free-agents` (Nov 25, 2025)
-- Projection Accuracy: `./run_projection_analysis.sh --week 13` (Nov 25, 2025)
-- Monte Carlo Report: `generate_weekly_mc_report.py --week 13` (Nov 25, 2025)
-- Vegas Odds: Web search (Nov 25, 2025)
-- Injury Reports: Web search (Nov 25, 2025)
-- Expert Rankings: FantasyPros, ESPN, Pro Football Network (Nov 25, 2025)
+- Roster Data: `python3 main.py roster` (Nov 26, 2025 - Game Day)
+- Matchup Data: `python3 main.py matchup` (Nov 26, 2025)
+- Standings: `python3 main.py standings` (Nov 26, 2025)
+- Free Agents: `python3 main.py free-agents` (Nov 26, 2025)
+- Projection Accuracy: `./run_projection_analysis.sh --week 13` (Nov 26, 2025)
+- Monte Carlo Report: `generate_weekly_mc_report.py --week 13` (Nov 26, 2025)
+- Vegas Odds: Web search (Nov 26, 2025 - Thanksgiving morning)
+- Injury Reports: Web search (Nov 26, 2025 - Thanksgiving morning)
+- Expert Rankings: FantasyPros, ESPN, Pro Football Network (Nov 26, 2025)
 
 **Schedule Verification:**
 All opponent matchups cross-referenced with ESPN NFL API for Week 13.
@@ -38,21 +41,22 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 **Your Projected Total:** 107.2 (ESPN) | **122.1 (Monte Carlo EV)**
 **Opponent's Projected Total:** 120.5 (ESPN) | **120.9 (Monte Carlo EV)**
 
-**Monte Carlo Win Probability:** 51.8%
-**Expected Margin:** +0.8 pts
+**Monte Carlo Win Probability:** 52.8%
+**Expected Margin:** +1.5 pts
 
-**Analysis:** ESPN projects a 13-point loss, but Monte Carlo simulation using injury-adjusted scenarios shows this is essentially a coin flip. Key factors: Bucky Irving's return, Rashee Rice's hamstring status, and opponent Baker Mayfield's shoulder injury (QUESTIONABLE).
+**Analysis:** ESPN projects a 13-point loss, but Monte Carlo simulation using injury-adjusted scenarios shows this is a slight favorite. Key factors: Rashee Rice confirmed full practice (WILL PLAY), Josh Jacobs game-time decision (Wilson insurance), opponent Baker Mayfield's shoulder (QUESTIONABLE - could miss), and Bucky Irving's Sunday return vs ARI.
 
 ---
 
 ## CRITICAL INJURY ALERTS
 
 ### RETURNING Week 13:
-- **Bucky Irving (TB):** Expected to RETURN vs ARI. Coach Todd Bowles: "He's gonna practice all this week, and if he's well by Friday, he'll play on Sunday." Has logged two consecutive weeks of limited practice without setbacks. Out since Week 4 (shoulder/foot). Tampa is 3-1 with him, 3-4 without.
+- **Bucky Irving (TB):** Expected to RETURN vs ARI (Sunday). Coach Todd Bowles: "He's gonna practice all this week, and if he's well by Friday, he'll play on Sunday." Has logged two consecutive weeks of limited practice without setbacks. Out since Week 4 (shoulder/foot). Tampa is 3-1 with him, 3-4 without.
 
-### QUESTIONABLE:
-- **Rashee Rice (KC):** Full practice participant Tuesday - UPGRADED from limited. Tweaked hamstring in 4th quarter vs IND but finished game with 8/141/0 (first 100-yard game by KC WR this season). Coach Reid: "I think they'll be alright." EXPECT TO PLAY.
-- **Josh Jacobs (GB):** Game-time decision with bone bruise and thigh contusion from Week 11. Missed Week 12 but "expectation is Jacobs will be ready for Thanksgiving." Wilson insurance needed.
+### GAME-DAY STATUS (Nov 26):
+- **Rashee Rice (KC):** WILL PLAY - Full practice participant Tuesday, upgraded from limited. Coach Reid: "I think they'll be alright." 8/141/0 last week despite late hamstring tweak.
+- **Josh Jacobs (GB):** GAME-TIME DECISION - Listed as questionable, expected to play per Pelissero. If OUT, Emanuel Wilson gets full workload (26 carries, 107 yards, 2 TDs last week).
+- **Emanuel Wilson (GB):** START - First Packers player to rush for 100+ yards with 2 TDs in a starting debut since Samkon Gado (2005). Even if Jacobs plays, Wilson has earned significant role.
 
 ### OPPONENT INJURIES:
 - **Baker Mayfield (TB):** QUESTIONABLE - MRI revealed LOW-GRADE AC joint sprain (non-throwing shoulder). "As good a diagnosis as anyone could hope" per sources. Has "real chance" to play. If OUT, Teddy Bridgewater starts and Irving's workload increases.
@@ -303,16 +307,16 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ---
 
-## Key Vegas Lines Summary
+## Key Vegas Lines Summary (Nov 26 - Thanksgiving Morning)
 
-| Game | Spread | Total | Implied Team Totals |
-|------|--------|-------|---------------------|
-| GB @ DET | DET -2.5 | 48.5 | GB 23, DET 25.5 |
-| KC @ DAL | KC -3 | 52.5 | KC 27.75, DAL 24.75 |
-| ARI @ TB | TB -2.5 | 44.5 | ARI 21, TB 23.5 |
-| LAR @ CAR | LAR -10 | 44 | LAR 27, CAR 17 |
-| SEA vs MIN | TBD | TBD | Favorable for SEA offense |
-| NYG @ NE | NE -7.5 | 46.5-48.5 | NE 27, NYG 19.5 |
+| Game | Spread | Total | Implied Team Totals | Notes |
+|------|--------|-------|---------------------|-------|
+| GB @ DET | DET -2.5 | 48.5 | GB 23, DET 25.5 | Thanksgiving 12:30 PM - INDOOR |
+| KC @ DAL | KC -3 | 51.5 | KC 27.25, DAL 24.25 | Thanksgiving 4:30 PM |
+| ARI @ TB | TB -2.5 | 44.5 | ARI 21, TB 23.5 | Sunday - Irving return game |
+| LAR @ CAR | LAR -10 | 44 | LAR 27, CAR 17 | Rams D/ST elite play |
+| SEA vs MIN | TBD | TBD | Favorable for SEA | JSN on 2,000-yard pace |
+| NYG @ NE | NE -7.5 | 46.5-48.5 | NE 27, NYG 19.5 | MNF - Singletary backup |
 
 ---
 
@@ -320,14 +324,15 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 **My Team EV:** 122.1 pts
 **Opponent EV:** 120.9 pts
-**Win Probability:** 51.8%
-**Expected Margin:** +0.8 pts
+**Win Probability:** 52.8%
+**Expected Margin:** +1.5 pts
 
-### Key Variance Factors:
-- Bucky Irving's return (MEDIUM uncertainty)
-- Rashee Rice hamstring (LOW uncertainty - should play)
-- Opponent Baker Mayfield shoulder (HIGH uncertainty)
-- JSN's floor is elite (LOW variance)
+### Key Variance Factors (Updated Nov 26):
+- Emanuel Wilson (MEDIUM upside - proved himself in Week 12)
+- Rashee Rice hamstring (RESOLVED - full practice, will play)
+- Opponent Baker Mayfield shoulder (HIGH uncertainty - QUESTIONABLE)
+- Opponent DK Metcalf (HIGH uncertainty - QUESTIONABLE)
+- JSN's floor is elite (LOW variance - hasn't been under 13 PPR all season)
 
 **Full MC Report:** See `mc_reports/week13_mc_report.html` for interactive histograms.
 
@@ -351,20 +356,27 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ---
 
-## Sources
+## Sources (Updated Nov 26, 2025)
 
+### Injury Updates
+- [Bucky Irving Return Update - Buccaneers.com](https://www.buccaneers.com/news/bucky-irving-track-return-week-13-baker-mayfield-status-uncertain)
+- [Bucky Irving Injury Update - Pro Football Network](https://www.profootballnetwork.com/buccaneers-bucky-irving-injury-update-week-13/)
+- [Rashee Rice Full Practice - RotoWire](https://www.rotowire.com/football/headlines/rashee-rice-news-submits-full-practice-619076)
+- [Rashee Rice Injury Update - Heavy.com](https://heavy.com/sports/nfl/kansas-city-chiefs/injury-news-rashee-rice-xavier-worthy-cowboys/)
+- [Josh Jacobs Game-Time Decision - Acme Packing](https://www.acmepackingcompany.com/green-bay-packers-news/75480/josh-jacobs-keisean-nixon-to-be-game-time-decisions-for-green-bay-packers-injury-update-week-13)
+- [Baker Mayfield Low-Grade Sprain - NFL.com](https://www.nfl.com/news/todd-bowles-baker-mayfield-s-mri-to-determine-availability-for-buccaneers-week-13-game)
+
+### Vegas Odds
 - [NFL Week 13 Odds - ESPN](https://www.espn.com/espn/betting/story/_/id/47013215/2025-nfl-week-13-schedule-odds-betting-point-spreads-thanksgiving)
 - [NFL Week 13 Odds - FOX Sports](https://www.foxsports.com/stories/nfl/2025-nfl-odds-week-13-lines-spreads-all-16-games)
-- [Week 13 Injury Report - FOX Sports](https://www.foxsports.com/articles/nfl/2025-nfl-week-13-injury-report-latest-injuries-for-every-team)
-- [Bucky Irving Return Update - Buccaneers.com](https://www.buccaneers.com/news/bucky-irving-track-return-week-13-baker-mayfield-status-uncertain)
-- [Baker Mayfield MRI Results - NFL.com](https://www.nfl.com/news/todd-bowles-baker-mayfield-s-mri-to-determine-availability-for-buccaneers-week-13-game)
-- [Baker Mayfield Injury Update - SI.com](https://www.si.com/nfl/baker-mayfield-injury-todd-bowles-update-buccaneers-qb-shoulder)
-- [Rashee Rice Injury Update - Heavy.com](https://heavy.com/sports/nfl/kansas-city-chiefs/injury-news-rashee-rice-xavier-worthy-cowboys/)
-- [Josh Jacobs Injury Update - Pro Football Network](https://www.profootballnetwork.com/packers-josh-jacobs-injury-update-week-13/)
-- [Emanuel Wilson Breakout - ESPN](https://www.espn.com/nfl/story/_/id/47083862/nfl-green-bay-packers-emanuel-wilson-josh-jacobs)
-- [JSN Fantasy Week 13 - Yahoo Sports](https://sports.yahoo.com/fantasy/article/fantasy-football-rankings-2025-week-13-wide-receivers-justin-boone-jamarr-chase-jaxon-smith-njigba-rashee-rice-190756582.html)
-- [FantasyPros Week 13 Rankings](https://www.fantasypros.com/nfl/players/jaxon-smith-njigba.php)
+- [Thanksgiving Betting Trends - Yahoo Sports](https://sports.yahoo.com/nfl/betting/article/nfl-betting-odds-lines-betting-trends-for-thanksgiving-week-13s-biggest-games-210140910.html)
+
+### Fantasy Analysis
+- [Emanuel Wilson Waiver Wire - Rotoballer](https://www.rotoballer.com/week-13-waiver-wire-pickups-devin-neal-emanuel-wilson-chris-rodriguez-jr-fantasy-football-outlooks/1763613)
+- [JSN Historic Pace - NBC Sports](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaxon-smith-njiba-accounts-for-historic-share-of-seahawks-passing-game)
+- [Rams D/ST Streaming - 4for4](https://www.4for4.com/2025/w13/fantasy-football-defense-streaming-week-13-rams-look-dominant-again)
+- [Week 13 RB Rankings - Yahoo Sports](https://sports.yahoo.com/fantasy/article/fantasy-football-rankings-2025-week-13-running-backs-lineup-advice-josh-jacobs-saquon-barkley-201531684.html)
 
 ---
 
-*Generated with Claude Code - LLM projections based on Vegas odds, injury reports, expert consensus, and historical ESPN bias analysis.*
+*Generated with Claude Code (Nov 26, 2025) - LLM projections based on Vegas odds, Thanksgiving morning injury reports, expert consensus, and historical ESPN bias analysis.*

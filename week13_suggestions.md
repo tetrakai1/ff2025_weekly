@@ -48,13 +48,14 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 ## CRITICAL INJURY ALERTS
 
 ### RETURNING Week 13:
-- **Bucky Irving (TB):** Expected to RETURN vs ARI. Coach Todd Bowles: "He's gonna practice all this week, and if he's well by Friday, he'll play on Sunday." Out since Week 4. Tampa is 3-1 with him, 3-4 without.
+- **Bucky Irving (TB):** Expected to RETURN vs ARI. Coach Todd Bowles: "He's gonna practice all this week, and if he's well by Friday, he'll play on Sunday." Has logged two consecutive weeks of limited practice without setbacks. Out since Week 4 (shoulder/foot). Tampa is 3-1 with him, 3-4 without.
 
 ### QUESTIONABLE:
-- **Rashee Rice (KC):** QUESTIONABLE with HAMSTRING injury. Tweaked it in 4th quarter vs IND but finished game with 8/141/0 (24.1 pts). Full practice Tuesday. Coach Reid: "I think they'll be alright."
+- **Rashee Rice (KC):** Full practice participant Tuesday - UPGRADED from limited. Tweaked hamstring in 4th quarter vs IND but finished game with 8/141/0 (first 100-yard game by KC WR this season). Coach Reid: "I think they'll be alright." EXPECT TO PLAY.
+- **Josh Jacobs (GB):** Game-time decision with bone bruise and thigh contusion from Week 11. Missed Week 12 but "expectation is Jacobs will be ready for Thanksgiving." Wilson insurance needed.
 
 ### OPPONENT INJURIES:
-- **Baker Mayfield (TB):** QUESTIONABLE - shoulder sprain from Week 12 vs LAR. No structural damage per Schefter. If OUT, Cardinals defense benefits.
+- **Baker Mayfield (TB):** QUESTIONABLE - MRI revealed LOW-GRADE AC joint sprain (non-throwing shoulder). "As good a diagnosis as anyone could hope" per sources. Has "real chance" to play. If OUT, Teddy Bridgewater starts and Irving's workload increases.
 - **DK Metcalf (SEA):** QUESTIONABLE - opponent's WR (affects 4th and pinches if they have Seahawks)
 
 ### INJURED RESERVE:
@@ -157,8 +158,8 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 - **Recommendation:** **START** - Exceeded expectations in Week 12 (26.5 pts!)
 
 **LLM Reasoning:**
-- **Recent form:** 106 rushing yards, 2 TDs in Week 12 vs MIN - became lead back
-- **Josh Jacobs status:** Jacobs QUESTIONABLE with knee injury - Wilson could see expanded role
+- **Recent form:** 28 carries for 107 yards and 2 TDs in Week 12 - first Packers player since Samkon Gado (2005) to rush for 100+ yards with 2 TDs in a starting debut
+- **Josh Jacobs status:** Game-time decision (bone bruise/thigh contusion). Even if Jacobs plays, Wilson has earned a significant role
 - **Vegas odds:** Lions -2.5, game total 48.5 - high-scoring divisional game expected
 - **Historical bias:** ESPN significantly under-projected Wilson in Week 12 (14.53 → 26.50)
 
@@ -186,11 +187,11 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 - **Recommendation:** **START** - WR1 in fantasy football
 
 **LLM Reasoning:**
-- **Season dominance:** Broke Seahawks single-season receiving record in Week 11; 1,313 yards in 11 games
-- **Recent form:** 8/167/2 in Week 12 (37.1 fantasy pts!); 100+ yards in 8 of 11 games
-- **Floor:** Hasn't scored below 13 PPR points all season - matchup-proof
-- **Vikings defense:** Minnesota defense struggling; J.J. McCarthy throwing interceptions
-- **Expert consensus:** Unanimously ranked as top-3 WR for Week 13
+- **Season dominance:** Broke Seahawks single-season receiving record in Week 11; 1,313 yards in 11 games (119.3 YPG pace = 2,208 yards if maintained)
+- **Recent form:** 8/167/2 in Week 12 (33.1 fantasy pts); 11 straight games of double-digit PPR points; 7 TDs in last 9 games
+- **Floor:** Hasn't scored below 13 PPR points all season; 79+ yards in EVERY game
+- **Target share:** 36%+ of Sam Darnold's passes
+- **Expert consensus:** Justin Boone and ESPN unanimous top-3 WR for Week 13
 
 **Data Sources Used:** recent_performance, experts, defense
 
@@ -352,12 +353,17 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 
 ## Sources
 
+- [NFL Week 13 Odds - ESPN](https://www.espn.com/espn/betting/story/_/id/47013215/2025-nfl-week-13-schedule-odds-betting-point-spreads-thanksgiving)
 - [NFL Week 13 Odds - FOX Sports](https://www.foxsports.com/stories/nfl/2025-nfl-odds-week-13-lines-spreads-all-16-games)
 - [Week 13 Injury Report - FOX Sports](https://www.foxsports.com/articles/nfl/2025-nfl-week-13-injury-report-latest-injuries-for-every-team)
 - [Bucky Irving Return Update - Buccaneers.com](https://www.buccaneers.com/news/bucky-irving-track-return-week-13-baker-mayfield-status-uncertain)
+- [Baker Mayfield MRI Results - NFL.com](https://www.nfl.com/news/todd-bowles-baker-mayfield-s-mri-to-determine-availability-for-buccaneers-week-13-game)
+- [Baker Mayfield Injury Update - SI.com](https://www.si.com/nfl/baker-mayfield-injury-todd-bowles-update-buccaneers-qb-shoulder)
 - [Rashee Rice Injury Update - Heavy.com](https://heavy.com/sports/nfl/kansas-city-chiefs/injury-news-rashee-rice-xavier-worthy-cowboys/)
-- [JSN Record - ESPN](https://www.espn.com/nfl/story/_/id/47078709/jaxon-smith-njigba-sets-seahawks-season-receiving-yards-mark)
-- [FantasyPros Week 13 Rankings](https://www.fantasypros.com/2025/11/fantasy-football-week-13-wide-receiver-rankings-2025/)
+- [Josh Jacobs Injury Update - Pro Football Network](https://www.profootballnetwork.com/packers-josh-jacobs-injury-update-week-13/)
+- [Emanuel Wilson Breakout - ESPN](https://www.espn.com/nfl/story/_/id/47083862/nfl-green-bay-packers-emanuel-wilson-josh-jacobs)
+- [JSN Fantasy Week 13 - Yahoo Sports](https://sports.yahoo.com/fantasy/article/fantasy-football-rankings-2025-week-13-wide-receivers-justin-boone-jamarr-chase-jaxon-smith-njigba-rashee-rice-190756582.html)
+- [FantasyPros Week 13 Rankings](https://www.fantasypros.com/nfl/players/jaxon-smith-njigba.php)
 
 ---
 

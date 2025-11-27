@@ -1,49 +1,16 @@
 # Week 13 Lineup Suggestions - Valued Customers
-**Generated:** November 26, 2025 (Fresh LLM Analysis - UPDATED)
+**Generated:** November 25, 2025 (Fresh LLM Analysis)
 **Matchup:** vs 4th and pinches (HOME)
 **Current Record:** 6-6 (#5 of 12)
 **Playoff Status:** On the bubble - MUST WIN remaining games
 
 ---
 
-## URGENT: IR ROSTER DECISION REQUIRED BEFORE THURSDAY
+## URGENT: TRADE DEADLINE TOMORROW
 
-**DEADLINE: Thursday, November 27, 1:00 PM ET (Thanksgiving)**
+**Trade Deadline: November 26, 2025 @ 11:00 AM CST (LESS THAN 24 HOURS)**
 
-Emanuel Wilson plays Thursday vs Detroit. If you want the OPTION to start Omarion Hampton on Sunday, you must move Hampton off IR BEFORE Thursday's kickoff. Otherwise, you're locked into Wilson for Week 13.
-
-### The Hampton vs Wilson Decision
-
-| Factor | Omarion Hampton (LAC) | Emanuel Wilson (GB) |
-|--------|----------------------|---------------------|
-| **ESPN Projection** | 12.3 pts | 5.2 pts |
-| **Pre-injury PPR avg** | 15.4 pts/game | ~6 pts/game (one breakout) |
-| **Role** | Lead back (may share with Vidal initially) | Committee back behind Josh Jacobs |
-| **Matchup** | vs Raiders (LAC -8.5 favorite) | @ Lions (GB +3 underdog) |
-| **Status** | Practice window opened Tuesday - could play | Healthy, will play |
-| **Upside** | RB1 ceiling | RB3/flex ceiling |
-| **Game Time** | Sunday 4:25 PM ET | Thursday 1:00 PM ET |
-
-### RECOMMENDATION: MOVE HAMPTON OFF IR
-
-**Why:**
-1. **Hampton's upside (15.4 PPR avg) far exceeds Wilson's ceiling (~8 pts)**
-2. Even with reduced touches in first game back, Hampton > Wilson in a blowout environment (LAC -8.5)
-3. Wilson's Week 12 explosion (26.5 pts) was exceptional - expect regression with Jacobs returning
-4. Chargers have strong incentive to activate Hampton for playoff push
-
-**Drop Candidate:** Devin Singletary (6.3 proj, committee role with NYG, low upside)
-
-### Action Steps:
-1. **Before Thursday 1 PM ET:** Move Hampton from IR to bench → Drop Singletary
-2. Set lineup with Hampton in FLEX slot (Sunday 4:25 PM - latest game)
-3. **If Hampton ruled OUT Saturday:** Swap in Tyjae Spears (9.9 proj vs JAX)
-4. **Monitor Friday/Saturday:** Chargers injury report will clarify Hampton's status
-
-### Risk Assessment:
-- **If Hampton plays:** You get potential RB1 production vs bad Raiders defense
-- **If Hampton doesn't play:** You start Bucky Irving + Tyjae Spears instead of Wilson
-- **Singletary drop risk:** Minimal - he's a committee back with low ceiling on a bad team
+All trades must be executed before this deadline. After this date, rosters can only be modified via waivers/free agency.
 
 ---
 
@@ -68,13 +35,13 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 ## Matchup Overview
 
 **Opponent:** 4th and pinches (8-4, #2 in league)
-**Your Projected Total:** 112.2 (ESPN) | **131.0 (Monte Carlo EV)**
-**Opponent's Projected Total:** 122.7 (ESPN) | **116.3 (Monte Carlo EV)**
+**Your Projected Total:** 107.2 (ESPN) | **122.1 (Monte Carlo EV)**
+**Opponent's Projected Total:** 120.5 (ESPN) | **120.9 (Monte Carlo EV)**
 
-**Monte Carlo Win Probability:** 68.5%
-**Expected Margin:** +14.4 pts
+**Monte Carlo Win Probability:** 51.8%
+**Expected Margin:** +0.8 pts
 
-**Analysis:** Despite ESPN's slight underdog projection, Monte Carlo simulation with injury-adjusted scenarios shows you as a solid favorite. Key factors: Bucky Irving returning (limited snaps expected), Omarion Hampton potential activation from IR, and opponent's Baker Mayfield/DK Metcalf both QUESTIONABLE. Your ceiling is significantly higher than opponent's.
+**Analysis:** ESPN projects a 13-point loss, but Monte Carlo simulation using injury-adjusted scenarios shows this is essentially a coin flip. Key factors: Bucky Irving's return, Rashee Rice's hamstring status, and opponent Baker Mayfield's shoulder injury (QUESTIONABLE).
 
 ---
 
@@ -91,9 +58,9 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 - **Baker Mayfield (TB):** QUESTIONABLE - MRI revealed LOW-GRADE AC joint sprain (non-throwing shoulder). "As good a diagnosis as anyone could hope" per sources. Has "real chance" to play. If OUT, Teddy Bridgewater starts and Irving's workload increases.
 - **DK Metcalf (SEA):** QUESTIONABLE - opponent's WR (affects 4th and pinches if they have Seahawks)
 
-### INJURED RESERVE / RETURNING FROM IR:
-- **Omarion Hampton (LAC):** **PRACTICE WINDOW OPENED TUESDAY** - Could return Week 13 vs Raiders. Out of walking boot, looked good in practice. Coach Harbaugh: "He's on track." Pre-injury: 15.4 PPR pts/game. **SEE IR DECISION SECTION ABOVE.**
-- **Marvin Harrison Jr. (ARI):** OUT - Appendicitis surgery (Nov 10). ESPN still projects 13.7 pts (ERROR). Actual projection: 0.0. Possible Week 14 return.
+### INJURED RESERVE:
+- **Omarion Hampton (LAC):** Remains on IR, no return timeline.
+- **Marvin Harrison Jr. (ARI):** OUT - Appendicitis surgery (Nov 10). Possible Week 14 return.
 
 ---
 
@@ -127,7 +94,7 @@ All opponent matchups cross-referenced with ESPN NFL API for Week 13.
 | RB | Devin Singletary | NYG | BENCH | 6.3 | 7.5 | LOW | Backup if Irving OUT; negative game script |
 | RB | Tyjae Spears | TEN | BENCH | 10.0 | 10.0 | LOW | TD dependent, limited volume |
 | RB | Tyler Allgeier | ATL | BENCH | 7.9 | 8.0 | LOW | Limited role behind Bijan Robinson |
-| RB | Omarion Hampton | LAC | IR→ACTIVE? | 12.3 | 14.0 | MEDIUM | **PRACTICE WINDOW OPENED** - Could play Sun. SEE IR DECISION |
+| RB | Omarion Hampton | LAC | IR | 12.3 | 0.0 | N/A | Injured reserve - not playing |
 | WR | Jameson Williams | DET | BENCH | 11.8 | 13.0 | LOW | Boom/bust - FLEX if Rice OUT |
 | WR | Marvin Harrison Jr. | ARI | OUT | 13.7 | 0.0 | N/A | Appendicitis - Week 14 return expected |
 | TE | Evan Engram | DEN | BENCH | 8.1 | 8.5 | LOW | Johnson preferred for ceiling |

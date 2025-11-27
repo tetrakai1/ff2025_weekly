@@ -166,6 +166,96 @@ All opponent matchups cross-referenced with NFL.com and ESPN.com Week 13 officia
 
 ---
 
+### RB2 DEEP DIVE: Wilson (Thursday) vs Spears (Sunday) - Game Timing Analysis
+
+**The Question:** Should you start Emanuel Wilson on Thursday, or wait until Sunday to potentially start Tyjae Spears while monitoring Omarion Hampton's IR status?
+
+---
+
+#### Emanuel Wilson (GB @ DET, Thursday 12:30 PM)
+
+| Factor | Assessment |
+|--------|------------|
+| **Projection** | ESPN: 5.2 / LLM: 7.4 |
+| **Week 12 Performance** | 26.5 pts (14.5 ESPN proj) - MASSIVE overperformance |
+| **Role** | RB1 with Josh Jacobs limited |
+| **Matchup** | Lions strong run D, but Thanksgiving games RB-friendly |
+| **Game Script** | Packers +3 underdogs - could trail and pass more |
+
+**PROS:**
+- Coming off 26.5 pt explosion - ride the hot hand
+- Locked into expanded RB1 role with Jacobs nursing injury
+- Thanksgiving games historically feature heavy RB usage (national TV, conservative playcalling)
+- Known quantity - we SAW his role expand last week
+- No committee concerns - he's THE guy right now
+
+**CONS:**
+- Must commit Thursday before any weekend injury news
+- Lions have legitimately good run defense
+- Packers as underdogs could mean negative game script (passing)
+- No pivot option if he busts - stuck with that score all weekend
+- Low ESPN projection (5.2) suggests limited expected touches
+
+---
+
+#### Tyjae Spears (TEN @ JAX, Sunday 1:00 PM)
+
+| Factor | Assessment |
+|--------|------------|
+| **Projection** | ESPN: 9.9 / LLM: 8.4 |
+| **Recent Role** | 50/50 split with Tony Pollard since Week 6 |
+| **Matchup** | Jaguars - beatable defense |
+| **PPR Value** | 3+ catches in 5 straight games |
+| **Game Script** | Titans slight underdogs |
+
+**PROS:**
+- Plays Sunday - allows monitoring of Hampton situation through Saturday
+- Jaguars defense more beatable than Lions
+- PPR value: One of only 3 RBs with 3+ catches in each of last 5 games (with CMC, Achane)
+- Higher ESPN projection (9.9) than Wilson (5.2)
+- Flexibility to pivot if unexpected news breaks
+
+**CONS:**
+- Committee backfield with Tony Pollard caps ceiling
+- Lower ceiling than Wilson's expanded role
+- Wilson's 26.5 pt Week 12 suggests he's clearly the better play
+- Hampton IR status unlikely to change Week 13 decision anyway (see below)
+- 2.9% explosive run rate, 12% missed tackle rate - inefficient runner
+
+---
+
+#### Omarion Hampton IR Analysis - Why Waiting Doesn't Help
+
+**IR Rules Reality Check:**
+- Hampton is on **Injured Reserve** - not just "injured"
+- IR requires **official activation** before player can play
+- Teams must designate player for return and he must practice
+- **No indication** Hampton is close to activation
+- Even if medically cleared Saturday, teams rarely activate same-weekend
+- **Realistic return timeline: Week 14-15 at earliest**
+
+**Bottom Line:** Waiting until Sunday for Hampton info provides almost zero strategic value. Hampton won't play Week 13 regardless of what news emerges.
+
+---
+
+#### VERDICT: Start Emanuel Wilson
+
+| Category | Wilson | Spears | Winner |
+|----------|--------|--------|--------|
+| Recent Performance | 26.5 pts Week 12 | 6.5 pts Week 12 | **Wilson** |
+| Role Clarity | RB1 (Jacobs limited) | 50/50 committee | **Wilson** |
+| Ceiling | High (expanded touches) | Capped (committee) | **Wilson** |
+| Floor | Low (tough matchup) | Moderate (PPR catches) | Spears |
+| Hampton Factor | N/A | N/A | **Tie** |
+
+**RECOMMENDATION: START EMANUEL WILSON**
+
+The upside from Wilson's Week 12 breakout (26.5 pts) and expanded role significantly outweighs any timing advantage from waiting until Sunday. The Hampton IR situation is a non-factor for Week 13 - he's not playing regardless of what news emerges.
+
+**Risk Mitigation:** If you're extremely risk-averse and uncomfortable with Thursday commitment, Spears is a reasonable floor play. But Wilson's ceiling makes him the recommended start for a team that needs to maximize points (6-6 record, fighting for playoffs).
+
+---
+
 ### WIDE RECEIVER #1: Jaxon Smith-Njigba (SEA vs MIN, HOME, Sunday 4:05 PM)
 - **ESPN Projection (IBM watsonx):** 21.9 pts
 - **LLM Projection (Claude Sonnet 4.5):** 23.2 pts (HIGH confidence)

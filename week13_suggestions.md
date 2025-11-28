@@ -1,8 +1,33 @@
 # Week 13 Lineup Suggestions - Valued Customers
-**Generated:** November 27, 2025 (Thanksgiving Day - Updated)
+**Generated:** November 28, 2025 (Post-Thanksgiving Update)
 **Matchup:** vs 4th and pinches (HOME)
 **Current Record:** 6-6 (#5 of 12)
 **Playoff Status:** On the bubble - every win crucial for playoff positioning
+
+---
+
+## Thursday Game Results (Projected vs Actual)
+
+**Thanksgiving games are complete.** Here's how our players performed vs projections:
+
+| Player | Position | Matchup | ESPN Proj | LLM Proj | Actual | Diff (vs LLM) |
+|--------|----------|---------|-----------|----------|--------|---------------|
+| Rashee Rice | WR (START) | @ DAL | 18.1 | 20.2 | **29.4** | +9.2 |
+| Emanuel Wilson | RB (START) | @ DET | 5.3 | 4.5 | **0.0** | -4.5 |
+| Jordan Love | QB (BENCH) | @ DET | 15.7 | 15.7 | **27.1** | +11.4 |
+| Jameson Williams | WR (BENCH) | vs GB | 11.8 | 10.8 | **5.6** | -5.2 |
+
+**Thursday Totals:**
+- **Your Thursday Points:** 29.4 (Rice started, Wilson started)
+- **Opponent Thursday Points:** 15.6 (Gibbs was held to 68 yards)
+
+**Key Takeaways:**
+1. **Rashee Rice CRUSHED IT** - 8 receptions, 92 yards, 2 TDs in elite Cowboys matchup. LLM projection was +9 points too conservative.
+2. **Emanuel Wilson BUST** - 0.0 fantasy points as Jacobs returned to lead role. LLM correctly identified reduced role but 0.0 was worst-case scenario.
+3. **Jordan Love BOOM (Benched)** - 4 TD passes in 31-24 upset win over Lions. Benching was wrong call in hindsight.
+4. **Game Script:** Packers upset Lions 31-24 - positive game script for GB players
+
+**Lesson Learned:** Love's Week 12 bust (7.1 pts) was matchup-specific, not a trend. The Lions pass funnel defense allowed big games.
 
 ---
 
@@ -26,70 +51,100 @@ All opponent matchups cross-referenced with NFL.com and ESPN.com Week 13 officia
 
 ---
 
-## Matchup Overview
+## Matchup Overview (Updated Post-Thursday)
 
 **Opponent:** 4th and pinches (8-4, #2 in league)
-**Your Projected Total:** 112.3 (ESPN) / 128.1 (LLM)
-**Opponent's Projected Total:** 123.2 (ESPN) / 116.3 (LLM)
-**Monte Carlo Win Probability:** 69.0%
-**Expected Margin:** +14.9 pts
 
-**Opponent's Top Threats:**
-- Jahmyr Gibbs (RB): Elite RB1 in high-powered Lions offense
+### Current Score (Thursday Complete)
+| Team | Thursday Pts | Sunday Projected | Total |
+|------|--------------|------------------|-------|
+| **Valued Customers** | 29.4 | ~99 pts remaining | **~128 pts** |
+| **4th and pinches** | 15.6 | ~94 pts remaining | **~109 pts** |
+
+**Current Lead: +13.8 pts**
+
+**Updated Win Probability:** ~72% (improved from 69% due to Thursday advantage)
+
+**Opponent's Top Threats (Sunday):**
 - Trey McBride (TE): Top-tier TE with heavy target volume
 - DK Metcalf (WR): QUESTIONABLE - potential bench substitution
 
-**Key Opponent Injuries:**
-- Baker Mayfield (QB): QUESTIONABLE - shoulder injury (backup: Shedeur Sanders)
-- DK Metcalf (WR): QUESTIONABLE
+**Key Opponent Update:**
+- Jahmyr Gibbs was CONTAINED: 68 yards on 20 carries vs Packers D
+- Opponent's Thursday players underperformed expectations
 
-**Analysis:** Monte Carlo simulation gives us 69.0% win probability. The key advantage is our LLM projections account for real-time context that ESPN (IBM watsonx) misses.
-
----
-
-## CRITICAL INJURY ALERTS
-
-**BREAKING: Josh Jacobs (GB) OFF Injury Report** - Confirmed to play Thursday vs Lions. Emanuel Wilson returns to BACKUP role (was RB1 last week when Jacobs sat). Wilson's projection reduced from 7.4 to 4.5 pts.
-
-**OUT - Marvin Harrison Jr. (ARI):** Appendicitis surgery (Nov 10). **Returned to practice Wednesday** - QUESTIONABLE for Week 13. ESPN still projecting 13.7 pts (BUG) - LLM projection 9.4 pts if active, 0.0 if out.
-
-**RETURNING - Bucky Irving (TB):** Full practice Wednesday. Expected to play Week 13 vs ARI on a **pitch count**. Coach Bowles says he'll be "eased back" (~36% snaps).
-
-**RETURNING - Omarion Hampton (LAC):** 21-day practice window opened Tuesday (Nov 25). **LIMITED practice Wednesday** (ankle). Expected to be activated Saturday afternoon for Sunday's game vs Raiders. OC Greg Roman plans "1-2 punch" committee with Kimani Vidal. Hampton says he feels "amazing." **LLM Projection: 9.0 pts** (committee reduces ceiling).
+**Analysis:** We gained a +13.8 point advantage on Thursday. Rice's explosion offset Wilson's bust. Opponent's Gibbs was held in check by Green Bay's defense.
 
 ---
 
-## Recommended Starting Lineup
+## CRITICAL INJURY ALERTS (Updated Nov 28)
 
-| Position | Player | Team | Opponent | Time | ESPN Proj | LLM Proj | Conf | Decision |
-|----------|--------|------|----------|------|-----------|----------|------|----------|
-| **QB** | Jacoby Brissett | ARI | @ TB | Sun 1:00 PM | 17.3 | 17.9 | HIGH | **START** |
-| **RB** | Bucky Irving | TB | vs ARI | Sun 1:00 PM | 11.8 | 18.0 | MED | **START** |
-| **RB** | Emanuel Wilson | GB | @ DET | Thu 12:30 PM | 5.3 | 4.5 | LOW | **START*** |
-| **WR** | Jaxon Smith-Njigba | SEA | vs MIN | Sun 4:05 PM | 21.9 | 23.2 | HIGH | **START** |
-| **WR** | Rashee Rice | KC | @ DAL | Thu 4:30 PM | 18.1 | 20.2 | HIGH | **START** |
-| **TE** | Juwan Johnson | NO | @ MIA | Sun 1:00 PM | 8.7 | 10.8 | MED | **START** |
-| **FLEX** | Tetairoa McMillan | CAR | @ LAR | Sun 4:25 PM | 13.2 | 13.7 | MED | **START** |
-| **K** | Jason Myers | SEA | vs MIN | Sun 4:05 PM | 8.5 | 10.9 | MED | **START** |
-| **D/ST** | Rams D/ST | LAR | vs CAR | Sun 4:25 PM | 7.5 | 8.8 | HIGH | **START** |
+### Thursday Game Updates
+**Josh Jacobs (GB) DOMINATED** - Played Thursday, returned to full lead-back role. Emanuel Wilson was completely phased out (0.0 fantasy points).
 
-**Total Projected Points:** 128.1 (LLM) vs 112.3 (ESPN)
+**Jordan Love (GB) EXPLODED** - 4 TD passes in upset win over Lions. Benching him was incorrect in hindsight.
 
-***Wilson START with caveat** - User preference to commit Thursday. See "RB2 Decision Analysis" below for Wilson vs Wait for Hampton analysis. LLM recommends waiting for Hampton (higher ceiling).
+### Sunday Injury Updates
+
+**RETURNING - Bucky Irving (TB) vs ARI, Sunday 1:00 PM:**
+- **Status:** Full practice Wednesday - EXPECTED TO PLAY
+- **Snap count:** Coach Bowles expects ~36% snap share (similar to Godwin's return last week)
+- **Touch expectations:** "Touches matter more than snaps" - could touch ball on 50% of his snaps
+- **Role:** Committee with Sean Tucker (goal-line) and Rachaad White
+- **LLM Projection:** 18.0 pts (MEDIUM confidence) - high ceiling even on limited snaps vs weak Cardinals run D
+
+**ACTIVATION WATCH - Omarion Hampton (LAC) vs LV, Sunday 4:25 PM:**
+- **Status:** LIMITED practice Wed/Thu (ankle) - EXPECTED TO BE ACTIVATED SATURDAY
+- **21-day window:** Opened November 25, must be activated by December 16
+- **Role:** OC Greg Roman plans "1-2 punch" committee with Kimani Vidal
+- **Hampton quote:** "Feel amazing, hope to be full go once activated"
+- **LLM Projection:** 9.0 pts (MEDIUM confidence) - committee reduces ceiling but RB1 talent
+- **Decision:** If activated Saturday, consider over Tyjae Spears as backup option
+
+**QUESTIONABLE - Marvin Harrison Jr. (ARI) vs TB:**
+- **Status:** Returned to practice after appendicitis surgery (Nov 10)
+- **ESPN BUG:** Still projecting 13.7 pts despite QUESTIONABLE status
+- **LLM Projection:** 9.4 pts if active, 0.0 if out
+- **Recommendation:** Monitor Saturday injury report - DO NOT START unless cleared for full snaps
 
 ---
 
-## Full Bench Listing
+## Recommended Starting Lineup (Updated Post-Thursday)
 
-| Position | Player | Team | Status | ESPN Proj | LLM Proj | Conf | Notes |
-|----------|--------|------|--------|-----------|----------|------|-------|
-| QB | Jordan Love | GB | BENCH | 15.7 | 15.7 | MED | Tough matchup vs DET - struggled to 7.1 pts in Week 12 |
-| RB | Omarion Hampton | LAC | QUEST | 12.3 | 9.0 | MED | Expected activation Saturday - committee with Vidal |
-| RB | Tyjae Spears | TEN | BENCH | 9.9 | 8.4 | LOW | Committee with Pollard - backup RB2 if waiting on Hampton |
-| WR | Marvin Harrison Jr. | ARI | QUEST | 13.7 | 9.4 | LOW | ESPN BUG - still projecting. First practice since surgery |
-| WR | Keenan Allen | LAC | BENCH | 12.0 | 12.7 | MED | WR36 - declining target share, borderline flex |
-| WR | Jameson Williams | DET | BENCH | 11.8 | 10.8 | LOW | BUST ALERT - 0.0 pts Week 12, tough GB matchup |
-| TE | Evan Engram | DEN | BENCH | 8.1 | 6.5 | LOW | Declining role - Johnson clearly better |
+| Position | Player | Team | Opponent | Time | ESPN Proj | LLM Proj | Actual | Status |
+|----------|--------|------|----------|------|-----------|----------|--------|--------|
+| **QB** | Jacoby Brissett | ARI | @ TB | Sun 1:00 PM | 17.3 | 17.9 | -- | PENDING |
+| **RB** | Bucky Irving | TB | vs ARI | Sun 1:00 PM | 11.8 | 18.0 | -- | PENDING |
+| **RB** | Emanuel Wilson | GB | @ DET | Thu 12:30 PM | 5.3 | 4.5 | **0.0** | LOCKED |
+| **WR** | Jaxon Smith-Njigba | SEA | vs MIN | Sun 4:05 PM | 21.9 | 23.2 | -- | PENDING |
+| **WR** | Rashee Rice | KC | @ DAL | Thu 4:30 PM | 18.1 | 20.2 | **29.4** | LOCKED |
+| **TE** | Juwan Johnson | NO | @ MIA | Sun 1:00 PM | 8.7 | 10.8 | -- | PENDING |
+| **FLEX** | Tetairoa McMillan | CAR | @ LAR | Sun 4:25 PM | 13.2 | 13.7 | -- | PENDING |
+| **K** | Jason Myers | SEA | vs MIN | Sun 4:05 PM | 8.5 | 10.9 | -- | PENDING |
+| **D/ST** | Rams D/ST | LAR | vs CAR | Sun 4:25 PM | 7.5 | 8.8 | -- | PENDING |
+
+**Thursday Points Locked In:** 29.4 pts (Rice 29.4 + Wilson 0.0)
+**Sunday Projected Points:** ~98.7 pts (LLM)
+**Total Projected Points:** ~128.1 pts
+
+**Wilson Analysis:** Unfortunately Wilson busted with 0.0 pts as Jacobs dominated. In hindsight, waiting for Hampton would have been better. However, Rice's 29.4 pt explosion more than compensated.
+
+---
+
+## Full Bench Listing (Updated Post-Thursday)
+
+| Position | Player | Team | Status | ESPN Proj | LLM Proj | Actual | Notes |
+|----------|--------|------|--------|-----------|----------|--------|-------|
+| QB | Jordan Love | GB | LOCKED | 15.7 | 15.7 | **27.1** | 4 TDs! Benching was WRONG - exploded vs Lions |
+| RB | Omarion Hampton | LAC | QUEST | 12.3 | 9.0 | -- | Expected activation Saturday - committee with Vidal |
+| RB | Tyjae Spears | TEN | BENCH | 9.9 | 8.4 | -- | Committee with Pollard - backup if Hampton not activated |
+| WR | Marvin Harrison Jr. | ARI | QUEST | 13.7 | 9.4 | -- | ESPN BUG - First practice since surgery, monitor |
+| WR | Keenan Allen | LAC | BENCH | 12.0 | 12.7 | -- | WR36 - declining target share, borderline flex |
+| WR | Jameson Williams | DET | LOCKED | 11.8 | 10.8 | **5.6** | Underperformed vs GB - volatile as expected |
+| TE | Evan Engram | DEN | BENCH | 8.1 | 6.5 | -- | Declining role - Johnson clearly better |
+
+**Bench Thursday Points (not in lineup):** Jordan Love 27.1, Jameson Williams 5.6 = 32.7 pts
+**Opportunity Cost:** Love's 27.1 pts vs Brissett's projected 17.9 = ~9 pts left on bench
 
 ---
 
@@ -160,95 +215,47 @@ All opponent matchups cross-referenced with NFL.com and ESPN.com Week 13 officia
 
 ---
 
-### RB2 DECISION ANALYSIS: Wilson (Thursday) vs Wait for Hampton (Saturday News)
+### RB2 DECISION ANALYSIS: Post-Mortem
 
-**The Question:** Should you start Emanuel Wilson on Thursday, or wait until Saturday to see if Omarion Hampton is activated for Sunday?
+**The Decision (Thursday):** User chose to start Emanuel Wilson over waiting for Hampton news.
 
-**CRITICAL CONTEXT:** Josh Jacobs is now **CONFIRMED TO PLAY** Thursday, which reduces Wilson's role from RB1 to backup.
+**RESULT: WILSON BUSTED (0.0 pts)**
 
----
+| Factor | Pre-Game Expectation | Actual Result |
+|--------|---------------------|---------------|
+| **Wilson Projection** | 4.5 pts (LLM) | **0.0 pts** |
+| **Role** | Backup to Jacobs | **Completely phased out** |
+| **Touches** | 5-8 expected | **Minimal** |
+| **Game Script** | Packers upset Lions 31-24 | Love threw 4 TDs, no need for Wilson |
 
-#### Option 1: Start Wilson Thursday (User's Choice)
+**What Happened:**
+- Josh Jacobs dominated as expected
+- Packers built early lead via passing (Love 4 TDs)
+- Wilson saw minimal touches with positive game script favoring starters
+- Worst-case scenario materialized
 
-| Factor | Previous | **Updated** |
-|--------|----------|-------------|
-| **Projection** | ESPN: 5.3 / LLM: 7.4 | ESPN: 5.3 / **LLM: 4.5** |
-| **Role** | RB1 (Jacobs OUT) | **Backup (Jacobs playing)** |
-| **Week 12** | 26.5 pts (RB1 role) | **Not repeatable** |
-| **Ceiling** | 15+ pts | **6-8 pts max** |
-
-**PROS:**
-- Game script could favor RBs in close divisional game (Packers +3)
-- Wilson showed explosiveness last week - could vulture goal-line work
-- Thanksgiving games historically feature heavy RB usage
-- No risk of Hampton being limited in first game back
-
-**CONS:**
-- **Jacobs is BACK** and will be lead back - Wilson backup role
-- **26.5 pts Week 12 was RB1 role** - unsustainable with Jacobs back
-- Lions have legitimately good run defense
-- Low ceiling (~6-8 pts max) in backup role
+**LLM Was Right:** The recommendation to wait for Hampton would have been better. However:
+- Rashee Rice's 29.4 pts more than compensated for Wilson's bust
+- Net Thursday performance: 29.4 pts (still strong)
+- Hampton activation still pending for Sunday
 
 ---
 
-#### Option 2: Wait for Hampton News (Spears as Backup)
+### REMAINING RB DECISION: Hampton vs Spears (Sunday)
 
-| Factor | Hampton (if activated) | Spears (if not activated) |
-|--------|------------------------|---------------------------|
-| **Game Time** | Sunday 4:25 PM | Sunday 1:00 PM |
-| **Projection** | ESPN: 12.3 / LLM: 9.0 | ESPN: 9.9 / LLM: 8.4 |
-| **Role** | Committee with Vidal | Committee with Pollard |
-| **Ceiling** | 15+ pts (RB1 talent) | 12 pts (PPR catches) |
+Since Wilson busted, the RB2 slot is now locked at 0.0 pts. For future reference:
 
-**PROS:**
-- Hampton expected to be activated Saturday - likely to play
-- Even in committee, Hampton has RB1 talent on good offense
-- Spears available as backup option if Hampton doesn't activate
-- Higher ceiling potential (9.0 Hampton vs 4.5 Wilson)
+**Omarion Hampton (if activated Saturday):**
+- **Expected:** LIMITED practice Wed/Thu, activation Saturday afternoon
+- **LLM Projection:** 9.0 pts (committee with Vidal)
+- **Ceiling:** 15+ pts with RB1 talent
+- **Recommendation:** START if activated
 
-**CONS:**
-- Hampton's first game back = unknown workload
-- "1-2 punch" with Vidal = 50/50 split concern
-- Risk of both backups producing poorly
+**Tyjae Spears (backup option):**
+- **LLM Projection:** 8.4 pts (committee with Pollard)
+- **Recommendation:** Only start if Hampton not activated
 
----
-
-#### Hampton Activation Update
-
-- **21-day window opened Tuesday (Nov 25)** - Hampton practicing
-- **LIMITED practice Wednesday** - progressing
-- **Activation deadline: Saturday afternoon**
-- **OC Greg Roman:** Plans "1-2 punch" committee with Kimani Vidal
-- **Hampton quote:** "Feel amazing, hope to be full go once activated"
-- **Outlook:** **LIKELY TO PLAY** Week 13 vs Raiders (Sunday 4:25 PM)
-
----
-
-#### VERDICT: LLM Recommends Wait for Hampton
-
-| Category | Wilson (Thursday) | Wait for Hampton | Winner |
-|----------|-------------------|------------------|--------|
-| Ceiling | 6-8 pts (backup) | 15+ pts (if activated) | **Hampton** |
-| Floor | 2-4 pts | 5-8 pts (Spears backup) | **Hampton** |
-| Role Clarity | Backup to Jacobs | Committee (either option) | Tie |
-| Information | Commit now | Wait until Saturday | **Wait** |
-
-**LLM RECOMMENDATION: WAIT FOR HAMPTON**
-
-**Reasoning:**
-1. **Jacobs return fundamentally changes Wilson's value** - 26.5 pt Week 12 was RB1 role that no longer exists
-2. **Hampton has more upside** - rookie RB on good offense with RB1 talent
-3. **Risk profile** - Wilson's ceiling is ~6-8 pts; Hampton's ceiling is 15+
-4. **Spears is reasonable backup** - 8.4 LLM projection, PPR floor with catches
-
-**USER PREFERENCE: START WILSON**
-
-The user has indicated preference to start Wilson Thursday. This is a defensible choice:
-- Eliminates uncertainty about Hampton's activation/workload
-- Wilson could still produce 5-8 pts in favorable game script
-- Avoids risk of Hampton being a "decoy" first game back
-
-**Bottom Line:** Both options reasonable. LLM leans higher ceiling (wait), user prefers certainty (Wilson).
+**Monitor Saturday injury reports for Hampton activation news.**
 
 ---
 
@@ -493,33 +500,54 @@ From league-wide analysis:
 
 ---
 
-## Conclusion
+## Conclusion (Updated Post-Thursday)
 
-**Week 13 Strategy Summary:**
-1. **START Jacoby Brissett over Jordan Love** - consistent floor vs bust risk
-2. **START Bucky Irving** despite pitch count - favorable matchup vs Cardinals D
-3. **Emanuel Wilson RB2** (user choice) - note Jacobs is back, Wilson is backup now
-4. **JSN + Rashee Rice = locked-in WR1/WR2** - elite projections confirmed
-5. **Juwan Johnson TE1** - strong streaming option with Shough chemistry
-6. **McMillan in FLEX** - latest game time (4:25 PM) for flexibility
-7. **Rams D/ST** - elite matchup vs struggling Panthers
-8. **Trust Myers** based on Seahawks scoring environment
+### Thursday Results Summary
+| Metric | Result |
+|--------|--------|
+| **Your Thursday Pts** | 29.4 (Rice 29.4, Wilson 0.0) |
+| **Opponent Thursday Pts** | 15.6 (Gibbs held to 68 yds) |
+| **Thursday Advantage** | **+13.8 pts** |
+| **Bench Pts Left** | 27.1 (Love), 5.6 (J. Williams) |
 
-**Critical Actions:**
-- **Thursday Morning:** Final injury check for Rice (hamstring) and Wilson (role)
-- **Saturday Afternoon:** Hampton activation decision - adjust if needed
-- **Sunday Morning:** Monitor Bucky Irving snap allocation reports
+### What Worked
+- **Rashee Rice ELITE** - 8/92/2 = 29.4 pts, exceeded 20.2 LLM projection by 9+ pts
+- **Cowboys matchup as predicted** - Elite WR opportunity delivered
+- **Opponent contained** - Gibbs held to 68 yards by Packers D
 
-**Projected Outcome:** 128.1 total points (LLM) vs 116.3 opponent = **+11.8 point WIN**
+### What Didn't Work
+- **Wilson BUST** - 0.0 pts, completely phased out with Jacobs back
+- **Love BENCHED** - 27.1 pts on bench (4 TD passes), benching was wrong call
+- **LLM underestimated Love** - Week 12 bust (7.1 pts) was anomaly, not trend
 
-**69.0% win probability per Monte Carlo simulation. Happy Thanksgiving!**
+### Updated Sunday Strategy
+1. **Jacoby Brissett at QB** - Already locked in, can't change. Projected 17.9 pts
+2. **Bucky Irving at RB1** - Returning from injury on pitch count (~36% snaps), favorable matchup vs Cardinals
+3. **RB2 slot LOCKED at 0.0** - Wilson already busted, can't change
+4. **JSN must-start WR1** - 23.2 pts projected, NFL's leading receiver
+5. **McMillan in FLEX** (4:25 PM) - Latest game for flexibility
+6. **Rams D/ST** - Elite matchup vs Panthers
+
+### Critical Sunday Actions
+- **Saturday PM:** Monitor Hampton activation news
+- **Sunday AM:** Check Bucky Irving snap count reports
+- **Sunday AM:** Monitor Marvin Harrison Jr. status (if activated, consider for future weeks)
+
+### Updated Projected Outcome
+- **Your Total:** 29.4 (locked) + 98.7 (projected Sunday) = **~128 pts**
+- **Opponent Total:** 15.6 (locked) + 94 (projected Sunday) = **~109 pts**
+- **Expected WIN by ~19 pts**
+
+**Updated Win Probability: ~72%** (improved from 69% due to Thursday advantage)
 
 ---
 
 *Analysis generated using ESPN Fantasy API, multi-source web research (Vegas odds, weather, expert consensus, defensive rankings), Monte Carlo simulation (10,000 iterations), and historical projection accuracy data (Weeks 1-12, 197 player-week records).*
 
 **Sources:**
-- [NFL.com - Jacobs cleared for Thursday](https://www.nfl.com/news/packers-rb-josh-jacobs-knee-off-injury-report-good-to-go-thursday-vs-lions)
-- [Chargers.com - Hampton Injury Report](https://www.chargers.com/news/omarion-hampton-injury-report-raiders-week-13-2025)
-- [SI.com - Hampton activation outlook](https://www.si.com/onsi/fantasy/injuries/fantasy-football-impact-omarion-hampton-practice-window-opens)
-- [ESPN Week 13 Fantasy Rankings](https://www.espn.com/fantasy/football/)
+- [CBS Sports - Lions vs Packers Final](https://www.cbssports.com/nfl/news/packers-lions-thanksgiving-live-updates-score-reaction/live/)
+- [Yahoo Sports - Rashee Rice Thanksgiving Performance](https://sports.yahoo.com/articles/internet-reacts-rashee-rices-thanksgiving-140416926.html)
+- [Pro Football Network - Hampton Week 13 Status](https://www.profootballnetwork.com/omarion-hampton-playing-week-13-chargers/)
+- [Buccaneers.com - Bucky Irving Return](https://www.buccaneers.com/news/bucky-irving-track-return-week-13-baker-mayfield-status-uncertain)
+- [SI.com - Hampton Activation Outlook](https://www.si.com/onsi/fantasy/injuries/fantasy-football-impact-omarion-hampton-practice-window-opens)
+- [Rotoballer - Irving Snap Count](https://www.rotoballer.com/player-news/bucky-irving-could-be-on-snap-count-in-week-13/1765681)

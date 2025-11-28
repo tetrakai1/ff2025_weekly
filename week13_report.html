@@ -190,14 +190,41 @@
             border-bottom: none;
         }
 
-        /* Charts/Images */
+        /* Charts/Images - Accuracy charts constrained */
         .chart-img {
-            max-width: 100%;
+            max-width: 400px;
+            width: 100%;
             height: auto;
             border-radius: 8px;
-            margin: 15px 0;
+            margin: 10px 0;
             background: var(--bg-secondary);
-            padding: 10px;
+            padding: 8px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .chart-img:hover {
+            opacity: 0.85;
+        }
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        /* MC thumbnails - smaller */
+        .thumbnail {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+        .mc-content img {
+            max-width: 200px;
+            height: auto;
+        }
+        .mc-content .player-card img {
+            max-width: 100%;
         }
 
         /* Summary Box */
@@ -312,7 +339,7 @@
     <header>
         <h1>Week 13 Fantasy Football Analysis</h1>
         <p class="subtitle">Valued Customers</p>
-        <p class="timestamp">Generated: 2025-11-28 16:53</p>
+        <p class="timestamp">Generated: 2025-11-28 17:12</p>
     </header>
 
     <!-- Main Tab Bar -->
@@ -600,10 +627,130 @@
 <button class="subtab " data-subtab="bench">Bench</button>
 
             </nav>
-            <div id="subtab-qb" class="subtab-content active"><p>Analysis for QB position.</p></div>
-<div id="subtab-rb" class="subtab-content "><p>Analysis for RB position.</p></div>
-<div id="subtab-wr" class="subtab-content "><p>Analysis for WR position.</p></div>
-<div id="subtab-te" class="subtab-content "><p>Analysis for TE position.</p></div>
+            <div id="subtab-qb" class="subtab-content active"><h3>QB Decision: Jacoby Brissett vs Jordan Love</h3>
+<h4>Jacoby Brissett (ARI @ TB, Sun 1:00 PM)</h4>
+<ul>
+<li><strong>ESPN Projection (IBM watsonx):</strong> 17.3 pts</li>
+<li><strong>LLM Projection (Claude Opus 4.5):</strong> 23.8 pts (HIGH confidence)</li>
+<li><strong>XGBoost:</strong> 19.5% boom, 43.3% bust</li>
+<li><strong>Recommendation:</strong> START</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- 5 consecutive games of 18+ fantasy points since becoming starter<br />
+- 1,887 passing yards in 6 games (most by any QB in 6-game span)<br />
+- Tampa Bay allows 5th most fantasy points to QBs<br />
+- Expert consensus: QB8 for week<br />
+- Pass-heavy Cardinals offense with no running game</p>
+<p><strong>Boom/Bust Signals:</strong><br />
+- HOT streak (5 games): +boom adjustment<br />
+- Favorable matchup: TB defense allows 19.4 FPG to QBs</p>
+<hr />
+</div>
+<div id="subtab-rb" class="subtab-content "><h3>RB Analysis</h3>
+<h4>Bucky Irving (TB vs ARI, Sun 1:00 PM)</h4>
+<ul>
+<li><strong>ESPN Projection:</strong> 11.8 pts</li>
+<li><strong>LLM Projection:</strong> 15.3 pts (MEDIUM confidence)</li>
+<li><strong>XGBoost:</strong> 9.5% boom, <strong>54.5% bust</strong></li>
+<li><strong>Recommendation:</strong> START with caution - High bust risk</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- Returning from 7-game injury absence<br />
+- Arizona allows 142 rushing yards per game (last 3 weeks)<br />
+- Arizona ranked 21st DVOA vs rush<br />
+- May be eased back into action (unclear snap share)<br />
+- Pre-injury: Scored 13.9+ PPR in all 4 starts</p>
+<p><strong>Bust Risk:</strong><br />
+- Injury return limits volume<br />
+- Committee with Rachaad White possible</p>
+<hr />
+<h4>Tyjae Spears (TEN vs JAX, Sun 1:00 PM)</h4>
+<ul>
+<li><strong>ESPN Projection:</strong> 9.9 pts</li>
+<li><strong>LLM Projection:</strong> 8.0 pts (LOW confidence)</li>
+<li><strong>XGBoost:</strong> 13.2% boom, 33.1% bust</li>
+<li><strong>Recommendation:</strong> START - Best available option</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- 50% snap share split with Tony Pollard<br />
+- Jacksonville favored by 6.5 points<br />
+- Light rain expected (may help run game)<br />
+- Floor play only, limited upside</p>
+<hr />
+</div>
+<div id="subtab-wr" class="subtab-content "><h3>WR Analysis</h3>
+<h4>Jaxon Smith-Njigba (SEA vs MIN, Sun 4:05 PM)</h4>
+<ul>
+<li><strong>ESPN Projection:</strong> 21.9 pts</li>
+<li><strong>LLM Projection:</strong> 34.3 pts (HIGH confidence)</li>
+<li><strong>XGBoost:</strong> <strong>50.0% boom</strong>, 14.0% bust</li>
+<li><strong>Recommendation:</strong> MUST-START - Best receiver in fantasy</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- WR1 overall for Week 13 (expert consensus)<br />
+- 1,313 receiving yards (on pace for 2,030 - record pace)<br />
+- 11 consecutive games with 75+ receiving yards<br />
+- 35% target share (elite volume)<br />
+- Minnesota starting 3rd string QB Max Brosmer<br />
+- Vegas: SEA -11.5, implied team total 26.5</p>
+<p><strong>Props:</strong><br />
+- Receiving yards O/U: 105.5<br />
+- Anytime TD: -115</p>
+<hr />
+<h4>Rashee Rice (KC @ DAL, Thu 4:30 PM)</h4>
+<ul>
+<li><strong>ESPN Projection:</strong> 18.1 pts</li>
+<li><strong>LLM Projection:</strong> 25.9 pts (HIGH confidence)</li>
+<li><strong>XGBoost:</strong> 13.2% boom, 27.0% bust</li>
+<li><strong>Recommendation:</strong> START - Elite matchup</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- Dallas allows MOST fantasy points to WRs (30th ranked defense)<br />
+- 18 WR touchdowns allowed by Dallas (NFL worst)<br />
+- 20%+ target share in every game this season<br />
+- Season-high 141 yards in Week 12<br />
+- Leads KC in red zone targets (13)<br />
+- Zone coverage killer (+42% boost vs zone)</p>
+<p><strong>Props:</strong><br />
+- Receiving yards O/U: 77.5<br />
+- Anytime TD: -120</p>
+<hr />
+<h4>Tetairoa McMillan (ARI @ TB, Sun 1:00 PM)</h4>
+<ul>
+<li><strong>ESPN Projection:</strong> 13.2 pts</li>
+<li><strong>LLM Projection:</strong> 21.5 pts (MEDIUM confidence)</li>
+<li><strong>XGBoost:</strong> 21.1% boom, 18.1% bust</li>
+<li><strong>Recommendation:</strong> START at FLEX - Opportunity boost</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- MHJ sidelined (appendicitis surgery)<br />
+- 22% target share with increasing trend<br />
+- 7 targets in Week 12<br />
+- Rookie building chemistry with Brissett<br />
+- Tampa Bay defense allows 18th most to WRs</p>
+<p><strong>Opportunity Signals:</strong><br />
+- WR1 OUT: Major opportunity boost<br />
+- Target share increasing<br />
+- Snap count increasing (88%)</p>
+<hr />
+</div>
+<div id="subtab-te" class="subtab-content "><h3>TE Analysis</h3>
+<h4>Juwan Johnson (NO @ MIA, Sun 1:00 PM)</h4>
+<ul>
+<li><strong>ESPN Projection:</strong> 8.7 pts</li>
+<li><strong>LLM Projection:</strong> 14.0 pts (MEDIUM confidence)</li>
+<li><strong>XGBoost:</strong> 21.0% boom, 25.0% bust</li>
+<li><strong>Recommendation:</strong> START - Hot streak + favorable matchup</li>
+</ul>
+<p><strong>LLM Reasoning:</strong><br />
+- 5 consecutive games with 10+ fantasy points<br />
+- Miami allows 4th-6th most fantasy points to TEs<br />
+- Only 24% rostered (streaming gem)<br />
+- 2nd pass-catching option for Saints<br />
+- Low team total (17.75 implied) limits ceiling</p>
+<p><strong>Props:</strong><br />
+- Receiving yards O/U: 44.5</p>
+<hr /></div>
 <div id="subtab-bench" class="subtab-content "><table>
 <thead>
 <tr>
@@ -1416,7 +1563,7 @@ document.addEventListener('keydown', function(e) {
 - WR R-squared: 0.498 (reliable)</p>
 <hr />
         <h2>Visualization Charts</h2>
-        <h3>Team-Specific Visualization Charts</h3>
+        <div class="chart-grid"><h3>Team-Specific Visualization Charts</h3>
 <p><img alt="Overall Projection Accuracy" src="images/projection_accuracy_overall.png" /><br />
 <img alt="Position-by-Position Accuracy" src="images/projection_accuracy_by_position.png" /><br />
 <img alt="Error Distribution" src="images/projection_error_distribution.png" /><br />
@@ -1430,7 +1577,7 @@ document.addEventListener('keydown', function(e) {
 <hr />
 <p><em>Analysis generated: November 28, 2025</em><br />
 <em>Model: Claude Opus 4.5 with XGBoost v13</em><br />
-<em>Data sources: ESPN API, Vegas odds, expert rankings, weekly context</em></p>
+<em>Data sources: ESPN API, Vegas odds, expert rankings, weekly context</em></p></div>
     
         </div>
     </div>

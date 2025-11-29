@@ -10,87 +10,73 @@
 
 **Win Probability: 83.1%** | **Expected Margin: +31.9 pts**
 
-Strong Week 13 matchup against a division rival. Our team has significant projected advantages across multiple positions, particularly at WR where Jaxon Smith-Njigba (historic pace) and Rashee Rice (elite matchup vs Dallas) lead the way. The Monte Carlo simulation shows 83% win probability with an expected margin of nearly 32 points.
+Strong Week 13 matchup against a division rival. Our team has significant projected advantages across multiple positions, particularly at WR where Jaxon Smith-Njigba (historic pace) and Rashee Rice (elite matchup vs Dallas) lead the way.
 
-**Key Storylines:**
-- **Jaxon Smith-Njigba** continues record-breaking pace ([1,313 yds, on track for 2,000+](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/))
-- **Rashee Rice** faces NFL's worst pass defense ([Dallas allows 18 WR TDs](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13))
-- **Bucky Irving** [returns from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) vs vulnerable ARI rush D - **VERIFIED: Expected to play but limited snaps (~36%)**
-- **Tetairoa McMillan** emerging as CAR WR1 ([748 yds, 54 rec through 11 games](https://www.cbssports.com/nfl/players/28877124/tetairoa-mcmillan/fantasy/))
-- **MHJ OUT** - ESPN projects 13.7 for Marvin Harrison Jr. despite confirmed OUT (appendicitis surgery Nov 10). This is an ESPN/watsonx bug.
+**Thursday/Friday Games Completed:**
+- **Rashee Rice** @ DAL: 29.4 pts (5 rec, 97 yds, 2 TD) - BOOM
+- **Jordan Love** @ DET: 25.8 pts - BOOM (on bench)
+- **Jameson Williams** vs GB: 26.9 pts - BOOM (on bench)
+- **Emanuel Wilson** @ DET: 1.4 pts (on bench)
 
-**Data Quality Notes (see Data Quality tab):**
-- Subagent 2 (Defense) returned prose instead of JSON - used existing context data
-- Rankings subagent incorrectly claimed TEN/LAC bye weeks - verified via ESPN (no Week 13 byes)
-- Bucky Irving XGBoost 54.5% bust probability - verified via team sources (expected to play)
+**Key Sunday Matchups:**
+- **Jaxon Smith-Njigba** continues record-breaking pace vs MIN - WR2 ECR
+- **Bucky Irving** returns from injury vs ARI - QUESTIONABLE, limited snaps expected
+- **Marvin Harrison Jr.** expected to play after appendix surgery - "solid chance" per ESPN
+- **Tetairoa McMillan** emerging as CAR WR1 vs LAR
 
 ---
 
 ## Recommended Starting Lineup
 
-| Position | Player | Team | Opponent | ESPN Proj | LLM Proj | XGB Boom | Conf | Notes |
-|----------|--------|------|----------|-----------|----------|----------|------|-------|
-| QB | Jacoby Brissett | ARI | @ TB | 17.3 | 23.8 | 19.5% | HIGH | 18+ pts in all 5 starts, TB allows 5th most QB FPTS |
-| RB | Bucky Irving | TB | vs ARI | 11.8 | 15.3 | 9.5% | MEDIUM | Returns from injury, ARI allows 142 rush yds/game |
-| RB | Tyjae Spears | TEN | vs JAX | 9.9 | 8.0 | 13.2% | LOW | 50% snap share, light rain expected |
-| WR | Jaxon Smith-Njigba | SEA | vs MIN | 21.9 | 34.3 | 50.0% | HIGH | WR1 overall, 11 straight 75+ yd games, MIN weak secondary |
-| WR | Rashee Rice | KC | @ DAL | 18.1 | 25.9 | 13.2% | HIGH | 20%+ target share, DAL worst vs WR (18 TDs allowed) |
-| TE | Juwan Johnson | NO | @ MIA | 8.7 | 14.0 | 21.0% | MEDIUM | 5 straight games 10+ FPTS, MIA 4th worst vs TE |
-| FLEX | Tetairoa McMillan | CAR | vs LAR | 13.2 | 16.5 | 21.1% | MEDIUM | CAR WR1, 22% target share, 10-pt underdog limits ceiling |
-| K | Jason Myers | SEA | vs MIN | 8.5 | 11.5 | 12.1% | MEDIUM | SEA -11.5 favorites, high FG opportunities |
-| D/ST | Rams D/ST | LAR | @ CAR | 7.5 | 8.9 | 18.1% | HIGH | 10-pt favorites, CAR implied total 17.25 |
+| Position | Player | Team | Opponent | ESPN Proj | LLM Proj | Mode | Conf | Notes |
+|----------|--------|------|----------|-----------|----------|------|------|-------|
+| QB | Jacoby Brissett | ARI | @ TB | 17.2 | 20.0 | MODERATE | HIGH | 18+ pts all 5 starts, TB 21st vs QB |
+| RB | Bucky Irving | TB | vs ARI | 11.8 | 14.0 | BUST | MEDIUM | QUESTIONABLE, coach said "hot hand" |
+| RB | Tyjae Spears | TEN | vs JAX | 9.9 | 8.0 | MODERATE | LOW | JAX improving vs run, TEN underdog |
+| WR | Jaxon Smith-Njigba | SEA | vs MIN | 21.9 | 23.0 | MODERATE | HIGH | WR2 ECR, 96.5 yd prop, rain expected |
+| WR | Rashee Rice | KC | @ DAL | 18.1 | 25.9 | BOOM | HIGH | **COMPLETED: 29.4 pts** |
+| TE | Juwan Johnson | NO | @ MIA | 8.7 | 12.5 | MODERATE | MEDIUM | TE9 ECR, +320 TD odds |
+| FLEX | Tetairoa McMillan | CAR | vs LAR | 13.2 | 16.5 | MODERATE | MEDIUM | WR19 ECR, LAR 21st vs WR, 65.5 yd prop |
+| K | Jason Myers | SEA | vs MIN | 8.5 | 10.0 | MODERATE | MEDIUM | K2 ECR, rain may limit FG range |
+| D/ST | Rams D/ST | LAR | @ CAR | 7.5 | 9.0 | MODERATE | HIGH | DST3 ECR, CAR weak offense |
 
-**Total ESPN Projection:** 128.2 pts
-**Total LLM Projection:** 163.1 pts
+**Total ESPN Projection:** 116.8 pts (starters not yet played)
+**Total LLM Projection:** 113.0 pts (starters not yet played)
+**Already Scored:** 29.4 pts (Rashee Rice)
 
 ---
 
-## XGBoost Boom/Bust Analysis
+## Bench Analysis
 
-The XGBoost model (v13) provides probability-based boom/bust predictions using historical data and weekly context:
-
-| Player | Position | XGB Boom | XGB Bust | Confidence | Decision |
-|--------|----------|----------|----------|------------|----------|
-| Jaxon Smith-Njigba | WR | **50.0%** | 14.0% | HIGH | **High boom** - Start with confidence |
-| Jordan Love | QB | 28.4% | 20.9% | MEDIUM | Moderate upside, bench for Brissett |
-| Marvin Harrison Jr. | WR | 25.7% | 18.2% | MEDIUM | Injured - avoid |
-| Keenan Allen | WR | 25.3% | 24.3% | MEDIUM | Bench - solid floor, limited upside |
-| Evan Engram | TE | 25.0% | 25.6% | MEDIUM | Bench behind Juwan |
-| Tetairoa McMillan | WR | 21.1% | 18.1% | HIGH | Start - CAR WR1, high target share |
-| Juwan Johnson | TE | 21.0% | 25.0% | HIGH | Start - hot streak + matchup |
-| Jameson Williams | WR | 20.6% | 20.3% | MEDIUM | Boom/bust - bench |
-| Jacoby Brissett | QB | 19.5% | 43.3% | MEDIUM | Start - 5-game hot streak |
-| Rams D/ST | D/ST | 18.1% | 32.9% | MEDIUM | Start - elite matchup |
-| Rashee Rice | WR | 13.2% | 27.0% | HIGH | Start - elite opportunity |
-| Tyjae Spears | RB | 13.2% | 33.1% | HIGH | Start - best available |
-| Bucky Irving | RB | 9.5% | **54.5%** | HIGH | **High bust risk** - injury return |
-| Omarion Hampton | RB | 8.3% | 54.4% | MEDIUM | IR - unavailable |
-
-**High Boom Targets:** JSN (50.0%)
-**High Bust Risks:** Bucky Irving (54.5%), Omarion Hampton (54.4%)
+| Position | Player | Team | Status | ESPN Proj | LLM Proj | Notes |
+|----------|--------|------|--------|-----------|----------|-------|
+| QB | Jordan Love | GB | **PLAYED** | 15.7 | 17.7 | Actual: 25.8 pts (BOOM) |
+| WR | Marvin Harrison Jr. | ARI | QUESTIONABLE | 13.7 | 12.0 | First game back from surgery, limited snaps |
+| WR | Keenan Allen | LAC | BENCH | 12.0 | 18.0 | Playing Sunday 4:25 PM vs LV |
+| WR | Jameson Williams | DET | **PLAYED** | 11.8 | 11.5 | Actual: 26.9 pts (BOOM) |
+| RB | Emanuel Wilson | GB | **PLAYED** | 5.6 | 8.5 | Actual: 1.4 pts |
+| RB | Omarion Hampton | LAC | IR | 0.0 | 0.0 | Injury Reserve |
+| TE | Evan Engram | DEN | BENCH | 8.1 | 6.0 | TE24 ECR, DEN run-heavy |
 
 ---
 
 ## Position-by-Position Analysis
 
-### QB Decision: Jacoby Brissett vs Jordan Love
+### QB Decision: Jacoby Brissett (START)
 
-#### Jacoby Brissett (ARI @ TB, Sun 1:00 PM)
-- **ESPN Projection (IBM watsonx):** 17.3 pts
-- **LLM Projection (Claude Opus 4.5):** 23.8 pts (HIGH confidence)
-- **XGBoost:** 19.5% boom, 43.3% bust
+**Jacoby Brissett (ARI @ TB, Sun 1:00 PM)**
+- **ESPN Projection (IBM watsonx):** 17.2 pts
+- **LLM Projection (Claude Opus 4.5):** 20.0 pts (HIGH confidence)
 - **Recommendation:** START
 
 **LLM Reasoning:**
-- 5 consecutive games of 18+ fantasy points since becoming starter
-- 1,887 passing yards in 6 games (most by any QB in 6-game span)
-- [Tampa Bay allows 5th most fantasy points to QBs](https://www.si.com/fantasy/fab-s-five-fantasy-football-quarterback-streamers-for-week-13-start-jacoby-brissett-01kb0et5mjkx)
-- Expert consensus: QB8 for week
-- Pass-heavy Cardinals offense with no running game
+- MC density shows MODERATE mode at 20.0 (71% probability) - extremely consistent
+- 18+ fantasy points in all 5 games as starter this season
+- Tampa Bay 21st vs QB - middling matchup
+- MHJ potentially returning = more weapons
+- Weather: 81F, clear, 7 mph wind - perfect conditions
 
-**Boom/Bust Signals:**
-- HOT streak (5 games): +boom adjustment
-- Favorable matchup: TB defense allows 19.4 FPG to QBs
+**Why Not Jordan Love?** Already played Thursday (25.8 actual). Brissett was the right call pre-game given TB matchup vs DET's stronger defense.
 
 ---
 
@@ -98,100 +84,64 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 
 #### Jaxon Smith-Njigba (SEA vs MIN, Sun 4:05 PM)
 - **ESPN Projection:** 21.9 pts
-- **LLM Projection:** 34.3 pts (HIGH confidence)
-- **XGBoost:** **50.0% boom**, 14.0% bust
-- **Recommendation:** MUST-START - Best receiver in fantasy
+- **LLM Projection:** 23.0 pts (HIGH confidence)
+- **Mode:** MODERATE (81% probability per MC density)
+- **Recommendation:** MUST START
 
 **LLM Reasoning:**
-- WR1 overall for Week 13 (expert consensus)
-- [1,313 receiving yards (on pace for 2,030 - record pace)](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/)
-- 11 consecutive games with 75+ receiving yards
-- 35% target share (elite volume)
-- Minnesota starting 3rd string QB Max Brosmer
-- Vegas: SEA -11.5, implied team total 26.5 ([source](https://www.vegasinsider.com/nfl/nfl-week-13-odds-2025/))
-
-**Props:**
-- Receiving yards O/U: 105.5
-- Anytime TD: -115
-
----
-
-#### Rashee Rice (KC @ DAL, Thu 4:30 PM)
-- **ESPN Projection:** 18.1 pts
-- **LLM Projection:** 25.9 pts (HIGH confidence)
-- **XGBoost:** 13.2% boom, 27.0% bust
-- **Recommendation:** START - Elite matchup
-
-**LLM Reasoning:**
-- [Dallas allows MOST fantasy points to WRs](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13) (30th ranked defense)
-- 18 WR touchdowns allowed by Dallas (NFL worst)
-- 20%+ target share in every game this season
-- Season-high 141 yards in Week 12
-- Leads KC in red zone targets (13)
-- Zone coverage killer (+42% boost vs zone)
-
-**Props:**
-- Receiving yards O/U: 77.5
-- Anytime TD: -120
-
----
+- WR2 Expert Consensus Ranking - elite status
+- 96.5 receiving yards prop (very high) - Vegas expects big game
+- MC density shows MODERATE mode peaks at 22-23 pts, BOOM potential to 37+
+- Rain expected (80% chance) may slightly limit ceiling but volume guaranteed
+- MIN defense middling vs WR
 
 #### Tetairoa McMillan (CAR vs LAR, Sun 1:00 PM)
 - **ESPN Projection:** 13.2 pts
 - **LLM Projection:** 16.5 pts (MEDIUM confidence)
-- **XGBoost:** 21.1% boom, 18.1% bust
-- **Recommendation:** START at FLEX - CAR WR1 with high volume
+- **Mode:** MODERATE
+- **Recommendation:** START (FLEX)
 
 **LLM Reasoning:**
-- CAR WR1 as a rookie ([748 yds, 54 rec through 11 games](https://www.cbssports.com/nfl/players/28877124/tetairoa-mcmillan/fantasy/))
-- 22% target share with increasing trend
-- Week 11 breakout: 8 rec, 130 yds, 2 TDs (33 PPR pts)
-- Building chemistry with Bryce Young
-- LAR defense allows 15th most to WRs
+- WR19 ECR - solid starter
+- LAR 21st vs WR (improving but still vulnerable)
+- 65.5 receiving yards prop, +145 anytime TD
+- CAR 10.5-point underdog = garbage time passing volume
+- MC shows MODERATE at 16.9 (40%), BUST risk at 50%
 
-**Concerns:**
-- CAR 10-pt underdog limits ceiling
-- Implied team total only 17.25 pts
-- Tough matchup vs LAR pass rush
+#### Rashee Rice - COMPLETED
+- **Actual:** 29.4 pts (5 rec, 97 yds, 2 TD)
+- **Prior LLM Projection:** 25.9 pts
+- **Result:** BOOM as predicted - outperformed projection by 3.5 pts
 
 ---
 
 ### RB Analysis
 
-#### Bucky Irving (TB vs ARI, Sun 4:05 PM)
+#### Bucky Irving (TB vs ARI, Sun 1:00 PM)
 - **ESPN Projection:** 11.8 pts
-- **LLM Projection:** 10.0 pts (MEDIUM confidence)
-- **XGBoost:** 9.5% boom, **54.5% bust**
-- **Recommendation:** START with caution - Verified to play
-
-**DISCREPANCY RESOLVED:**
-- XGBoost flagged 54.5% bust probability due to 7-game injury absence
-- **VERIFIED via team sources:** Full practice participant, Coach Bowles confirms expected return
-- **CAVEAT:** Will be eased in (~36% snaps based on Godwin Week 12 precedent = 25 of 70 plays)
-- Team record: Bucs 3-1 with Irving, 3-4 without him
+- **LLM Projection:** 14.0 pts (MEDIUM confidence)
+- **Mode:** BUST (42% probability)
+- **Recommendation:** START (limited options)
 
 **LLM Reasoning:**
-- [Returning from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) (subluxated shoulder + foot sprain)
-- Arizona allows 142 rushing yards per game (last 3 weeks)
-- Arizona ranked 21st DVOA vs rush
-- Pre-injury: Scored 13.9+ PPR in all 4 starts
-- Monitor Sunday morning injury report for final confirmation
-
-**Sources:** [Buccaneers.com](https://www.buccaneers.com/news/bucky-irving-track-return-week-13-baker-mayfield-status-uncertain), [Pro Football Network](https://www.profootballnetwork.com/bucky-irving-injury-update-buccaneers-week-13-decision/)
-
----
+- QUESTIONABLE with foot injury - first game back
+- Coach mentioned "hot hand" approach with White/Tucker
+- Rushing yards prop only 38.5 (low)
+- MC density shows BUST mode at 14.2 most likely
+- ARI defense allows rushing yards but limited ceiling in committee
 
 #### Tyjae Spears (TEN vs JAX, Sun 1:00 PM)
 - **ESPN Projection:** 9.9 pts
 - **LLM Projection:** 8.0 pts (LOW confidence)
-- **XGBoost:** 13.2% boom, 33.1% bust
-- **Recommendation:** START - Best available option
+- **Mode:** MODERATE
+- **Recommendation:** START (no alternatives)
 
 **LLM Reasoning:**
-- 50% snap share split with Tony Pollard
-- Jacksonville favored by 6.5 points
-- Light rain expected (may help run game)
-- Floor play only, limited upside
+- RB45 ECR - SIT territory but we lack options
+- JAX run defense improved (fewest rush yards since Week 8)
+- TEN 7-point underdog = negative game script
+- Splits backfield with Tony Pollard
+- MC shows MODERATE at 8.0 (71%), ceiling capped
 
 ---
 
@@ -199,83 +149,93 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 
 #### Juwan Johnson (NO @ MIA, Sun 1:00 PM)
 - **ESPN Projection:** 8.7 pts
-- **LLM Projection:** 14.0 pts (MEDIUM confidence)
-- **XGBoost:** 21.0% boom, 25.0% bust
-- **Recommendation:** START - Hot streak + favorable matchup
+- **LLM Projection:** 12.5 pts (MEDIUM confidence)
+- **Mode:** MODERATE
+- **Recommendation:** START
 
 **LLM Reasoning:**
-- 5 consecutive games with 10+ fantasy points
-- [Miami allows 4th-6th most fantasy points to TEs](https://www.si.com/fantasy/fab-s-five-fantasy-football-tight-end-streamers-for-week-13-start-juwan-johnson-01kb0f8wdsnd)
-- Only 24% rostered (streaming gem)
-- 2nd pass-catching option for Saints
-- Low team total (17.75 implied) limits ceiling
+- TE9 ECR - solid streaming option
+- MC shows MODERATE at 12.6 (63%)
+- +320 TD odds (unlikely to score) caps ceiling
+- But consistent target share in NO offense
+- MIA improving vs TE but still exploitable
 
-**Props:**
-- Receiving yards O/U: 44.5
-
----
-
-## Bench Analysis
-
-| Position | Player | Team | Status | ESPN | LLM | XGB Boom/Bust | Notes |
-|----------|--------|------|--------|------|-----|---------------|-------|
-| QB | Jordan Love | GB | BENCH | 15.7 | 17.7 | 28.4%/20.9% | Thanksgiving dome game, shootout potential |
-| WR | Marvin Harrison Jr. | ARI | QUESTIONABLE | 13.7 | 10.6 | 25.7%/18.2% | [Appendicitis surgery Nov 10](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/), check status |
-| WR | Jameson Williams | DET | BENCH | 11.8 | 11.5 | 20.6%/20.3% | Boom/bust, Thanksgiving game |
-| WR | Keenan Allen | LAC | BENCH | 12.0 | 14.3 | 25.3%/24.3% | Consistent, LAC heavy run game |
-| RB | Omarion Hampton | LAC | IR | 12.3 | 15.4 | 8.3%/54.4% | Injured - unavailable |
-| RB | Emanuel Wilson | GB | BENCH | 5.6 | 8.5 | 10.7%/34.2% | Backup role |
-| TE | Evan Engram | DEN | BENCH | 8.1 | 6.5 | 25.0%/25.6% | Adjusting to new system |
+#### Evan Engram - BENCH
+- **LLM Projection:** 6.0 pts (LOW confidence)
+- DEN run-heavy offense limits TE targets
+- TE24 ECR = SIT recommendation
+- Monday game gives flexibility but Juwan is better play
 
 ---
 
-## Vegas Lines Summary
+### K/DST Analysis
 
-| Game | Spread | Total | Implied Team Totals |
-|------|--------|-------|---------------------|
-| KC @ DAL (Thu) | KC -3.5 | 52.5 | KC 28.0, DAL 24.5 |
-| GB @ DET (Thu) | DET -2.5 | 48.5 | DET 25.5, GB 23.0 |
-| ARI @ TB | TB -3.0 | 43.5 | TB 23.25, ARI 20.25 |
-| SEA vs MIN | SEA -11.5 | 41.5 | SEA 26.5, MIN 15.0 |
-| NO @ MIA | MIA -6.0 | 41.5 | MIA 23.75, NO 17.75 |
-| JAX @ TEN | JAX -6.5 | 42.0 | JAX 24.25, TEN 17.75 |
-| LAR @ CAR | LAR -10.0 | 44.5 | LAR 27.25, CAR 17.25 |
-| LAC vs LV | LAC -8.5 | 40.5 | LAC 24.5, LV 16.0 |
+#### Jason Myers (SEA vs MIN, Sun 4:05 PM)
+- **ESPN Projection:** 8.5 pts
+- **LLM Projection:** 10.0 pts (MEDIUM confidence)
+- **Recommendation:** START
 
----
+**Reasoning:**
+- K2 ECR - elite kicker
+- Rain may slightly reduce FG accuracy
+- SEA offense should move ball = opportunities
+- MC shows ~45% each for BOOM (14) and MODERATE (9)
 
-## Opponent Analysis (4th and pinches)
+#### Rams D/ST (LAR @ CAR, Sun 1:00 PM)
+- **ESPN Projection:** 7.5 pts
+- **LLM Projection:** 9.0 pts (HIGH confidence)
+- **Recommendation:** START
 
-**Opponent Projected Total:** 132.4 pts
-**Key Injuries:** Baker Mayfield (QUESTIONABLE - shoulder)
-
-If Baker Mayfield sits, Shedeur Sanders would start (6.0 EV vs 17+ for Mayfield).
-
-**Bench Substitution Scenario:**
-- Baker Mayfield OUT (15% probability): Sanders subs in (-11 pt swing)
+**Reasoning:**
+- DST3 ECR - elite matchup
+- CAR implied total only ~16 pts
+- High sack/turnover potential vs weak CAR offense
+- MC shows MODERATE at 8.8 (81%) - consistent floor
 
 ---
 
 ## Waiver Wire Notes
 
-**Free Agents to Monitor:**
-- Hunter Henry (TE, NE) - Proj 11.2, strong TE option
-- Terry McLaurin (WR, WSH) - Proj 11.0, Daniels returning
-- Isiah Pacheco (RB, KC) - Proj 9.7, may return from injury
+**Streaming Options If Needed:**
+
+1. **Hunter Henry (TE, NE)** - 11.2 proj, available on waivers
+2. **Browns D/ST** - vs SF, 5.1 proj - consider if you want to drop Rams (don't)
+3. **Cooper Kupp (WR, SEA)** - 8.4 proj, could be desperate add
+
+**No Urgent Adds Needed** - Current roster should handle Week 13.
 
 ---
 
-## Historical Accuracy Context
+## Injury Updates
 
-**Your Team's ESPN Projection Accuracy (Weeks 1-12):**
-- Overall MAE: 4.45 pts
-- QB Bias: -2.00 pts (ESPN under-projects QBs)
-- RB R-squared: 0.541 (most reliable)
-- WR R-squared: 0.498 (reliable)
+| Player | Status | Details |
+|--------|--------|---------|
+| Marvin Harrison Jr. | QUESTIONABLE | Appendix surgery Nov 10, "solid chance" to play per ESPN |
+| Bucky Irving | QUESTIONABLE | Foot injury, "hot hand" approach with backups |
+| Omarion Hampton | IR | Out for season |
 
 ---
 
-## APPENDIX: Visualization Charts
+## APPENDIX: Projection Accuracy Analysis
+
+### Overall Accuracy Metrics (Weeks 1-12)
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| MAE | 4.45 pts | Average error |
+| Bias | +0.08 pts | Near-neutral |
+| R² | 0.477 | Moderate correlation |
+
+### Accuracy By Position
+
+| Position | R² | MAE | Bias | Predictability |
+|----------|-----|-----|------|----------------|
+| RB | 0.541 | 3.71 | +0.78 | HIGH |
+| WR | 0.498 | 5.00 | +0.18 | MODERATE |
+| TE | 0.231 | 3.57 | -0.56 | LOW |
+| QB | 0.169 | 6.20 | -2.00 | LOW |
+| D/ST | 0.044 | 4.91 | +0.12 | RANDOM |
+| K | 0.039 | 3.29 | +0.24 | RANDOM |
 
 ### Team-Specific Visualization Charts
 ![Overall Projection Accuracy](images/projection_accuracy_overall.png)
@@ -288,26 +248,8 @@ If Baker Mayfield sits, Shedeur Sanders would start (6.0 EV vs 17+ for Mayfield)
 ![Team x Position Bias Heatmap](images/league_bias_heatmap.png)
 ![League-Wide Position Scatter](images/league_positional_scatter.png)
 
-### Monte Carlo Report
-[Week 13 MC Report](mc_reports/week13_mc_report.html)
-
 ---
 
-*Analysis generated: November 28, 2025*
-*Model: Claude Opus 4.5 with XGBoost v13*
-*Data sources: ESPN API, Vegas odds, expert rankings, weekly context*
-
----
-
-## Sources
-
-- [Jacoby Brissett QB Streamer Rankings](https://www.si.com/fantasy/fab-s-five-fantasy-football-quarterback-streamers-for-week-13-start-jacoby-brissett-01kb0et5mjkx) - SI Fantasy
-- [Rashee Rice Elite Matchup vs Cowboys](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13) - SI Fantasy
-- [Bucky Irving Injury Return Update](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) - PFN
-- [Jason Myers Kicker Rankings](https://www.si.com/fantasy/week-13-fantasy-football-kicker-rankings-jason-myers-moves-to-the-top-01kaxxwp022f) - SI Fantasy
-- [Rams D/ST Streaming Analysis](https://www.fantasypoints.com/nfl/articles/2025/week-13-streaming-dsts-and-kickers) - Fantasy Points
-- [Marvin Harrison Jr. Injury Status](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/) - PFN
-- [Jaxon Smith-Njigba Record Pace](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/) - CBS Sports
-- [NFL Week 13 Betting Lines](https://www.vegasinsider.com/nfl/nfl-week-13-odds-2025/) - Vegas Insider
-- [Juwan Johnson TE Rankings](https://www.si.com/fantasy/fab-s-five-fantasy-football-tight-end-streamers-for-week-13-start-juwan-johnson-01kb0f8wdsnd) - SI Fantasy
-- [Jordan Love Injury Update](https://www.profootballnetwork.com/fantasy-football/jordan-love-fantasy-hub-week-13-2025/) - PFN
+*Generated: November 29, 2025*
+*LLM: Claude Opus 4.5*
+*Data Sources: ESPN API, Reddit, Vegas lines, FantasyPros ECR*

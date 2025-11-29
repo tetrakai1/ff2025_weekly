@@ -286,3 +286,18 @@ If Baker Mayfield sits, Shedeur Sanders would start (6.0 EV vs 17+ for Mayfield)
 *Analysis generated: November 28, 2025*
 *Model: Claude Opus 4.5 with XGBoost v13*
 *Data sources: ESPN API, Vegas odds, expert rankings, weekly context*
+
+---
+
+## Sources
+
+- [Jacoby Brissett QB Streamer Rankings](https://www.si.com/fantasy/fab-s-five-fantasy-football-quarterback-streamers-for-week-13-start-jacoby-brissett-01kb0et5mjkx) - SI Fantasy
+- [Rashee Rice Elite Matchup vs Cowboys](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13) - SI Fantasy
+- [Bucky Irving Injury Return Update](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) - PFN
+- [Jason Myers Kicker Rankings](https://www.si.com/fantasy/week-13-fantasy-football-kicker-rankings-jason-myers-moves-to-the-top-01kaxxwp022f) - SI Fantasy
+- [Rams D/ST Streaming Analysis](https://www.fantasypoints.com/nfl/articles/2025/week-13-streaming-dsts-and-kickers) - Fantasy Points
+- [Marvin Harrison Jr. Injury Status](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/) - PFN
+- [Jaxon Smith-Njigba Record Pace](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/) - CBS Sports
+- [NFL Week 13 Betting Lines](https://www.vegasinsider.com/nfl/nfl-week-13-odds-2025/) - Vegas Insider
+- [Juwan Johnson TE Rankings](https://www.si.com/fantasy/fab-s-five-fantasy-football-tight-end-streamers-for-week-13-start-juwan-johnson-01kb0f8wdsnd) - SI Fantasy
+- [Jordan Love Injury Update](https://www.profootballnetwork.com/fantasy-football/jordan-love-fantasy-hub-week-13-2025/) - PFN

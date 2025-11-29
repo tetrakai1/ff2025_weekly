@@ -15,8 +15,14 @@ Strong Week 13 matchup against a division rival. Our team has significant projec
 **Key Storylines:**
 - **Jaxon Smith-Njigba** continues record-breaking pace ([1,313 yds, on track for 2,000+](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/))
 - **Rashee Rice** faces NFL's worst pass defense ([Dallas allows 18 WR TDs](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13))
-- **Bucky Irving** [returns from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) vs vulnerable ARI rush D
+- **Bucky Irving** [returns from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) vs vulnerable ARI rush D - **VERIFIED: Expected to play but limited snaps (~36%)**
 - **Tetairoa McMillan** emerging as CAR WR1 ([748 yds, 54 rec through 11 games](https://www.cbssports.com/nfl/players/28877124/tetairoa-mcmillan/fantasy/))
+- **MHJ OUT** - ESPN projects 13.7 for Marvin Harrison Jr. despite confirmed OUT (appendicitis surgery Nov 10). This is an ESPN/watsonx bug.
+
+**Data Quality Notes (see Data Quality tab):**
+- Subagent 2 (Defense) returned prose instead of JSON - used existing context data
+- Rankings subagent incorrectly claimed TEN/LAC bye weeks - verified via ESPN (no Week 13 byes)
+- Bucky Irving XGBoost 54.5% bust probability - verified via team sources (expected to play)
 
 ---
 
@@ -152,22 +158,26 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 
 ### RB Analysis
 
-#### Bucky Irving (TB vs ARI, Sun 1:00 PM)
+#### Bucky Irving (TB vs ARI, Sun 4:05 PM)
 - **ESPN Projection:** 11.8 pts
-- **LLM Projection:** 15.3 pts (MEDIUM confidence)
+- **LLM Projection:** 10.0 pts (MEDIUM confidence)
 - **XGBoost:** 9.5% boom, **54.5% bust**
-- **Recommendation:** START with caution - High bust risk
+- **Recommendation:** START with caution - Verified to play
+
+**DISCREPANCY RESOLVED:**
+- XGBoost flagged 54.5% bust probability due to 7-game injury absence
+- **VERIFIED via team sources:** Full practice participant, Coach Bowles confirms expected return
+- **CAVEAT:** Will be eased in (~36% snaps based on Godwin Week 12 precedent = 25 of 70 plays)
+- Team record: Bucs 3-1 with Irving, 3-4 without him
 
 **LLM Reasoning:**
 - [Returning from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) (subluxated shoulder + foot sprain)
 - Arizona allows 142 rushing yards per game (last 3 weeks)
 - Arizona ranked 21st DVOA vs rush
-- [May be eased back into action](https://www.profootballnetwork.com/fantasy-football/bucky-irving-injury-update-week-13/) (expect 13-15 touches)
 - Pre-injury: Scored 13.9+ PPR in all 4 starts
+- Monitor Sunday morning injury report for final confirmation
 
-**Bust Risk:**
-- Injury return limits volume
-- Committee with Rachaad White possible
+**Sources:** [Buccaneers.com](https://www.buccaneers.com/news/bucky-irving-track-return-week-13-baker-mayfield-status-uncertain), [Pro Football Network](https://www.profootballnetwork.com/bucky-irving-injury-update-buccaneers-week-13-decision/)
 
 ---
 

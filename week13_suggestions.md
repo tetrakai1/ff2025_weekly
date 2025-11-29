@@ -16,7 +16,7 @@ Strong Week 13 matchup against a division rival. Our team has significant projec
 - **Jaxon Smith-Njigba** continues record-breaking pace ([1,313 yds, on track for 2,000+](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/))
 - **Rashee Rice** faces NFL's worst pass defense ([Dallas allows 18 WR TDs](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13))
 - **Bucky Irving** [returns from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) vs vulnerable ARI rush D
-- **Tetairoa McMillan** gets boosted opportunity with MHJ sidelined ([appendicitis surgery Nov 10](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/))
+- **Tetairoa McMillan** emerging as CAR WR1 ([748 yds, 54 rec through 11 games](https://www.cbssports.com/nfl/players/28877124/tetairoa-mcmillan/fantasy/))
 
 ---
 
@@ -30,7 +30,7 @@ Strong Week 13 matchup against a division rival. Our team has significant projec
 | WR | Jaxon Smith-Njigba | SEA | vs MIN | 21.9 | 34.3 | 50.0% | HIGH | WR1 overall, 11 straight 75+ yd games, MIN weak secondary |
 | WR | Rashee Rice | KC | @ DAL | 18.1 | 25.9 | 13.2% | HIGH | 20%+ target share, DAL worst vs WR (18 TDs allowed) |
 | TE | Juwan Johnson | NO | @ MIA | 8.7 | 14.0 | 21.0% | MEDIUM | 5 straight games 10+ FPTS, MIA 4th worst vs TE |
-| FLEX | Tetairoa McMillan | ARI | @ TB | 13.2 | 21.5 | 21.1% | MEDIUM | MHJ out, 22% target share, opportunity boost |
+| FLEX | Tetairoa McMillan | CAR | vs LAR | 13.2 | 16.5 | 21.1% | MEDIUM | CAR WR1, 22% target share, 10-pt underdog limits ceiling |
 | K | Jason Myers | SEA | vs MIN | 8.5 | 11.5 | 12.1% | MEDIUM | SEA -11.5 favorites, high FG opportunities |
 | D/ST | Rams D/ST | LAR | @ CAR | 7.5 | 8.9 | 18.1% | HIGH | 10-pt favorites, CAR implied total 17.25 |
 
@@ -50,7 +50,7 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 | Marvin Harrison Jr. | WR | 25.7% | 18.2% | MEDIUM | Injured - avoid |
 | Keenan Allen | WR | 25.3% | 24.3% | MEDIUM | Bench - solid floor, limited upside |
 | Evan Engram | TE | 25.0% | 25.6% | MEDIUM | Bench behind Juwan |
-| Tetairoa McMillan | WR | 21.1% | 18.1% | HIGH | Start - opportunity boost |
+| Tetairoa McMillan | WR | 21.1% | 18.1% | HIGH | Start - CAR WR1, high target share |
 | Juwan Johnson | TE | 21.0% | 25.0% | HIGH | Start - hot streak + matchup |
 | Jameson Williams | WR | 20.6% | 20.3% | MEDIUM | Boom/bust - bench |
 | Jacoby Brissett | QB | 19.5% | 43.3% | MEDIUM | Start - 5-game hot streak |
@@ -130,23 +130,23 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 
 ---
 
-#### Tetairoa McMillan (ARI @ TB, Sun 1:00 PM)
+#### Tetairoa McMillan (CAR vs LAR, Sun 1:00 PM)
 - **ESPN Projection:** 13.2 pts
-- **LLM Projection:** 21.5 pts (MEDIUM confidence)
+- **LLM Projection:** 16.5 pts (MEDIUM confidence)
 - **XGBoost:** 21.1% boom, 18.1% bust
-- **Recommendation:** START at FLEX - Opportunity boost
+- **Recommendation:** START at FLEX - CAR WR1 with high volume
 
 **LLM Reasoning:**
-- MHJ sidelined ([appendicitis surgery Nov 10](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/))
+- CAR WR1 as a rookie ([748 yds, 54 rec through 11 games](https://www.cbssports.com/nfl/players/28877124/tetairoa-mcmillan/fantasy/))
 - 22% target share with increasing trend
-- 7 targets in Week 12
-- Rookie building chemistry with Brissett
-- Tampa Bay defense allows 18th most to WRs
+- Week 11 breakout: 8 rec, 130 yds, 2 TDs (33 PPR pts)
+- Building chemistry with Bryce Young
+- LAR defense allows 15th most to WRs
 
-**Opportunity Signals:**
-- WR1 OUT: Major opportunity boost
-- Target share increasing
-- Snap count increasing (88%)
+**Concerns:**
+- CAR 10-pt underdog limits ceiling
+- Implied team total only 17.25 pts
+- Tough matchup vs LAR pass rush
 
 ---
 

@@ -13,10 +13,10 @@
 Strong Week 13 matchup against a division rival. Our team has significant projected advantages across multiple positions, particularly at WR where Jaxon Smith-Njigba (historic pace) and Rashee Rice (elite matchup vs Dallas) lead the way. The Monte Carlo simulation shows 83% win probability with an expected margin of nearly 32 points.
 
 **Key Storylines:**
-- **Jaxon Smith-Njigba** continues record-breaking pace (1,313 yds, on track for 2,000+)
-- **Rashee Rice** faces NFL's worst pass defense (Dallas allows 18 WR TDs)
-- **Bucky Irving** returns from 7-game injury absence vs vulnerable ARI rush D
-- **Tetairoa McMillan** gets boosted opportunity with MHJ sidelined
+- **Jaxon Smith-Njigba** continues record-breaking pace ([1,313 yds, on track for 2,000+](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/))
+- **Rashee Rice** faces NFL's worst pass defense ([Dallas allows 18 WR TDs](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13))
+- **Bucky Irving** [returns from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) vs vulnerable ARI rush D
+- **Tetairoa McMillan** gets boosted opportunity with MHJ sidelined ([appendicitis surgery Nov 10](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/))
 
 ---
 
@@ -78,7 +78,7 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 **LLM Reasoning:**
 - 5 consecutive games of 18+ fantasy points since becoming starter
 - 1,887 passing yards in 6 games (most by any QB in 6-game span)
-- Tampa Bay allows 5th most fantasy points to QBs
+- [Tampa Bay allows 5th most fantasy points to QBs](https://www.si.com/fantasy/fab-s-five-fantasy-football-quarterback-streamers-for-week-13-start-jacoby-brissett-01kb0et5mjkx)
 - Expert consensus: QB8 for week
 - Pass-heavy Cardinals offense with no running game
 
@@ -98,11 +98,11 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 
 **LLM Reasoning:**
 - WR1 overall for Week 13 (expert consensus)
-- 1,313 receiving yards (on pace for 2,030 - record pace)
+- [1,313 receiving yards (on pace for 2,030 - record pace)](https://www.cbssports.com/nfl/players/3162959/jaxon-smith-njigba/fantasy/)
 - 11 consecutive games with 75+ receiving yards
 - 35% target share (elite volume)
 - Minnesota starting 3rd string QB Max Brosmer
-- Vegas: SEA -11.5, implied team total 26.5
+- Vegas: SEA -11.5, implied team total 26.5 ([source](https://www.vegasinsider.com/nfl/nfl-week-13-odds-2025/))
 
 **Props:**
 - Receiving yards O/U: 105.5
@@ -117,7 +117,7 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 - **Recommendation:** START - Elite matchup
 
 **LLM Reasoning:**
-- Dallas allows MOST fantasy points to WRs (30th ranked defense)
+- [Dallas allows MOST fantasy points to WRs](https://www.si.com/onsi/fantasy/rankings/drake-maye-rashee-rice-top-fantasy-football-offenses-week-13) (30th ranked defense)
 - 18 WR touchdowns allowed by Dallas (NFL worst)
 - 20%+ target share in every game this season
 - Season-high 141 yards in Week 12
@@ -137,7 +137,7 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 - **Recommendation:** START at FLEX - Opportunity boost
 
 **LLM Reasoning:**
-- MHJ sidelined (appendicitis surgery)
+- MHJ sidelined ([appendicitis surgery Nov 10](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/))
 - 22% target share with increasing trend
 - 7 targets in Week 12
 - Rookie building chemistry with Brissett
@@ -159,10 +159,10 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 - **Recommendation:** START with caution - High bust risk
 
 **LLM Reasoning:**
-- Returning from 7-game injury absence
+- [Returning from 7-game injury absence](https://www.profootballnetwork.com/fantasy-football/bucky-irving-start-sit-injury-update-week-13/) (subluxated shoulder + foot sprain)
 - Arizona allows 142 rushing yards per game (last 3 weeks)
 - Arizona ranked 21st DVOA vs rush
-- May be eased back into action (unclear snap share)
+- [May be eased back into action](https://www.profootballnetwork.com/fantasy-football/bucky-irving-injury-update-week-13/) (expect 13-15 touches)
 - Pre-injury: Scored 13.9+ PPR in all 4 starts
 
 **Bust Risk:**
@@ -195,7 +195,7 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 
 **LLM Reasoning:**
 - 5 consecutive games with 10+ fantasy points
-- Miami allows 4th-6th most fantasy points to TEs
+- [Miami allows 4th-6th most fantasy points to TEs](https://www.si.com/fantasy/fab-s-five-fantasy-football-tight-end-streamers-for-week-13-start-juwan-johnson-01kb0f8wdsnd)
 - Only 24% rostered (streaming gem)
 - 2nd pass-catching option for Saints
 - Low team total (17.75 implied) limits ceiling
@@ -210,7 +210,7 @@ The XGBoost model (v13) provides probability-based boom/bust predictions using h
 | Position | Player | Team | Status | ESPN | LLM | XGB Boom/Bust | Notes |
 |----------|--------|------|--------|------|-----|---------------|-------|
 | QB | Jordan Love | GB | BENCH | 15.7 | 17.7 | 28.4%/20.9% | Thanksgiving dome game, shootout potential |
-| WR | Marvin Harrison Jr. | ARI | QUESTIONABLE | 13.7 | 10.6 | 25.7%/18.2% | Appendicitis surgery Nov 10, check status |
+| WR | Marvin Harrison Jr. | ARI | QUESTIONABLE | 13.7 | 10.6 | 25.7%/18.2% | [Appendicitis surgery Nov 10](https://www.profootballnetwork.com/fantasy-football/marvin-harrison-jr-start-sit-injury-update-week-13/), check status |
 | WR | Jameson Williams | DET | BENCH | 11.8 | 11.5 | 20.6%/20.3% | Boom/bust, Thanksgiving game |
 | WR | Keenan Allen | LAC | BENCH | 12.0 | 14.3 | 25.3%/24.3% | Consistent, LAC heavy run game |
 | RB | Omarion Hampton | LAC | IR | 12.3 | 15.4 | 8.3%/54.4% | Injured - unavailable |

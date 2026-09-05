@@ -1,0 +1,10 @@
+# Server runtime files (server scripts now in private ff2025/scripts/ repo)
+.server.log
+.server.pid
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
